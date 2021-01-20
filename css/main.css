@@ -230,7 +230,7 @@ ul.sidenav a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgb(209 129 255 / 40%), rgb(189 74 255 / 40%)), url(https://clubtrama.com/img/banner/home-banner.jpg);
+  background-image: linear-gradient(rgb(209 129 255 / 40%), rgb(189 74 255 / 40%)), url(../img/home-banner.jpg);
   ;
   /*para centering */
   display: flex;
@@ -238,7 +238,7 @@ ul.sidenav a:hover {
 
 @media only screen and (max-width:650px) {
   .hero {
-    background-image: linear-gradient(rgb(209 129 255 / 40%), rgb(189 74 255 / 40%)), url(https://clubtrama.com/img/banner/home-banner.jpg);
+    background-image: linear-gradient(rgb(209 129 255 / 40%), rgb(189 74 255 / 40%)), url(../img/home-banner.jpg);
     ;
   }
 }
