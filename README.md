@@ -68,9 +68,9 @@ Y acá podes aprender de Github:
 
       4. Sponsors [X]
 
-      5. Clubes [  ]
+      5. Clubes [X]
 
-      6. Footer [  ]
+      6. Footer [X]
 
          
 
