@@ -60,13 +60,13 @@ Y acá podes aprender de Github:
 
    1. Página principal
 
-      1. Header [  ]
+      1. Header [X]
 
-      2. Hero [  ]
+      2. Hero [X]
 
-      3. Quienes somos [  ]
+      3. Quienes somos [X]
 
-      4. Sponsors [  ]
+      4. Sponsors [X]
 
       5. Clubes [  ]
 
