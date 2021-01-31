@@ -58,8 +58,6 @@ a:hover {
 
 
 
-
-
 /* ==========================================================================
    Preloader
    ========================================================================== */
@@ -397,6 +395,42 @@ main {
     display: flex;
     flex-direction: row-reverse;
   }
+}
+/* ==========================================================================
+   Section 1
+   ========================================================================== */
+#img-5-clubes {
+      margin-top:110px;
+  }
+
+/* ==========================================================================
+   Section 2
+   ========================================================================== */
+
+  #section-2{
+    height: 100vh;
+  }
+  #tabla-eventos{
+    max-height: 200px;
+  }
+  .carousel-h2{
+    padding: 0 30px;
+  }
+  #carousel-item-s-2{
+    /* fondo */   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(76 78 86 / 40%), rgb(76 78 86 / 40%)), url(../img/_DSC1500.jpg);
+    ;
+          
+  }
+  #fixed-button-s2{
+    position: absolute;
+    left: 40%; 
+    bottom: 15%;
+
+  }
 
 
   /* ==========================================================================
@@ -550,4 +584,4 @@ section.toc a:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/fondo-firefox.jpg) !important;
   } */
 
-  }
+}
