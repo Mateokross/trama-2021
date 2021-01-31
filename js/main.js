@@ -10,15 +10,14 @@ $(window).on("load", function () {
   /* ==========================================================================
       Materialize - materializecss.com
       ========================================================================== */
-  $('.carousel').carousel({
+  $('#sponsors-carousel').carousel({
     dist: 0,
-    numVisible: 13,
+    numVisible: 5,
     padding: 70
-
   });
 
   /*autoplay*/
-  var instance = M.Carousel.getInstance($('.carousel'));
+  var instance = M.Carousel.getInstance($('#sponsors-carousel'));
   var play = 1;
 
   $('.carousel').hover(function () {
@@ -36,6 +35,8 @@ $(window).on("load", function () {
   }
 
   slide();
+
+  
 
   /* ==========================================================================
     Auto-updating year (footer)

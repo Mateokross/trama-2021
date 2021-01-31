@@ -46,7 +46,7 @@ li {
   font-size: 18px;
 }
 
-a {
+a:not(.carousel-item) {
   color: white;
   transition: all .4s ease;
 }
@@ -396,191 +396,180 @@ main {
     flex-direction: row-reverse;
   }
 }
+
 /* ==========================================================================
    Section 1
    ========================================================================== */
 #img-5-clubes {
-      margin-top:110px;
-  }
+  margin-top: 110px;
+}
 
 /* ==========================================================================
    Section 2
    ========================================================================== */
 
-  #section-2{
-    height: 100vh;
-  }
-  #tabla-eventos{
-    max-height: 200px;
-  }
-  .carousel-h2{
-    padding: 0 30px;
-  }
-  #carousel-item-s-2{
-    /* fondo */   
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(rgb(76 78 86 / 40%), rgb(76 78 86 / 40%)), url(../img/_DSC1500.jpg);
-    ;
-          
-  }
-  #fixed-button-s2{
-    position: absolute;
-    left: 40%; 
-    bottom: 15%;
+#section-2 {
+  height: 100vh;
+}
 
-  }
+#tabla-eventos {
+  max-height: 200px;
+}
+
+.carousel-h2 {
+  padding: 0 30px;
+}
+
+#carousel-item-s-2 {
+  /* fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(76 78 86 / 40%), rgb(76 78 86 / 40%)), url(../img/_DSC1500.jpg);
+  ;
+
+}
+
+#fixed-button-s2 {
+  position: absolute;
+  left: 40%;
+  bottom: 15%;
+
+}
 
 
-  /* ==========================================================================
+/* ==========================================================================
    Section 3
    ========================================================================== */
 
-  #section-3 {
-    padding-bottom: 140px;
+#section-3 {
+  padding-bottom: 140px;
+}
+
+
+
+@media only screen and (min-width:901px) {
+  #section-3 .row {
+    display: flex;
   }
 
-
-
-  @media only screen and (min-width:901px) {
-    #section-3 .row {
-      display: flex;
-    }
-
-    #section-3 .col {
-      flex: 1;
-    }
-
-    #section-3 .col:first-child {
-      padding-right: 50px;
-    }
-
-    #section-3 .col:last-child {
-      padding-left: 50px;
-    }
+  #section-3 .col {
+    flex: 1;
   }
 
-  @media only screen and (max-width:900px) {
-    #section-3 .col:last-child {
-      padding-top: 80px;
-    }
+  #section-3 .col:first-child {
+    padding-right: 50px;
   }
 
-  /* ==========================================================================
+  #section-3 .col:last-child {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  #section-3 .col:last-child {
+    padding-top: 80px;
+  }
+}
+
+
+/* ==========================================================================
+   Sponsor slider
+   ========================================================================== */
+
+.carousel {
+  height: 150px;
+}
+
+.carousel .carousel-item {
+  width: 150px;
+  height: 150px;
+}
+
+
+/* ==========================================================================
    Other tabs
    ========================================================================== */
 
-  .back {
-    margin-top: 2rem;
-  }
-
-  .back a {
-    text-decoration: none;
-    font-size: 1.5em;
-  }
-
-  .back a::before {
-    content: "< ";
-  }
-
-  /* ==========================================================================
-   FAQ Hero
-   ========================================================================== */
-
-  .hero.small {
-    height: 35vh;
-  }
-
-  /* ==========================================================================
-   FAQ TOC
-   ========================================================================== */
-  /* section.toc {
-  max-width: 600px;
+.back {
+  margin-top: 2rem;
 }
 
-section.toc a {
-  color: rgba(0, 0, 0, 0.87);
-  transition: all .4s ease;
+.back a {
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
-section.toc a:hover {
-  color: var(--accent-color);
+.back a::before {
+  content: "< ";
 }
 
-*/
-  /* ==========================================================================
-   FAQ FAQ
-   ========================================================================== */
-  section.faq p {
-    padding-bottom: 10px;
-  }
 
 
-  /* ==========================================================================
+/* ==========================================================================
    Footer
    ========================================================================== */
-  .page-footer>.container {
-    padding-bottom: 20px;
-  }
+.page-footer>.container {
+  padding-bottom: 20px;
+}
 
-  footer li,
-  footer p,
-  footer {
-    font-size: 1rem;
-  }
+footer li,
+footer p,
+footer {
+  font-size: 1rem;
+}
 
-  footer li {
-    margin-bottom: 8px;
-  }
+footer li {
+  margin-bottom: 8px;
+}
 
-  footer i {
-    font-size: 27px;
-  }
+footer i {
+  font-size: 27px;
+}
 
-  /* footer copyright */
-  .footer-copyright {
-    background-color: rgba(0, 0, 0, 0.18) !important;
-  }
+/* footer copyright */
+.footer-copyright {
+  background-color: rgba(0, 0, 0, 0.18) !important;
+}
 
-  /* ==========================================================================
+/* ==========================================================================
    Cambios Materialize
    ========================================================================== */
 
-  .row {
-    margin-bottom: 0;
-  }
+.row {
+  margin-bottom: 0;
+}
 
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+@media only screen and (max-width:901px) {
   .section {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
+}
 
-  @media only screen and (max-width:901px) {
-    .section {
-      padding-top: 40px;
-      padding-bottom: 40px;
-    }
-  }
+.valign-wrapper {
+  flex-direction: column;
+  justify-content: center;
+}
 
-  .valign-wrapper {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .responsive-img {
-    display: block;
-    margin: auto;
-  }
+.responsive-img {
+  display: block;
+  margin: auto;
+}
 
 
-  /* ==========================================================================
+/* ==========================================================================
    Browser Fixes
    ========================================================================== */
-  /* Firefox */
+/* Firefox */
 
-  @-moz-document url-prefix() {
-    /* .hero {
+@-moz-document url-prefix() {
+  /* .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/fondo-firefox.jpg) !important;
   } */
 
