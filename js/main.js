@@ -10,6 +10,8 @@ $(window).on("load", function () {
   /* ==========================================================================
       Materialize - materializecss.com
       ========================================================================== */
+
+
   $('#sponsors-carousel').carousel({
     dist: 0,
     numVisible: 5,

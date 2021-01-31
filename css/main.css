@@ -9,6 +9,13 @@
   --accent-color-lighter: #e7cbf5;
   --secondary-color: #e5e5e5;
   --footer-color: #4c4e56;
+  --club-consultoría: #9C2830;
+  --club-comunicación: #344A8B;
+  --club-it: #CEB64F;
+  --club-media: #344A8B;
+  --club-finanzas: #518D4B;
+  --club-emprendedores: #D35931;
+
 }
 
 ::selection {
@@ -437,12 +444,13 @@ main {
 
 }
 
+/* 
 
 /* ==========================================================================
    Section 3
    ========================================================================== */
 
-#section-3 {
+/* #section-3 {
   padding-bottom: 140px;
 }
 
@@ -470,6 +478,85 @@ main {
   #section-3 .col:last-child {
     padding-top: 80px;
   }
+}
+
+*/
+
+/* ==========================================================================
+   Clubes (Index)
+   ========================================================================== */
+.clubs .club {
+  height: 300px;
+  background-image: url(/img/placeholder.jpg);
+  padding: 0;
+  border: white 1px;
+}
+
+.clubs .club div {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: all .4s;
+}
+
+/* .clubs .club div:hover {
+  backdrop-filter: blur(4px);
+} */
+
+
+.clubs .club p {
+  color: white;
+  font-size: 1.75rem;
+  margin: auto;
+}
+
+.clubs .club.emprendedores {
+  background-image: url(/img/placeholder.jpg);
+}
+
+.clubs .club.emprendedores div {
+  background: rgba(255, 94, 0, 0.3);
+}
+
+.clubs .club.consultoría {
+  background-image: url(/img/placeholder.jpg);
+}
+
+.clubs .club.consultoría div {
+  background: rgba(255, 0, 0, 0.3);
+}
+
+.clubs .club.it {
+  background-image: url(/img/placeholder.jpg);
+}
+
+.clubs .club.it div {
+  background: rgba(255, 217, 0, 0.3);
+}
+
+.clubs .club.media {
+  background-image: url(/img/placeholder.jpg);
+}
+
+.clubs .club.media div {
+  background: rgba(255, 0, 85, 0.3);
+}
+
+.clubs .club.comunicacion {
+  background-image: url(/img/placeholder.jpg);
+}
+
+.clubs .club.comunicacion div {
+  background: rgba(0, 26, 255, 0.3);
+}
+
+.clubs .club.finanzas {
+  background-image: url(/img/placeholder.jpg);
+}
+
+.clubs .club.finanzas div {
+  background: rgba(0, 163, 22, 0.3);
 }
 
 
