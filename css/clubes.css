@@ -1,0 +1,60 @@
+/*Color*/
+:root {
+    --accent-color: #b79dc4;
+    --accent-color-darker: #897294;
+    --accent-color-lighter: #e7cbf5;
+    --secondary-color: #e5e5e5;
+    --footer-color: #4c4e56;
+    --club-consultoría: #9C2830;
+    --club-comunicación: #344A8B;
+    --club-it: #CEB64F;
+    --club-media: #344A8B;
+    --club-finanzas: #518D4B;
+    --club-emprendedores: #D35931;
+  
+  }
+
+/*Font*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+button,
+input,
+select,
+textarea,
+p,
+li,
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+a:not(.carousel-item) {
+  color: white;
+  transition: all .4s ease;
+}
+
+
+a:hover {
+  color: var(--accent-color);
+}
+
+
+
+
