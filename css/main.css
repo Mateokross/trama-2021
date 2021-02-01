@@ -430,7 +430,7 @@ main {
     ========================================================================== */         
     #div-eventos{
        background-color: var(--accent-color-darker);;     
-       border-radius: 10px;     
+          
        size:fill;     
        max-height: 400px;     
        overflow: scroll;     
@@ -448,7 +448,17 @@ main {
 /* ==========================================================================
    Noticias
    ========================================================================== */
+  .noticias-head{
+    margin-bottom:20px;
+  }
   
+  .noticias-head a{
+    color: var(--accent-color);
+  }
+  .noticias-head a:hover{
+    color: var(--accent-color-lighter);
+  }
+
   #card-text {
     font-size: 15.5px;
   }
