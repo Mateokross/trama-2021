@@ -47,6 +47,13 @@ Y acá podes aprender de Github:
 16. Hero
 17. Feed de noticias
 
+**Aceleradora**
+
+18. Hero
+19. Contenido principal
+20. Link a form
+21. Anotate!
+
 **Panel de admin**
 
 - Editor de eventos
