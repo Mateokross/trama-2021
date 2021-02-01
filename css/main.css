@@ -59,9 +59,13 @@ a:not(.carousel-item) {
 }
 
 
-a:hover {
-  color: var(--accent-color);
+a:hover,
+a:focus,
+a:active {
+  /*new style*/
+  color: var(--accent-color) !important;
 }
+
 
 /*Smooth scrolling*/
 html {
@@ -174,9 +178,27 @@ header nav i {
   line-height: 90px !important;
 }
 
+/*dropdown*/
+.dropdown-trigger:focus {
+  color: white !important;
+}
+
+.dropdown-content li:hover,
+.dropdown-content li.active {
+  background-color: white;
+}
 
 .dropdown-content a {
   font-size: 14px !important;
+}
+
+.dropdown-content li>a:hover,
+.dropdown-content li>span:hover {
+  color: var(--accent-color)
+}
+
+.dropdown-trigger:focus {
+  outline: none;
 }
 
 /*nav on mobile*/
