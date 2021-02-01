@@ -8,10 +8,10 @@
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
           <ul>
-            <li><a href="#!">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#!">Acerca</a></li>
             <li><a href="#!">Equipo</a></li>
-            <li><a href="#!">Clubes</a></li>
+            <li><a href="club.php">Clubes</a></li>
             <li><a href="https://www.instagram.com/trama.itba/"  target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in" style="padding-left: 15px;"></i></a></li>
           </ul>
         </div>

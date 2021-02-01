@@ -4,71 +4,86 @@ include('templates/header.php');
 
 ?>
   <main>
-    <section class="hero">
+    <section class="hero club consultoría">
       <div class="-blur">
         <div class="container">
-          <div class="half-width" data-aos="fade-up">
-            <h1>Club Trama</h1>
-            <h5>Acercamos el mundo profesional a los estudiantes para aprender y crecer.  </h5>
+          <div class="row valign-row-l" data-aos="fade-up">
+            <div class="col s12 m12 l5">
+              <h1>Club Consultoría</h1>
+              <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minus eveniet quia dolor quasi ipsa nobis voluptatum, error architecto dolore facilis expedita id, repudiandae unde doloremque iure ut provident? Tenetur!</h5>
+            </div>
+            <div class="col s12 m12 l6 offset-l1">
+              <img src="img/placeholder.jpg" class="responsive-img" alt="placeholder">
+            </div>
           </div>
         </div>
       </div>
-      <a href="#section-1" class="arrow bounce"></a>
     </section>
 
 
 
-    <section class="container section quienes-somos" id="section-1">
+    <section class="container section" id="section-1">
+      <h4>Team</h4>
+      <!-- <div class="row valign-row-l" data-aos="fade-up">
+        <div class="col s12 m12 l6">
+          <img src="img/placeholder2.jpg" class="responsive-img" alt="placeholder">
+          <p>Miembro</p>
+        </div>
+        <div class="col s12 m12 l6">
+          <img src="img/placeholder2.jpg" class="responsive-img" alt="placeholder">
+          <p>Miembro</p>
+        </div>
+      </div> -->
+    </section>
+
+    <section class="alt-container section" id="section-2">
+      <div class="container">
+        <h4 style="margin-bottom:50px">La actividad principal</h4>
+      </div>
       <div class="row valign-row-l" data-aos="fade-up">
-        <div class="col s12 m12 l6 valign-wrapper">
-          <h4>Acerca de Nosotros</h4>
-          <p>Trama es una organización de estudiantes que nace en 2012 con dos objetivos principales, por un lado acercar el mundo laboral a los estudiantes y por otro generar en los jóvenes interés en las temáticas de actualidad.
-          </p><p>
-            La organización cuenta con cinco clubes: Emprendedores, Finanzas, Consultoría, Comunicación y IT, también con un departamento de Media. Cada club tiene un ciclo de actividades cuatrimestral, abierto a todos los estudiantes, que brinda la posibilidad de conocer de cerca cada uno de estos campos.</p>
+        <div class="col s12 m12 l6">
+          <img src="img/placeholder.jpg" class="responsive-img" alt="placeholder">
         </div>
-        <div class="col s12 m12 l6 center">
-          <img id="img-5-clubes" class="responsive-img" src="img/5clubes.png" alt="Clubes Trama">
+        <div class="col s12 m12 l6">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cupiditate, non pariatur a iste nemo atque obcaecati accusamus laboriosam maxime similique distinctio fugit enim. Enim labore laborum et officia harum?</p>
         </div>
       </div>
     </section>
 
 
-    <section class="section alt-container sponsors" id="section-2" style="margin-bottom:0;">
-      <h4 class="center-align">Nuestros Sponsors</h4>
-      <div class="carousel" id="sponsors-carousel">
-        <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-mercadolibre.png"></a>
-        <a class="carousel-item" href="https://www.bancogalicia.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-galicia.png"></a>
-        <a class="carousel-item" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png"></a>
-        <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-clarin.png"></a>
-        <a class="carousel-item" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-globant.png"></a>
-      </div>
+    <section class="container section center" id="section-3">
+      <h4>Nuestro Sponsor</h4>
+      <a class="sponsor" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png" class="responsive-img"></a>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In maxime placeat assumenda eum porro sequi perferendis reprehenderit sed est, distinctio dolorum vel a sint ullam quasi minima eligendi dolorem. Ea?</p>
     </section>
 
     
-    <section class="section container clubs" id="section-3">
-      <h4 style="margin-bottom:50px">Clubes</h4>
+    <section class="section alt-container clubs" id="section-3">
+      <div class="container">
+        <h4 style="margin-bottom:50px">Clubes</h4>
+      </div>
       <div class="row">
-        <a href="club.php" class="col s12 m6 l4 club emprendedores">
+        <a href="#!" class="col s12 m6 l4 club emprendedores">
           <div class="club-background-img"></div>
           <div class="club-background-color"><div class="club-text"><p>Emprendedores</p></div></div>
         </a>
-        <a href="club.php" class="col s12 m6 l4 club consultoría">
+        <a href="#!" class="col s12 m6 l4 club consultoría">
           <div class="club-background-img"></div>
           <div class="club-background-color"><div class="club-text"><p>Consultoría</p></div></div>
         </a>
-        <a href="club.php" class="col s12 m6 l4 club it">
+        <a href="#!" class="col s12 m6 l4 club it">
           <div class="club-background-img"></div>
           <div class="club-background-color"><div class="club-text"><p>IT</p></div></div>
         </a>
-        <a href="club.php" class="col s12 m6 l4 club media">
+        <a href="#!" class="col s12 m6 l4 club media">
           <div class="club-background-img"></div>
           <div class="club-background-color"><div class="club-text"><p>Media</p></div></div>
         </a>
-        <a href="club.php" class="col s12 m6 l4 club comunicacion">
+        <a href="#!" class="col s12 m6 l4 club comunicacion">
           <div class="club-background-img"></div>
           <div class="club-background-color"><div class="club-text"><p>Comunicación</p></div></div>
         </a>
-        <a href="club.php" class="col s12 m6 l4 club finanzas">
+        <a href="#!" class="col s12 m6 l4 club finanzas">
           <div class="club-background-img"></div>
           <div class="club-background-color"><div class="club-text"><p>Finanzas</p></div></div>
         </a>

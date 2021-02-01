@@ -44,20 +44,20 @@
   <header>
     <ul id="nav-mobile" class="sidenav">
       <li>
-        <a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo-negro.png" alt="Trama logo"></a>
+        <a id="logo-container" href="index.php" class="brand-logo"><img src="img/logo-negro.png" alt="Trama logo"></a>
       </li>
       <li><a href="#!">Home</a></li>
       <li><a href="#section-1" class="section-link">Acerca</a></li>
       <li><a href="#!">Equipo</a></li>
       <li>
-        <a href="#section-3" class='dropdown-trigger section-link' data-target='dropdown'>Clubes</a>
+        <a href="club.php" class='dropdown-trigger section-link' data-target='dropdown'>Clubes</a>
         <ul id='dropdown' class='dropdown-content'>
-          <li><a href="#section-3">Emprendedores</a></li>
-          <li><a href="#section-3">Consultoría</a></li>
-          <li><a href="#section-3">Finanzas</a></li>
-          <li><a href="#section-3">IT</a></li>
-          <li><a href="#section-3">Media</a></li>
-          <li><a href="#section-3">Comunicación</a></li>
+          <li><a href="club.php">Emprendedores</a></li>
+          <li><a href="club.php">Consultoría</a></li>
+          <li><a href="club.php">Finanzas</a></li>
+          <li><a href="club.php">IT</a></li>
+          <li><a href="club.php">Media</a></li>
+          <li><a href="club.php">Comunicación</a></li>
         </ul>
       </li>
       <li><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
@@ -66,20 +66,20 @@
 
     <nav class=" transparent z-depth-0" role="navigation">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo.png" alt="Trama logo"></a>
+        <a id="logo-container" href="index.php" class="brand-logo"><img src="img/logo.png" alt="Trama logo"></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#!">Home</a></li>
           <li><a href="#section-1" class="section-link">Acerca</a></li>
           <li><a href="#!">Equipo</a></li>
           <li>
-            <a href="#section-3" class='dropdown-trigger section-link' data-target='dropdown'>Clubes</a>
+            <a href="club.php" class='dropdown-trigger section-link' data-target='dropdown'>Clubes</a>
             <ul id='dropdown' class='dropdown-content'>
-              <li><a href="#section-3">Emprendedores</a></li>
-              <li><a href="#section-3">Consultoría</a></li>
-              <li><a href="#section-3">Finanzas</a></li>
-              <li><a href="#section-3">IT</a></li>
-              <li><a href="#section-3">Media</a></li>
-              <li><a href="#section-3">Comunicación</a></li>
+              <li><a href="club.php">Emprendedores</a></li>
+              <li><a href="club.php">Consultoría</a></li>
+              <li><a href="club.php">Finanzas</a></li>
+              <li><a href="club.php">IT</a></li>
+              <li><a href="club.php">Media</a></li>
+              <li><a href="club.php">Comunicación</a></li>
             </ul>
           </li>
           <li><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
