@@ -44,12 +44,22 @@
   <header>
     <ul id="nav-mobile" class="sidenav">
       <li>
-        <a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo.png" alt="Trama logo"></a>
+        <a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo-negro.png" alt="Trama logo"></a>
       </li>
       <li><a href="#!">Home</a></li>
-      <li><a href="#!">Acerca</a></li>
+      <li><a href="#section-1" class="section-link">Acerca</a></li>
       <li><a href="#!">Equipo</a></li>
-      <li><a href="#!">Clubes</a></li>
+      <li>
+        <a href="#section-3" class='dropdown-trigger section-link' data-target='dropdown'>Clubes</a>
+        <ul id='dropdown' class='dropdown-content'>
+          <li><a href="#section-3">Emprendedores</a></li>
+          <li><a href="#section-3">Consultoría</a></li>
+          <li><a href="#section-3">Finanzas</a></li>
+          <li><a href="#section-3">IT</a></li>
+          <li><a href="#section-3">Media</a></li>
+          <li><a href="#section-3">Comunicación</a></li>
+        </ul>
+      </li>
       <li><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
       <li><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
     </ul>
@@ -59,9 +69,19 @@
         <a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo.png" alt="Trama logo"></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#!">Home</a></li>
-          <li><a href="#section-1">Acerca</a></li>
+          <li><a href="#section-1" class="section-link">Acerca</a></li>
           <li><a href="#!">Equipo</a></li>
-          <li><a href="#section-3">Clubes</a></li>
+          <li>
+            <a href="#section-3" class='dropdown-trigger section-link' data-target='dropdown'>Clubes</a>
+            <ul id='dropdown' class='dropdown-content'>
+              <li><a href="#section-3">Emprendedores</a></li>
+              <li><a href="#section-3">Consultoría</a></li>
+              <li><a href="#section-3">Finanzas</a></li>
+              <li><a href="#section-3">IT</a></li>
+              <li><a href="#section-3">Media</a></li>
+              <li><a href="#section-3">Comunicación</a></li>
+            </ul>
+          </li>
           <li><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
           <li><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
           
@@ -86,74 +106,94 @@
 
 
 
-    <section class="container section" id="section-1">
-      <div class="row" data-aos="fade-up">
+    <section class="container section quienes-somos" id="section-1">
+      <div class="row valign-row-l" data-aos="fade-up">
         <div class="col s12 m12 l6 valign-wrapper">
           <h4>Acerca de Nosotros</h4>
           <p>Trama es una organización de estudiantes que nace en 2012 con dos objetivos principales, por un lado acercar el mundo laboral a los estudiantes y por otro generar en los jóvenes interés en las temáticas de actualidad.
           </p><p>
             La organización cuenta con cinco clubes: Emprendedores, Finanzas, Consultoría, Comunicación y IT, también con un departamento de Media. Cada club tiene un ciclo de actividades cuatrimestral, abierto a todos los estudiantes, que brinda la posibilidad de conocer de cerca cada uno de estos campos.</p>
         </div>
-        <div class="col s12 m12 l6 center ">
-          <img id="img-5-clubes" class="responsive-img" width="400px" src="img/trama/trama/5clubes.png" alt="Clubes Trama">
+        <div class="col s12 m12 l6 center">
+          <img id="img-5-clubes" class="responsive-img" src="img/trama/trama/5clubes.png" alt="Clubes Trama">
         </div>
       </div>
     </section>
 
-    <section class="section alt-container" id="section-2">
-    <div class="row" data-aos="fade-up">
-      <div class="container" >
-        <!--Lista eventos. FALTA HACERLA DESAPARECER EN S Y M-->
-          <div class="col l4" id="div-eventos">
-            <h5 class="white-text">Proximos eventos</h5>
-            <ul>
-                <li class="li-eventos">Evento 1 morondana - Fecha</li>
-                <li class="li-eventos">Evento 2 - Fecha</li>
-                <li class="li-eventos">Evento 3 - Fecha</li>
-                <li class="li-eventos">Evento 4 - Fecha</li>
-                <li class="li-eventos">Evento 5 - Fecha</li>
-                <li class="li-eventos">Evento 6 - Fecha</li>
-                <li class="li-eventos">Evento 7 maradona - Fecha</li>
-                <li class="li-eventos">Evento 8 - Fecha</li>
-            </ul>
-          </div>  
-        
-        <!--Slider Eventos-->
-        <div class="col s12 m12 l8">
-          Mate do your magic
-        </div>
 
+    <section class="section alt-container sponsors" id="section-2" style="margin-bottom:0;">
+      <h4 class="center-align">Nuestros Sponsors</h4>
+      <div class="carousel" id="sponsors-carousel">
+        <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-mercadolibre.png"></a>
+        <a class="carousel-item" href="https://www.bancogalicia.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-galicia.png"></a>
+        <a class="carousel-item" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png"></a>
+        <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-clarin.png"></a>
+        <a class="carousel-item" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-globant.png"></a>
       </div>
-    </div>
     </section>
 
-
+    
     <section class="section container clubs" id="section-3">
       <h4 style="margin-bottom:50px">Clubes</h4>
       <div class="row">
-        <a href="clubes/emprendedores.html" class="col s12 m6 l4 club emprendedores">
-          <div><p>Emprendedores</p></div>
+        <a href="#!" class="col s12 m6 l4 club emprendedores">
+          <div class="club-background-img"></div>
+          <div class="club-background-color"><div class="club-text"><p>Emprendedores</p></div></div>
         </a>
         <a href="#!" class="col s12 m6 l4 club consultoría">
-          <div><p>Consultoría</p></div>
+          <div class="club-background-img"></div>
+          <div class="club-background-color"><div class="club-text"><p>Consultoría</p></div></div>
         </a>
         <a href="#!" class="col s12 m6 l4 club it">
-          <div><p>IT</p></div>
+          <div class="club-background-img"></div>
+          <div class="club-background-color"><div class="club-text"><p>IT</p></div></div>
         </a>
         <a href="#!" class="col s12 m6 l4 club media">
-          <div><p>Media</p></div>
+          <div class="club-background-img"></div>
+          <div class="club-background-color"><div class="club-text"><p>Media</p></div></div>
         </a>
         <a href="#!" class="col s12 m6 l4 club comunicacion">
-          <div><p>Comunicación</p></div>
+          <div class="club-background-img"></div>
+          <div class="club-background-color"><div class="club-text"><p>Comunicación</p></div></div>
         </a>
         <a href="#!" class="col s12 m6 l4 club finanzas">
-          <div><p>Finanzas</p></div>
+          <div class="club-background-img"></div>
+          <div class="club-background-color"><div class="club-text"><p>Finanzas</p></div></div>
         </a>
       </div>
     </section>
 
+    <!-- <section class="section alt-container" id="section-2">
+    <div class="row" data-aos="fade-up">
+      <div class="container" >
+
+        <div class="col l4" id="div-eventos">
+          <h5 class="white-text">Proximos eventos</h5>
+          <ul>
+              <li class="li-eventos">Evento 1 morondana - Fecha</li>
+              <li class="li-eventos">Evento 2 - Fecha</li>
+              <li class="li-eventos">Evento 3 - Fecha</li>
+              <li class="li-eventos">Evento 4 - Fecha</li>
+              <li class="li-eventos">Evento 5 - Fecha</li>
+              <li class="li-eventos">Evento 6 - Fecha</li>
+              <li class="li-eventos">Evento 7 maradona - Fecha</li>
+              <li class="li-eventos">Evento 8 - Fecha</li>
+          </ul>
+        </div>  
+      
+      <div class="col s12 m12 l8">
+        Mate do your magic
+      </div>
+
+    </div>
+  </div>
+  </section> -->
+
+
+
+    
     <!--Noticias-->
-    <section class="container section" id="Noticias">
+    <!-- <section class="container section" id="Noticias">
       <div class="row" class="container">
         <div class="noticias-head">
           <div class="col s6 m6 l6 left-align"><h4>Noticias</h4></div>
@@ -206,18 +246,10 @@
         </div>
         
       </div>
-    </section>  
+    </section>   -->
 
 
-    <section class="section alt-container sponsors" id="section-4" style="margin-bottom:0;">
-      <div class="carousel" id="sponsors-carousel">
-        <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-mercadolibre.png"></a>
-        <a class="carousel-item" href="https://www.bancogalicia.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-galicia.png"></a>
-        <a class="carousel-item" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png"></a>
-        <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-clarin.png"></a>
-        <a class="carousel-item" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-globant.png"></a>
-      </div>
-    </section>
+
 
 
   </main>
@@ -236,8 +268,7 @@
             <li><a href="#!">Acerca</a></li>
             <li><a href="#!">Equipo</a></li>
             <li><a href="#!">Clubes</a></li>
-            <li><a href="https://www.instagram.com/trama.itba/"  target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.instagram.com/trama.itba/"  target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in" style="padding-left: 15px;"></i></a></li>
           </ul>
         </div>
       </div>

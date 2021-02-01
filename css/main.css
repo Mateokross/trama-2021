@@ -63,6 +63,10 @@ a:hover {
   color: var(--accent-color);
 }
 
+/*Smooth scrolling*/
+html {
+  scroll-behavior: smooth;
+}
 
 
 /* ==========================================================================
@@ -145,12 +149,17 @@ header nav {
 }
 
 header {
-  height: 107px;
-  padding-bottom: 95px;
+  height: 115px;
+  padding-bottom: 99px;
   position: fixed;
   width: 100%;
   z-index: 1000;
-  box-shadow: inset 0px 90px 27px -23px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 90px 33px -22px rgb(0 0 0 / 0%);
+  transition: all .4s ease;
+}
+
+header.shadow {
+  box-shadow: inset 0px 113px 20px -22px rgb(0 0 0 / 50%);
 }
 
 @media only screen and (max-width:992px) {
@@ -166,6 +175,9 @@ header nav i {
 }
 
 
+.dropdown-content a {
+  font-size: 14px !important;
+}
 
 /*nav on mobile*/
 
@@ -200,6 +212,11 @@ nav .brand-logo {
   margin: 0;
   font-size: 27px;
   color: rgba(0, 0, 0, 0.87);
+  transition: all .4s ease;
+}
+
+#nav-mobile i:hover {
+  color: var(--accent-color);
 }
 
 /*titles*/
@@ -369,14 +386,7 @@ main {
 
 }
 
-@media only screen and (min-width:901px) {
 
-
-  /* centra los textos verticalmente */
-  .col.s12.m6.l6.valign-wrapper {
-    min-height: 430px;
-  }
-}
 
 .alt-container.section {
   padding: 3.5em 0;
@@ -404,192 +414,241 @@ main {
   }
 }
 
-/* ==========================================================================
-   Section 1
-   ========================================================================== */
-#img-5-clubes {
-  margin-top: 110px;
+
+.valign-row-l,
+.valign-row-m {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width:992px) {
+  .valign-row-l {
+    display: block;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .valign-row-m {
+    display: block;
+  }
 }
 
 /* ==========================================================================
-   Section 2
+   Quienes somos
    ========================================================================== */
 
-#section-2 {
+.quienes-somos img {
+  max-width: 90%;
+}
+
+@media only screen and (max-width:992px) {
+  .quienes-somos img {
+    max-width: 75% !important;
+    padding-top: 4rem;
+  }
+}
+
+
+/* ==========================================================================
+    Proximos eventos
+    ========================================================================== */
+
+/* #section-2 {
   height: 100vh;
-}
+} */
 
 #tabla-eventos {
   max-height: 200px;
 }
 
 
+#div-eventos {
+  background-color: var(--accent-color-darker);
+  ;
 
-/* ==========================================================================
-    Proximos eventos
-    ========================================================================== */         
-    #div-eventos{
-       background-color: var(--accent-color-darker);;     
-          
-       size:fill;     
-       max-height: 400px;     
-       overflow: scroll;     
-       overflow-x: hidden;   
-      }    
+  size: fill;
+  max-height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
 
-    .li-eventos{     
-      margin-top: 10px;     
-      border-bottom:0.5px solid white;     
-      color:white;     
-      padding:10px;   }
+.li-eventos {
+  margin-top: 10px;
+  border-bottom: 0.5px solid white;
+  color: white;
+  padding: 10px;
+}
 
-/* 
 
 /* ==========================================================================
    Noticias
    ========================================================================== */
-  .noticias-head{
-    margin-bottom:20px;
-  }
-  
-  .noticias-head a{
-    color: var(--accent-color);
-  }
-  .noticias-head a:hover{
-    color: var(--accent-color-lighter);
-  }
+.noticias-head {
+  margin-bottom: 20px;
+}
 
-  #card-text {
-    font-size: 15.5px;
-  }
+.noticias-head a {
+  color: var(--accent-color);
+}
 
-  #card-tit{
-    font-weight: bold;
-    text-shadow: 2px 2px 4px black;
-  }
+.noticias-head a:hover {
+  color: var(--accent-color-lighter);
+}
 
-  .card-date{
-    font-size: small;
-    position: absolute;
-    top: 2%;
-    right: 3%;
-    color: white;
-    text-shadow: 1px 1px 2px black;
-  }
+#card-text {
+  font-size: 15.5px;
+}
 
-  #read-more{
-    position: absolute;
-    top: 90%;
-    right: 10%;
-    color: var(--accent-color);
-  }
-  #read-more:hover{
-    color: var(--accent-color-lighter);
-  }
+#card-tit {
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+}
 
-  html {
-    --lh: 1.4rem;
-    line-height: var(--lh);
-  }
-  .truncate-overflow {
-    --max-lines: 3;
-    position: relative;
-    max-height: calc(var(--lh) * var(--max-lines));
-    overflow: hidden;
-    padding-right: 1rem; /* space for ellipsis */
-  }
-  .truncate-overflow::before {
-    position: absolute;
-    content: "";
-    inset-block-end: 0; /* "bottom" */
-    inset-inline-end: 0; /* "right" */
-  }
-  .truncate-overflow::after {
-    content: "";
-    position: absolute;
-    inset-inline-end: 0; /* "right" */
-    width: 1rem;
-    height: 1rem;
-    background: white;
-  }
-  
+.card-date {
+  font-size: small;
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+#read-more {
+  position: absolute;
+  top: 90%;
+  right: 10%;
+  color: var(--accent-color);
+}
+
+#read-more:hover {
+  color: var(--accent-color-lighter);
+}
+
+html {
+  --lh: 1.4rem;
+  line-height: var(--lh);
+}
+
+.truncate-overflow {
+  --max-lines: 3;
+  position: relative;
+  max-height: calc(var(--lh) * var(--max-lines));
+  overflow: hidden;
+  padding-right: 1rem;
+  /* space for ellipsis */
+}
+
+.truncate-overflow::before {
+  position: absolute;
+  content: "";
+  inset-block-end: 0;
+  /* "bottom" */
+  inset-inline-end: 0;
+  /* "right" */
+}
+
+.truncate-overflow::after {
+  content: "";
+  position: absolute;
+  inset-inline-end: 0;
+  /* "right" */
+  width: 1rem;
+  height: 1rem;
+  background: white;
+}
+
 /* ==========================================================================
    Clubes (Index)
    ========================================================================== */
 .clubs .club {
   height: 300px;
-  background-image: url(/img/placeholder.jpg);
   padding: 0;
-  border: white 1px;
+  overflow: hidden;
+  position: relative;
 }
 
-.clubs .club div {
-  background: rgba(0, 0, 0, 0.5);
+.clubs .club .club-background-img {
+  background-image: url(/img/placeholder.jpg);
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  transition: all .4s ease;
+}
+
+.clubs .club:hover .club-background-img {
+  transform: scale(1.1)
+}
+
+.clubs .club .club-background-color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.clubs .club .club-background-color .club-text {
   width: 100%;
   height: 100%;
   display: flex;
-  transition: all .4s;
+  background: rgba(0, 0, 0, 0.05);
 }
 
-/* .clubs .club div:hover {
-  backdrop-filter: blur(4px);
-} */
-
-
-.clubs .club p {
+.clubs .club .club-text p {
   color: white;
   font-size: 1.75rem;
   margin: auto;
 }
 
-.clubs .club.emprendedores {
+.clubs .club.emprendedores .club-background-img {
   background-image: url(/img/placeholder.jpg);
 }
 
-.clubs .club.emprendedores div {
-  background: rgba(255, 94, 0, 0.3);
+.clubs .club.emprendedores .club-background-color {
+  background: rgb(171 63 0 / 30%);
 }
 
-.clubs .club.consultoría {
+.clubs .club.consultoría .club-background-img {
   background-image: url(/img/placeholder.jpg);
 }
 
-.clubs .club.consultoría div {
-  background: rgba(255, 0, 0, 0.3);
+.clubs .club.consultoría .club-background-color {
+  background: rgb(171 0 0 / 30%);
 }
 
-.clubs .club.it {
+.clubs .club.it .club-background-img {
   background-image: url(/img/placeholder.jpg);
 }
 
-.clubs .club.it div {
-  background: rgba(255, 217, 0, 0.3);
+.clubs .club.it .club-background-color {
+  background: rgb(171 134 0 / 30%);
 }
 
-.clubs .club.media {
+.clubs .club.media .club-background-img {
   background-image: url(/img/placeholder.jpg);
 }
 
-.clubs .club.media div {
-  background: rgba(255, 0, 85, 0.3);
+.clubs .club.media .club-background-color {
+  background: rgb(171 0 110 / 30%);
 }
 
-.clubs .club.comunicacion {
+.clubs .club.comunicacion .club-background-img {
   background-image: url(/img/placeholder.jpg);
 }
 
-.clubs .club.comunicacion div {
-  background: rgba(0, 26, 255, 0.3);
+.clubs .club.comunicacion .club-background-color {
+  background: rgb(3 0 171 / 30%);
 }
 
-.clubs .club.finanzas {
+.clubs .club.finanzas .club-background-img {
   background-image: url(/img/placeholder.jpg);
 }
 
-.clubs .club.finanzas div {
-  background: rgba(0, 163, 22, 0.3);
+.clubs .club.finanzas .club-background-color {
+  background: rgb(0 171 37 / 30%);
 }
-
 
 /* ==========================================================================
    Sponsor slider

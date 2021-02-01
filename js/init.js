@@ -18,5 +18,13 @@ $(document).ready(function () {
         edge: 'right'
     });
 
+    $('.dropdown-trigger').dropdown({
+      hover:true,
+      constrainWidth:false,
+      coverTrigger:false,
+      inDuration:400,
+      outDuration:400
+    });
+
 
 });
