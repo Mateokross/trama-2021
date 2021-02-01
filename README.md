@@ -83,10 +83,10 @@ Y acá podes aprender de Github:
 
 2. **V0.2** Agrega:
 
-   1. Página principal
+   1. Clubes (una para cada club)
 
-      1. Eventos [  ]
-      2. Noticias [  ]
+      1. Ultimo video [  ]
+      2. Texto desc [  ]
 
    2. Integrantes
 
@@ -101,12 +101,13 @@ Y acá podes aprender de Github:
 
 3. **V0.3** Agrega:
 
-   1. Clubes (una para cada club)
-      1. Ultimo video [  ]
-      2. Texto desc [  ]
-      3. Evento/s [  ]
-      4. Newsletter individual [  ]
-   2. Noticias [  ]
+   1. Página principal
+      1. Eventos [  ]
+      2. Noticias [  ]
+   2. Clubes (una para cada club)
+      1. Evento/s [  ]
+      2. Newsletter individual [  ]
+   3. Noticias [  ]
 
    
 
