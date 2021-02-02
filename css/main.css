@@ -290,6 +290,7 @@ ul.sidenav a:hover {
 /*págnias de clubes*/
 .hero.club {
   height: 70vh;
+  min-height: 670px;
   overflow: hidden;
 }
 
@@ -302,18 +303,23 @@ ul.sidenav a:hover {
 .hero.club.emprendedores {
   background-image: linear-gradient(rgb(171 63 0 / 40%), rgb(171 63 0 / 40%)), url(../img/placeholder.jpg);
 }
+
 .hero.club.consultoría {
   background-image: linear-gradient(rgb(171 0 0 / 40%), rgb(171 0 0 / 40%)), url(../img/placeholder.jpg);
 }
+
 .hero.club.it {
   background-image: linear-gradient(rgb(171 134 0 / 40%), rgb(171 134 0 / 40%)), url(../img/placeholder.jpg);
 }
+
 .hero.club.media {
   background-image: linear-gradient(rgb(171 0 110 / 40%), rgb(171 0 110 / 40%)), url(../img/placeholder.jpg);
 }
+
 .hero.club.comunicacion {
   background-image: linear-gradient(rgb(3 0 171 / 40%), rgb(3 0 171 / 40%)), url(../img/placeholder.jpg);
 }
+
 .hero.club.finanzas {
   background-image: linear-gradient(rgb(0 171 37 / 40%), rgb(0 171 37 / 40%)), url(../img/placeholder.jpg);
 }
