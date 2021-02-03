@@ -23,17 +23,23 @@ include('templates/header.php');
 
 
     <section class="container section" id="section-1">
-      <h4>Team</h4>
-      <!-- <div class="row valign-row-l" data-aos="fade-up">
-        <div class="col s12 m12 l6">
-          <img src="img/placeholder2.jpg" class="responsive-img" alt="placeholder">
-          <p>Miembro</p>
+      <h4 style="padding-bottom:20px;">Team</h4>
+
+      <div class="row valign-row-l" data-aos="fade-up">
+        <div class="col s6 m6 l4 perfil-bg">
+          <div class="img-container">
+            <img src="img/placeholder2.jpg" class="responsive-img perfil-img" alt="placeholder">
+          </div>
+          <p style="padding-top: 1.1em;" class="center-align">Lucas Cugitachi</p>
+
+          <div class="perfil-links">
+            <a href=""><i class="linkedin_icon"></i></a>
+            <p>Mail</p>
+          </div>
         </div>
-        <div class="col s12 m12 l6">
-          <img src="img/placeholder2.jpg" class="responsive-img" alt="placeholder">
-          <p>Miembro</p>
-        </div>
-      </div> -->
+
+      </div> 
+
     </section>
 
     <section class="alt-container section" id="section-2">

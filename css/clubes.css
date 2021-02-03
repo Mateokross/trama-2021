@@ -55,6 +55,27 @@ a:hover {
   color: var(--accent-color);
 }
 
+.img-container{
+  padding: 0 20%;
+}
+
+.perfil-img{
+  transition: 0.5s;
+  opacity: 1;
+  transform: scale(1.1);
+  border-radius: 50%;
+
+}
+
+.img-container:hover .perfil-img{
+ transition: 0.5s;
+ opacity: 0.2;
+ 
+
+}
 
 
+.perfil-links{
+
+}
 
