@@ -33,8 +33,8 @@ include('templates/header.php');
           <p style="padding-top: 1.1em;" class="center-align">Lucas Cugitachi</p>
 
           <div class="perfil-links">
-            <a href=""><i class="linkedin_icon"></i></a>
-            <p>Mail</p>
+            <a href="" ><i class="fab fa-linkedin small"></i></a>
+            <a href="" ><i class="fa fa-envelope small"></i></a> 
           </div>
         </div>
 

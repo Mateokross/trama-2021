@@ -64,18 +64,25 @@ a:hover {
   opacity: 1;
   transform: scale(1.1);
   border-radius: 50%;
+}
 
+.perfil-links{
+  position: relative;
+  top: 25%;
+  left: 18.7%;
+}
+.perfil-links a{
+  color:var(--club-emprendedores);
 }
 
 .img-container:hover .perfil-img{
  transition: 0.5s;
  opacity: 0.2;
- 
 
 }
 
 
-.perfil-links{
+.img-container:hover .perfil-links{
 
 }
 
