@@ -25,20 +25,52 @@ include('templates/header.php');
     <section class="container section" id="section-1">
       <h4 style="padding-bottom:20px;">Team</h4>
 
-      <div class="row valign-row-l" data-aos="fade-up">
-        <div class="col s6 m6 l4 perfil-bg">
-          <div class="img-container">
-            <img src="img/placeholder2.jpg" class="responsive-img perfil-img" alt="placeholder">
-          </div>
-          <p style="padding-top: 1.1em;" class="center-align">Lucas Cugitachi</p>
+    <div class="row valign-row-l" data-aos="fade-up">
 
-          <div class="perfil-links">
-            <a href="" ><i class="fab fa-linkedin small"></i></a>
-            <a href="" ><i class="fa fa-envelope small"></i></a> 
+      <div class="col s12 m6 l4">
+
+        <div class="pro-card">
+          <img src="img/placeholder2.jpg">
+          <div class="description">
+            <h3>Lucas Jorge Cugitachi</h3>
+            <p>Coordinador
+              <br>
+            <a href="#!"><i class="fa fa-envelope"></i></a>
+            <a href="#!"><i class="fab fa-linkedin"></i></a>
+            </p>
           </div>
         </div>
+      </div>
 
-      </div> 
+      <div class="col s12 m6 l4">
+
+        <div class="pro-card">
+          <img src="img/placeholder2.jpg">
+          <div class="description">
+            <h3>Lucas Jorge Cugitachi</h3>
+            <p>Coordinador
+              <br>
+            <a href="#!"><i class="fa fa-envelope"></i></a>
+            <a href="#!"><i class="fab fa-linkedin"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m6 l4">
+
+        <div class="pro-card">
+          <img src="img/placeholder2.jpg">
+          <div class="description">
+            <h3>Lucas Jorge Cugitachi</h3>
+            <p>Coordinador
+              <br>
+            <a href="#!"><i class="fa fa-envelope"></i></a>
+            <a href="#!"><i class="fab fa-linkedin"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
 
     </section>
 
