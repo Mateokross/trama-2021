@@ -75,6 +75,46 @@ include('templates/header.php');
       </div>
     </section>
 
+    <section class="section alt-container" id="Trayecto">
+    <div class="container" data-aos="fade-up">
+    <h4 style="margin-bottom:50px">Trayecto</h4>
+    </div>
+    <div class="timeline" data-aos="fade-up">
+
+      <div class="container container-left">
+       <div class="image" style="background-image:url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+        <div class="content">
+            <span>2013/2014</span>
+            <h2>Great Title Here</h2>
+            <p>
+              Et hinc magna voluptatum usu, cum veniam graece et. Ius ea scripserit temporibus, pri cu harum tacimates neglegentur. At adipisci incorrupte nam. Cu qui sumo appareat constituto.
+            </p>
+        </div>
+      </div>
+      <div class="container container-right" >
+          <div class="image" style="background-image:url('https://images.pexels.com/photos/210012/pexels-photo-210012.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+          <div class="content">
+            <span>2014/15</span>
+            <h2>Great Title Here</h2>
+            <p>
+              Et hinc magna voluptatum usu, cum veniam graece et. Ius ea scripserit temporibus, pri cu harum tacimates neglegentur. At adipisci incorrupte nam. Cu qui sumo appareat constituto.
+            </p>
+         </div>
+      </div>
+      <div class="container container-left">
+          <div class="image" style="background-image:url('https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+          <div class="content">
+            <span>2015/16</span>
+            <h2>Great Title Here</h2>
+            <p>
+              Et hinc magna voluptatum usu, cum veniam graece et. Ius ea scripserit temporibus, pri cu harum tacimates neglegentur. At adipisci incorrupte nam. Cu qui sumo appareat constituto.
+            </p>
+          </div>
+      </div>
+
+    </div><!--Trayecto-->
+    </section>
+
     <!-- <section class="section alt-container" id="section-2">
     <div class="row" data-aos="fade-up">
       <div class="container" >

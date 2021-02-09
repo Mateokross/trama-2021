@@ -53,6 +53,7 @@ Y acá podes aprender de Github:
 19. Contenido principal
 20. Link a form
 21. Anotate!
+22. FAQ
 
 **Panel de admin**
 
