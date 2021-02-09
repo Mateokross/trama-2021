@@ -55,11 +55,6 @@ a:hover {
   color: var(--accent-color);
 }
 
-.img-container{
-  padding: 0 20%;
-}
-
-
 
 .pro-card *, .pro-card:after, .pro-card:before{
 	-webkit-box-sizing: border-box;
@@ -70,7 +65,7 @@ a:hover {
 
 .pro-card{
 	width: 300px;
-	padding: 30px;
+	padding: 10%;
 	background: url(../images/bg.jpg) no-repeat;
 	background-size:100% auto;
 	background-color: #fafafa;
@@ -103,7 +98,7 @@ a:hover {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	padding: 30px;
+	padding: 10%;
 	font-size: 18px;
 	text-align: center;
 }
@@ -128,4 +123,20 @@ a:hover {
 }
 .pro-card:hover .description p{
 	transform: translateX(0%);
+}
+
+
+@media screen and (max-width: 600px) {
+	.pro-card{
+		max-width: 90%;
+	}
+	.pro-card .description h3{
+		margin-bottom: 0px;
+		font-size: 14px;
+	}
+
+	.pro-card p{
+		margin-top: 0px;
+		font-size: 12px;
+	}
 }
