@@ -34,7 +34,7 @@ include('templates/header.php');
         
     </section>
 
-    <section class="container section center-align" id="section-3">
+    <section class="container section center-align" id="section-3" style="margin-top:0;">
       <h3 style="padding-bottom:40px;" data-aos="fade-up">Un evento con impacto</h3>
         <div class="row valign-row-l" data-aos="fade-up">
         
@@ -86,10 +86,15 @@ include('templates/header.php');
       </div>
     </section>
 
-    <section class="container section center" id="section-5">
-      <h3>Nuestro Sponsor</h3>
-      <a class="sponsor" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png" class="responsive-img"></a>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In maxime placeat assumenda eum porro sequi perferendis reprehenderit sed est, distinctio dolorum vel a sint ullam quasi minima eligendi dolorem. Ea?</p>
+    <section class="section container sponsors" id="section-2" style="margin-top:0;">
+      <h4 class="center-align">Nuestros Sponsors</h4>
+      <div class="carousel" id="sponsors-carousel">
+        <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-mercadolibre.png"></a>
+        <a class="carousel-item" href="https://www.bancogalicia.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-galicia.png"></a>
+        <a class="carousel-item" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png"></a>
+        <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-clarin.png"></a>
+        <a class="carousel-item" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-globant.png"></a>
+      </div>
     </section>
 
     <section class="alt-container section" id="section-4">
