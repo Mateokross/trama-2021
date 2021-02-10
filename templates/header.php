@@ -31,6 +31,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/clubes.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/bootcamp.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <!-- <link rel="stylesheet" href="styles/debug.css"> -->
 </head>
 

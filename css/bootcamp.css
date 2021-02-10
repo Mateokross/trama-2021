@@ -1,0 +1,67 @@
+:root {
+    --accent-color: #b79dc4;
+    --accent-color-darker: #897294;
+    --accent-color-lighter: #e7cbf5;
+    --secondary-color: #e5e5e5;
+    --footer-color: #4c4e56;
+    --club-consultoría: #9C2830;
+    --club-comunicación: #344A8B;
+    --club-it: #CEB64F;
+    --club-media: #344A8B;
+    --club-finanzas: #518D4B;
+    --club-emprendedores: #D35931;
+    --bootcamp: #FF8004;
+  
+  }
+
+.anotate{
+    font-weight: 900;
+    background-color: var(--bootcamp);
+    color: white;
+    transition: .5s;
+    border: 2px solid transparent;
+    
+    cursor: pointer;
+}
+
+.anotate:hover{
+    border-color: var(--bootcamp);
+    background-color: transparent;
+    color: var(--bootcamp);
+    transition: .5s;
+}
+
+.stats-card{
+    display: block;
+    height: 290px;
+}
+
+.stats-circle{
+    width: 80%;
+    max-width: 160px;
+    border-radius: 50%;
+    background: var(--bootcamp);
+    line-height: 0;
+    position: relative;
+    margin: auto;
+}
+/* para que sea responsive*/
+.stats-circle::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+.circle-text{
+    font-size: 64px;
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#section-3 h4{
+    font-size: 24px;
+}

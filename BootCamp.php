@@ -4,53 +4,80 @@ include('templates/header.php');
 
 ?>
   <main>
-    <section class="hero club emprendedores">
+    <section class="hero bootcamp">
       <div class="-blur">
-        <div class="container">
-          <div class="row valign-row-l" data-aos="fade-up">
-            <div class="col s12 m12 l5">
-              <h1>Bootcamp Experience</h1>
-              <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minus eveniet quia dolor quasi ipsa nobis voluptatum, error architecto dolore facilis expedita id, repudiandae unde doloremque iure ut provident? Tenetur!</h5>
+        <div class="container center-align white-text">
+
+           <div class="center-align">
+              <img style="max-width:400px" src="img/bootcamp/logo.png" class="responsive-img" alt="placeholder">
             </div>
-            <div class="col s12 m12 l6 offset-l1">
-              <img src="img/bootcamp/logo.png" class="responsive-img" alt="placeholder">
+
+          <h4 style="margin:0px" class="center-align white-text">Aprender a Emprender</h4>
+          <h5 style="font-weight:500" >Del 8 al 16 de Mayo</h5>
+
+          <button class="anotate" href="#!" target="_blank">Anotate!</button>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="container section center-align" id="section-1">
+      <h3 style="padding-bottom:20px; margin-top:0px;" data-aos="fade-up">¿Qué es el Bootcamp?</h3>
+      <h5 data-aos="fade-up">BootCamp es un evento de emprendedurismo que surge del Club de Emprendedores de TRAMA que busca desarrollar o explotar habilidades esenciales para el contexto laboral actual y potenciar el crecimiento personal en un entorno de aprendizaje a partir del desarrollo de un proyecto de startup.</h5>
+      <h3 data-aos="fade-up">SLIDER DE DESCRIPCIONES DE ORADORES DE QUÉ ES EL BC</h3>
+    </section>
+
+    <section class="alt-container section center-align" id="section-2">
+      <h3 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2020</h3>
+      <iframe width="80%" height="500px" src="https://www.youtube.com/embed/L3rP5BfAkAk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-aos="fade-up"></iframe>
+        
+    </section>
+
+    <section class="container section center-align" id="section-3">
+      <h3 style="padding-bottom:40px;" data-aos="fade-up">Un evento con impacto</h3>
+        <div class="row valign-row-l" data-aos="fade-up">
+        
+          <div class="col s6 m3 l3 center-align stats-card">
+            <div class="stats-circle">
+              <div class="circle-text">7</div>
             </div>
+            <h4>Años</h4>
+            <p>Construyendo el mundo emprendedor</p>
           </div>
-        </div>
-      </div>
-    </section>
 
+          <div class="col s6 m3 l3 center-align stats-card">
+            <div class="stats-circle">
+              <div class="circle-text">120</div>
+            </div>
+            <h4>Participantes</h4>
+            <p>De toda latinoamerica</p>
+          </div>
 
+          <div class="col s6 m3 l3 center-align stats-card">
+            <div class="stats-circle">
+              <div class="circle-text">7</div>
+            </div>
+            <h4>Años</h4>
+            <p>acompañados por los mejores profesionales</p>
+          </div>
 
-    <section class="container section" id="section-1">
-      <h4 style="padding-bottom:20px;">Misión y Visión</h4>
-        <h5>Bootcamp good, Que queremos, acercar el mundo emprendedor a los profesionales del futuro</h5>
+          <div class="col s6 m3 l3 center-align stats-card">
+            <div class="stats-circle">
+              <div class="circle-text">7</div>
+            </div>
+            <h4>Años</h4>
+            <p>Construyendo el mundo emprendedor</p>
+          </div>
 
-    </section>
-
-    <section class="alt-container section" id="section-2">
-      <div class="container">
-        <h4 style="margin-bottom:50px">Trabajando con la Juventud</h4>
-      </div>
-      <div class="row valign-row-l" data-aos="fade-up">
-        <div class="col s12 m12 l6">
-          <img src="img/placeholder.jpg" class="responsive-img" alt="placeholder">
-        </div>
-        <div class="col s12 m12 l6">
-          <p>Con charlas, actividades y de manera dinamica ....</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="container section" id="section-3">
-      <h4 style="padding-bottom:20px;">Premios que cambian vidas</h4>
-        <h5>nuestros premiazos</h5>
+        </div> 
+      
 
     </section>
 
     <section class="alt-container section" id="section-4">
       <div class="container">
-        <h4 style="margin-bottom:50px">Video del BC</h4>
+        <h4 style="margin-bottom:50px">Bootcamps viejos</h4>
       </div>
       <div class="row valign-row-l" data-aos="fade-up">
         <div class="col s12 m12 l6">
@@ -60,14 +87,14 @@ include('templates/header.php');
     </section>
 
     <section class="container section center" id="section-5">
-      <h4>Nuestro Sponsor</h4>
+      <h3>Nuestro Sponsor</h3>
       <a class="sponsor" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png" class="responsive-img"></a>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In maxime placeat assumenda eum porro sequi perferendis reprehenderit sed est, distinctio dolorum vel a sint ullam quasi minima eligendi dolorem. Ea?</p>
     </section>
 
     <section class="alt-container section" id="section-4">
       <div class="container">
-        <h4 style="margin-bottom:50px">FAQ</h4>
+        <h3 style="margin-bottom:50px">FAQ</h3>
       </div>
     </section>
 

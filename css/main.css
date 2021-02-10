@@ -41,6 +41,13 @@ a {
   font-weight: 400;
 }
 
+button{
+  font-size: 24px;
+  font-style: uppercase;
+  font-weight: 900;
+  padding: 15px;
+}
+
 h1,
 h2,
 h3,
@@ -322,6 +329,10 @@ ul.sidenav a:hover {
 
 .hero.club.finanzas {
   background-image: linear-gradient(rgb(0 171 37 / 40%), rgb(0 171 37 / 40%)), url(../img/placeholder.jpg);
+}
+
+.hero.bootcamp {
+  background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url(../img/bootcamp/_DSC2311.jpg);
 }
 
 /*contenido hero*/
