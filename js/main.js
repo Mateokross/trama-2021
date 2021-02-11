@@ -12,6 +12,15 @@ $(window).on("load", function () {
       ========================================================================== */
 
 
+  $('#bootcamp-carousel').carousel({
+    dist: 0,
+    numVisible: 5,
+    padding: 70
+  });
+
+
+
+  /* SPONSOR CAROUSEL */
   $('#sponsors-carousel').carousel({
     dist: 0,
     numVisible: 5,
@@ -38,6 +47,25 @@ $(window).on("load", function () {
 
   slide();
 
+    /*autoplay del oradores cards*/
+    var instance = M.Carousel.getInstance($('#bootcamp-carousel'));
+    var play = 1;
+  
+    $('.carousel').hover(function () {
+      play = false;
+    }, function () {
+      play = true;
+    });
+  
+    function slide2() {
+      setInterval(function () {
+        if (play) {
+          instance.next();
+        }
+      }, 4000);
+    }
+  
+    slide2();
   
   /* ==========================================================================
     Change header on scroll

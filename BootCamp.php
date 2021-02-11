@@ -22,10 +22,43 @@ include('templates/header.php');
 
 
 
-    <section class="container section center-align" id="section-1">
+    <section class="container section center-align" id="que-es-bc">
       <h3 style="padding-bottom:20px; margin-top:0px;" data-aos="fade-up">¿Qué es el Bootcamp?</h3>
       <h5 data-aos="fade-up">BootCamp es un evento de emprendedurismo que surge del Club de Emprendedores de TRAMA que busca desarrollar o explotar habilidades esenciales para el contexto laboral actual y potenciar el crecimiento personal en un entorno de aprendizaje a partir del desarrollo de un proyecto de startup.</h5>
-      <h3 data-aos="fade-up">SLIDER DE DESCRIPCIONES DE ORADORES DE QUÉ ES EL BC</h3>
+
+      <div class="carousel" id="bootcamp-carousel" style="margin-top:90px">
+
+        <div class="carousel-item" rel="noreferrer">
+          <div class="opinion-card center-align">
+            <img src="img/placeholder2.jpg" class="opinion-img" alt="placeholder.jpg">
+            <h5>Lucas Cugitachi</h5>
+            <p>La verdad que trama me encanta por su versatilidad para bla blabal balbalbalab bla bla</p>
+          </div>
+        </div>
+        <div class="carousel-item" rel="noreferrer">
+          <div class="opinion-card center-align">
+            <img src="img/placeholder2.jpg" class="opinion-img" alt="placeholder.jpg">
+            <h5>Lucas Cugitachi</h5>
+            <p>La verdad que trama me encanta por su versatilidad para bla blabal balbalbalab bla bla</p>
+          </div>
+        </div>
+        <div class="carousel-item" rel="noreferrer">
+          <div class="opinion-card center-align">
+            <img src="img/placeholder2.jpg" class="opinion-img" alt="placeholder.jpg">
+            <h5>Lucas Cugitachi</h5>
+            <p>La verdad que trama me encanta por su versatilidad para bla blabal balbalbalab bla bla</p>
+          </div>
+        </div>
+        <div class="carousel-item" rel="noreferrer">
+          <div class="opinion-card center-align">
+            <img src="img/placeholder2.jpg" class="opinion-img" alt="placeholder.jpg">
+            <h5>Lucas Cugitachi</h5>
+            <p>La verdad que trama me encanta por su versatilidad para bla blabal balbalbalab bla bla</p>
+          </div>
+        </div>
+
+      </div>
+
     </section>
 
     <section class="alt-container section center-align" id="section-2">
@@ -56,17 +89,17 @@ include('templates/header.php');
 
           <div class="col s6 m3 l3 center-align stats-card">
             <div class="stats-circle">
-              <div class="circle-text">7</div>
+              <div class="circle-text">15</div>
             </div>
-            <h4>Años</h4>
+            <h4>finalistas</h4>
             <p>acompañados por los mejores profesionales</p>
           </div>
 
           <div class="col s6 m3 l3 center-align stats-card">
             <div class="stats-circle">
-              <div class="circle-text">7</div>
+              <div class="circle-text">800</div>
             </div>
-            <h4>Años</h4>
+            <h4>fenomenos</h4>
             <p>Construyendo el mundo emprendedor</p>
           </div>
 
