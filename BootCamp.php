@@ -26,7 +26,7 @@ include('templates/header.php');
       <h3 style="padding-bottom:20px; margin-top:0px;" data-aos="fade-up">¿Qué es el Bootcamp?</h3>
       <h5 data-aos="fade-up">BootCamp es un evento de emprendedurismo que surge del Club de Emprendedores de TRAMA que busca desarrollar o explotar habilidades esenciales para el contexto laboral actual y potenciar el crecimiento personal en un entorno de aprendizaje a partir del desarrollo de un proyecto de startup.</h5>
 
-      <div class="carousel" id="bootcamp-carousel" style="margin-top:90px">
+      <div class="carousel" id="bootcamp-carousel" style="margin-top:90px" data-aos="fade-up">
 
         <div class="carousel-item" rel="noreferrer">
           <div class="opinion-card center-align">
@@ -108,18 +108,7 @@ include('templates/header.php');
 
     </section>
 
-    <section class="alt-container section" id="section-4">
-      <div class="container">
-        <h4 style="margin-bottom:50px">Bootcamps viejos</h4>
-      </div>
-      <div class="row valign-row-l" data-aos="fade-up">
-        <div class="col s12 m12 l6">
-          <img src="img/placeholder.jpg" class="responsive-img" alt="placeholder">
-        </div>
-      </div>
-    </section>
-
-    <section class="section container sponsors" id="section-2" style="margin-top:0;">
+    <section class="section alt-container sponsors" id="section-2" style="margin-top:0;">
       <h4 class="center-align">Nuestros Sponsors</h4>
       <div class="carousel" id="sponsors-carousel">
         <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-mercadolibre.png"></a>
@@ -128,6 +117,27 @@ include('templates/header.php');
         <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-clarin.png"></a>
         <a class="carousel-item" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-globant.png"></a>
       </div>
+    </section>
+
+    <section class="container section" id="section-4">
+
+      <div class="container" id="bootcamps-viejos">
+        <ul class="collapsible">
+            <li>
+                <div class="collapsible-header">Bootcamp 2020</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header">Bootcamp 2019</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header">Bootcamp 2018</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+        </ul>
+      </div>
+
     </section>
 
     <section class="alt-container section" id="section-4">

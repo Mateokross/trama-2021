@@ -11,14 +11,17 @@ $(window).on("load", function () {
       Materialize - materializecss.com
       ========================================================================== */
 
+  //COLLAPSIBLE
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
 
+  //bootcamp carousel
   $('#bootcamp-carousel').carousel({
     dist: 0,
     numVisible: 5,
     padding: 70
   });
-
-
 
   /* SPONSOR CAROUSEL */
   $('#sponsors-carousel').carousel({
