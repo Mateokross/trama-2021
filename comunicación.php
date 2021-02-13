@@ -3,13 +3,13 @@
 include('templates/header.php');
 
 ?>
-  <main class="club consultoria">
-    <section class="hero club consultoria">
+  <main class="club comunicacion">
+    <section class="hero club comunicacion">
       <div class="-blur">
         <div class="container">
           <div class="row valign-row-l" data-aos="fade-up">
             <div class="col s12 m12 l5">
-              <h1>Club Consultoría</h1>
+              <h1>Club Comunicación</h1>
               <h5>¿Te gusta resolver problemas? A través del Club Consultoría vas a conocer dicha industria, obteniendo herramientas y metodologías de distintos consultores para acercarse al mundo profesional. A lo largo del año se realizan eventos y actividades junto con las mejores consultoras para desarrollar tu potencial. ¡Te esperamos!</h5>
             </div>
             <div class="col s12 m12 l6 offset-l1">
@@ -153,7 +153,7 @@ include('templates/header.php');
           <div class="club-background-img"></div>
           <div class="club-background-color"><div class="club-text"><p>Emprendedores</p></div></div>
         </a>
-        <a href="#!" class="col s12 m6 l4 club consultoria">
+        <a href="#!" class="col s12 m6 l4 club comunicacion">
           <div class="club-background-img"></div>
           <div class="club-background-color"><div class="club-text"><p>Consultoría</p></div></div>
         </a>

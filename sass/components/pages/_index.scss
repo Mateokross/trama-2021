@@ -14,6 +14,8 @@
 }
 
 
+
+
 /* ==========================================================================
      Clubes (Index)
      ========================================================================== */
@@ -44,14 +46,14 @@
     left: 0;
     width: 100%;
     height: 100%;
-    filter: brightness(1.4);
+    // filter: brightness(1.4);
 }
 
 .clubs .club .club-background-color .club-text {
     width: 100%;
     height: 100%;
     display: flex;
-    background: rgba(0, 0, 0, 0.05);
+    // background: rgba(0, 0, 0, 0.05);
 }
 
 .clubs .club .club-text p {
@@ -65,7 +67,7 @@
 }
 
 .clubs .club.emprendedores .club-background-color {
-    background: rgba($club-emprendedores, 0.4);
+    background: rgba($club-emprendedores, 0.5);
 }
 
 .clubs .club.consultoria .club-background-img {
@@ -73,7 +75,7 @@
 }
 
 .clubs .club.consultoria .club-background-color {
-    background: rgba($club-consultoria, 0.4);
+    background: rgba($club-consultoria, 0.5);
 }
 
 .clubs .club.it .club-background-img {
@@ -81,7 +83,7 @@
 }
 
 .clubs .club.it .club-background-color {
-    background: rgba($club-it, 0.4);
+    background: rgba($club-it, 0.5);
 }
 
 .clubs .club.media .club-background-img {
@@ -89,7 +91,7 @@
 }
 
 .clubs .club.media .club-background-color {
-    background: rgba($club-media, 0.4);
+    background: rgba($club-media, 0.5);
 }
 
 .clubs .club.comunicacion .club-background-img {
@@ -97,7 +99,7 @@
 }
 
 .clubs .club.comunicacion .club-background-color {
-    background: rgba($club-comunicacion, 0.4);
+    background: rgba($club-comunicacion, 0.5);
 }
 
 .clubs .club.finanzas .club-background-img {
@@ -105,7 +107,7 @@
 }
 
 .clubs .club.finanzas .club-background-color {
-    background: rgba($club-finanzas, 0.4);
+    background: rgba($club-finanzas, 0.5);
 }
 
 

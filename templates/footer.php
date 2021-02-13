@@ -9,13 +9,23 @@
             <a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in" style="padding-left: 15px;"></i></a>
           </div>
         </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
+        <div class="col l3 s12">
+          <h5 class="white-text">Páginas</h5>
           <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="#!">Acerca</a></li>
+            <li><a href="index.php#acerca">Acerca</a></li>
             <li><a href="#!">Equipo</a></li>
-            <li><a href="club.php">Clubes</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Clubes</h5>
+          <ul>
+            <li><a href="emprendedores.php">Emprendedores</a></li>
+            <li><a href="consultoría.php">Consultoría</a></li>
+            <li><a href="finanzas.php">Finanzas</a></li>
+            <li><a href="it.php">IT</a></li>
+            <li><a href="media.php">Media</a></li>
+            <li><a href="comunicación.php">Comunicación</a></li>
           </ul>
         </div>
       </div>

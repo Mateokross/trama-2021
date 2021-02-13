@@ -13,12 +13,12 @@ include('templates/header.php');
           </div>
         </div>
       </div>
-      <a href="#section-1" class="arrow bounce"></a>
+      <a href="#acerca" class="arrow bounce"></a>
     </section>
 
 
 
-    <section class="container section quienes-somos" id="section-1">
+    <section class="container section quienes-somos" id="acerca">
       <div class="row valign-row-l" data-aos="fade-up">
         <div class="col s12 m12 l6 valign-wrapper">
           <h4>Acerca de Nosotros</h4>
@@ -33,8 +33,8 @@ include('templates/header.php');
     </section>
 
 
-    <section class="section alt-container sponsors" id="section-2" style="margin-bottom:0;">
-      <h4 class="center-align">Nuestros Sponsors</h4>
+    <section class="section alt-container sponsors"style="margin-bottom:0;">
+      <h4 class="center-align" >Nuestros Sponsors</h4>
       <div class="carousel" id="sponsors-carousel">
         <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-mercadolibre.png"></a>
         <a class="carousel-item" href="https://www.bancogalicia.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-galicia.png"></a>
@@ -45,7 +45,7 @@ include('templates/header.php');
     </section>
 
     
-    <section class="section container clubs" id="section-3">
+    <section class="section container clubs">
       <h4 style="margin-bottom:50px">Clubes</h4>
       <div class="row">
         <a href="club.php" class="col s12 m6 l4 club emprendedores">

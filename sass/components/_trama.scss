@@ -6,10 +6,13 @@
 h1,
 h2,
 h3,
-h4{
+h4 {
   font-weight: 700;
 }
 
+p, ul{
+  font-size: 18px;
+}
 
 // Links
 
@@ -94,21 +97,21 @@ body {
    Other tabs
    ========================================================================== */
 
-  //  .back {
-  //   margin-top: 2rem;
-  // }
-  
-  // .back a {
-  //   text-decoration: none;
-  //   font-size: 1.5em;
-  // }
-  
-  // .back a::before {
-  //   content: "< ";
-  // }
+//  .back {
+//   margin-top: 2rem;
+// }
+
+// .back a {
+//   text-decoration: none;
+//   font-size: 1.5em;
+// }
+
+// .back a::before {
+//   content: "< ";
+// }
 
 
-  
+
 /* ==========================================================================
    Cambios Materialize
    ========================================================================== */
@@ -150,4 +153,16 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/fondo-firefox.jpg) !important;
   } */
 
+}
+
+
+/* ==========================================================================
+   Links header
+   ========================================================================== */
+
+#section-1::before {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden;
 }

@@ -49,17 +49,17 @@
         <a id="logo-container" href="index.php" class="brand-logo"><img src="img/logo-negro.png" alt="Trama logo"></a>
       </li>
       <li><a href="index.php">Home</a></li>
-      <li><a href="index.php#section-1" class="section-link">Acerca</a></li>
+      <li><a href="index.php#acerca" class="section-link">Acerca</a></li>
       <li><a href="#!">Equipo</a></li>
       <li>
         <a href="club.php" class='dropdown-trigger section-link' data-target='dropdown'>Clubes</a>
         <ul id='dropdown' class='dropdown-content'>
-          <li><a href="club.php">Emprendedores</a></li>
-          <li><a href="club.php">Consultoría</a></li>
-          <li><a href="club.php">Finanzas</a></li>
-          <li><a href="club.php">IT</a></li>
-          <li><a href="club.php">Media</a></li>
-          <li><a href="club.php">Comunicación</a></li>
+          <li><a href="emprendedores.php">Emprendedores</a></li>
+          <li><a href="consultoría.php">Consultoría</a></li>
+          <li><a href="finanzas.php">Finanzas</a></li>
+          <li><a href="it.php">IT</a></li>
+          <li><a href="media.php">Media</a></li>
+          <li><a href="comunicación.php">Comunicación</a></li>
         </ul>
       </li>
       <li><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
@@ -76,12 +76,12 @@
           <li>
             <a href="club.php" class='dropdown-trigger section-link' data-target='dropdown'>Clubes</a>
             <ul id='dropdown' class='dropdown-content'>
-              <li><a href="club.php">Emprendedores</a></li>
-              <li><a href="club.php">Consultoría</a></li>
-              <li><a href="club.php">Finanzas</a></li>
-              <li><a href="club.php">IT</a></li>
-              <li><a href="club.php">Media</a></li>
-              <li><a href="club.php">Comunicación</a></li>
+              <li><a href="emprendedores.php">Emprendedores</a></li>
+              <li><a href="consultoría.php">Consultoría</a></li>
+              <li><a href="finanzas.php">Finanzas</a></li>
+              <li><a href="it.php">IT</a></li>
+              <li><a href="media.php">Media</a></li>
+              <li><a href="comunicación.php">Comunicación</a></li>
             </ul>
           </li>
           <li><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
