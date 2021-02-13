@@ -1,11 +1,11 @@
 .hero.bootcamp {
-  background-image: linear-gradient(rgba($club-emprendedores, 40), rgba($club-emprendedores, 40)), url(../img/bootcamp/_DSC2311.jpg);
+  background-image: linear-gradient(rgba($club-emprendedores, 0.4), rgba($club-emprendedores, 0.4)), url(../img/bootcamp/_DSC2311.jpg);
 }
 
   
 .anotate {
   font-weight: 900;
-  background-color: var(--bootcamp);
+  background-color: $club-emprendedores;
   color: white;
   transition: .5s;
   border: 2px solid transparent;
@@ -14,9 +14,9 @@
 }
 
 .anotate:hover {
-  border-color: var(--bootcamp);
+  border-color: $club-emprendedores;
   background-color: transparent;
-  color: var(--bootcamp);
+  color: $club-emprendedores;
   transition: .5s;
 }
 
@@ -34,7 +34,7 @@
 .opinion-card {
   width: 100%;
   height: 100%;
-  background-color: var(--secondary-color);
+  background-color: $secondary-color;
   border-radius: 5%;
   padding: 15px;
 
@@ -71,7 +71,7 @@
   width: 80%;
   max-width: 160px;
   border-radius: 50%;
-  background: var(--bootcamp);
+  background: $club-emprendedores;
   line-height: 0;
   position: relative;
   margin: auto;

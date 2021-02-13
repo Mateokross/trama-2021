@@ -1,7 +1,7 @@
   <footer class="page-footer">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
+        <div class="col l5 s12">
           <h5 class="white-text">Club Trama ITBA</h5>
           <p class="grey-text text-lighten-4">Acercando el mundo profesional a los estudiantes universitarios desde 2012.</p>
           <div class="socials">
@@ -9,12 +9,12 @@
             <a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in" style="padding-left: 15px;"></i></a>
           </div>
         </div>
-        <div class="col l3 s12">
+        <div class="col l3 offset-l1 s12">
           <h5 class="white-text">Páginas</h5>
           <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="index.php#acerca">Acerca</a></li>
-            <li><a href="#!">Equipo</a></li>
+            <li><a href="equipo.php">Equipo</a></li>
           </ul>
         </div>
         <div class="col l3 s12">

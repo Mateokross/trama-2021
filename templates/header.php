@@ -50,9 +50,9 @@
       </li>
       <li><a href="index.php">Home</a></li>
       <li><a href="index.php#acerca" class="section-link">Acerca</a></li>
-      <li><a href="#!">Equipo</a></li>
+      <li><a href="equipo.php">Equipo</a></li>
       <li>
-        <a href="club.php" class='dropdown-trigger section-link' data-target='dropdown'>Clubes</a>
+        <a href="#!" class='dropdown-trigger' data-target='dropdown'>Clubes</a>
         <ul id='dropdown' class='dropdown-content'>
           <li><a href="emprendedores.php">Emprendedores</a></li>
           <li><a href="consultoría.php">Consultoría</a></li>
@@ -72,9 +72,9 @@
         <ul class="right hide-on-med-and-down">
           <li><a href="index.php">Home</a></li>
           <li><a href="index.php#section-1" class="section-link">Acerca</a></li>
-          <li><a href="#!">Equipo</a></li>
+          <li><a href="equipo.php">Equipo</a></li>
           <li>
-            <a href="club.php" class='dropdown-trigger section-link' data-target='dropdown'>Clubes</a>
+            <a href="#!" class='dropdown-trigger' data-target='dropdown'>Clubes</a>
             <ul id='dropdown' class='dropdown-content'>
               <li><a href="emprendedores.php">Emprendedores</a></li>
               <li><a href="consultoría.php">Consultoría</a></li>

@@ -1,0 +1,24 @@
+.hero.equipo {
+    height: 70vh;
+    min-height: 670px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:992px) {
+    .hero.equipo {
+        height: 100vh;
+    }
+}
+
+.hero.equipo {
+    background-image: linear-gradient(rgba($primary-color, 0.4), rgba($primary-color, 0.4)), url(../img/equipo-2020.jpeg);
+}
+
+
+.equipo .team{
+    text-align:center;
+}
+
+.equipo .team-section.members-2 .row{
+    max-width: 750px;
+}

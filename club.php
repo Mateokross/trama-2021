@@ -34,10 +34,10 @@ include('templates/header.php');
             <p class="name">Lucas Cugitachi</p>
             <p class="position">Coordinador Emprendedores</p>
             <ul class="contact">
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fas fa-at"></i></a></li>
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
@@ -49,10 +49,10 @@ include('templates/header.php');
             <p class="name">Lucas Cugitachi</p>
             <p class="position">Coordinador Emprendedores</p>
             <ul class="contact">
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fas fa-at"></i></a></li>
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
@@ -64,10 +64,10 @@ include('templates/header.php');
             <p class="name">Lucas Cugitachi</p>
             <p class="position">Coordinador Emprendedores</p>
             <ul class="contact">
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fas fa-at"></i></a></li>
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
@@ -82,10 +82,10 @@ include('templates/header.php');
             <p class="name">Lucas Cugitachi</p>
             <p class="position">Coordinador Emprendedores</p>
             <ul class="contact">
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fas fa-at"></i></a></li>
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
@@ -97,10 +97,10 @@ include('templates/header.php');
             <p class="name">Lucas Cugitachi</p>
             <p class="position">Coordinador Emprendedores</p>
             <ul class="contact">
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fas fa-at"></i></a></li>
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
@@ -112,10 +112,10 @@ include('templates/header.php');
             <p class="name">Lucas Cugitachi</p>
             <p class="position">Coordinador Emprendedores</p>
             <ul class="contact">
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fas fa-at"></i></a></li>
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>

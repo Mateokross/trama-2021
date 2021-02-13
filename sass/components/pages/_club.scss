@@ -21,7 +21,7 @@
   }
   
   .hero.club.consultoria {
-    background-image: linear-gradient(rgba($club-consultoria, 0.4), rgba($club-consultoria, 0.4)), url(../img/placeholder.jpg);
+    background-image: linear-gradient(rgba($club-consultoria, 0.4), rgba($club-consultoria, 0.4)), url(../img/consultoría/hero-min.jpg);
   }
   
   .hero.club.it {
@@ -42,6 +42,17 @@
   
 
 
+/* ==========================================================================
+   Team
+   ========================================================================== */
+
+.club .container.section.team{
+  text-align: center;
+}
+
+.club .team-section.members-2 .row{
+  max-width: 750px;
+}
     
 /* ==========================================================================
    Main activity
