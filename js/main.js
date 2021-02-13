@@ -11,27 +11,17 @@ $(window).on("load", function () {
       Materialize - materializecss.com
       ========================================================================== */
 
-  //COLLAPSIBLE
-  $(document).ready(function(){
-    $('.collapsible').collapsible();
-  });
+  //Autoplay Carousel
+  var sponsorsCarousel = $('#sponsors-carousel');
+  var bootcampCarousel = $('#bootcamp-carousel');
 
-  //bootcamp carousel
-  $('#bootcamp-carousel').carousel({
-    dist: 0,
-    numVisible: 5,
-    padding: 70
-  });
-
-  /* SPONSOR CAROUSEL */
-  $('#sponsors-carousel').carousel({
-    dist: 0,
-    numVisible: 5,
-    padding: 70
-  });
-
-  /*autoplay*/
-  var instance = M.Carousel.getInstance($('#sponsors-carousel'));
+  //check if there's a carousel, if not dont set the instance
+  if(sponsorsCarousel.length > 0){
+    var instance = M.Carousel.getInstance(sponsorsCarousel);
+  }else if (bootcampCarousel.length > 0){
+    var instance = M.Carousel.getInstance(bootcampCarousel);
+  }
+  
   var play = 1;
 
   $('.carousel').hover(function () {
@@ -49,26 +39,6 @@ $(window).on("load", function () {
   }
 
   slide();
-
-    /*autoplay del oradores cards*/
-    var instance = M.Carousel.getInstance($('#bootcamp-carousel'));
-    var play = 1;
-  
-    $('.carousel').hover(function () {
-      play = false;
-    }, function () {
-      play = true;
-    });
-  
-    function slide2() {
-      setInterval(function () {
-        if (play) {
-          instance.next();
-        }
-      }, 4000);
-    }
-  
-    slide2();
   
   /* ==========================================================================
     Change header on scroll

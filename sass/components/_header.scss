@@ -1,0 +1,126 @@
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+header nav {
+  height: 0;
+  position: absolute;
+  z-index: 100;
+}
+
+header {
+  height: 115px;
+  padding-bottom: 99px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: inset 0px 90px 33px -22px rgba(0,0,0,0);
+  transition: all .4s ease;
+}
+
+header.shadow {
+  box-shadow: inset 0px 113px 20px -22px rgba(0,0,0,0.5);
+}
+
+@media only screen and (max-width:992px) {
+  header nav {
+    position: fixed !important;
+  }
+}
+
+header nav a {
+  color: white !important;
+}
+
+header nav i {
+  font-size: 27px;
+  height: 90px !important;
+  line-height: 90px !important;
+}
+
+/*dropdown*/
+.dropdown-trigger:focus {
+  color: white !important;
+}
+
+.dropdown-content li:hover,
+.dropdown-content li.active {
+  background-color: white;
+}
+
+.dropdown-content a {
+  color: $off-black !important;
+  font-size: 14px !important;
+}
+
+.dropdown-content li>a:hover,
+.dropdown-content li>span:hover {
+  color: $primary-color !important
+}
+
+.dropdown-trigger:focus {
+  outline: none;
+}
+
+/*nav on mobile*/
+
+#nav-mobile {
+  padding-top: 5%;
+}
+
+#nav-mobile li {
+  text-align: center;
+}
+
+#nav-mobile li:first-child {
+  padding-bottom: 40px;
+}
+
+
+.nav-wrapper {
+  color: #fafafa;
+}
+
+nav .brand-logo {
+  height: 90px;
+}
+
+.brand-logo img {
+  height: 90px;
+  padding: 15px 0;
+}
+
+#nav-mobile i {
+  float: none;
+  margin: 0;
+  font-size: 27px;
+  color: rgba(0, 0, 0, 0.87);
+  transition: all .4s ease;
+}
+
+#nav-mobile i:hover {
+  color: $primary-color;
+}
+
+/*titles*/
+
+nav ul a,
+ul.sidenav a {
+  transition: all .4s ease;
+
+}
+
+nav ul a,
+nav ul li,
+nav .sidenav-trigger i {
+  line-height: 90px;
+}
+
+nav ul a:hover,
+ul.sidenav a:hover {
+  /*removes materialize style*/
+  background-color: rgba(0, 0, 0, 0);
+  /*new style*/
+  color: $primary-color;
+
+}

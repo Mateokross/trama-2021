@@ -1,0 +1,53 @@
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+  /*págnias de clubes*/
+  .hero.club {
+    height: 70vh;
+    min-height: 670px;
+    overflow: hidden;
+  }
+  
+  @media only screen and (max-width:992px) {
+    .hero.club {
+      height: 100vh;
+    }
+  }
+  
+  .hero.club.emprendedores {
+    background-image: linear-gradient(rgba($club-emprendedores, 0.4), rgba($club-emprendedores, 0.4)), url(../img/bootcamp/_DSC2311.jpg);
+    
+  }
+  
+  .hero.club.consultoria {
+    background-image: linear-gradient(rgba($club-consultoria, 0.4), rgba($club-consultoria, 0.4)), url(../img/placeholder.jpg);
+  }
+  
+  .hero.club.it {
+    background-image: linear-gradient(rgba($club-it, 0.4), rgba($club-it, 0.4)), url(../img/placeholder.jpg);
+  }
+  
+  .hero.club.media {
+    background-image: linear-gradient(rgba($club-media, 0.4), rgba($club-media, 0.4)), url(../img/placeholder.jpg);
+  }
+  
+  .hero.club.comunicacion {
+    background-image: linear-gradient(rgba($club-comunicacion, 0.4), rgba($club-comunicacion, 0.4)), url(../img/placeholder.jpg);
+  }
+  
+  .hero.club.finanzas {
+    background-image: linear-gradient(rgba($club-finanzas, 0.4), rgba($club-finanzas, 0.4)), url(../img/placeholder.jpg);
+  }
+  
+
+
+  
+/* ==========================================================================
+   Sponsor Club
+   ========================================================================== */
+
+.sponsor img {
+    width: 200px;
+    height: 200px;
+  }

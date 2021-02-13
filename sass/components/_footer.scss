@@ -1,0 +1,34 @@
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.page-footer{
+  background: $footer-color;
+}
+
+.page-footer>.container {
+  padding-bottom: 20px;
+}
+
+footer li,
+footer p,
+footer {
+  font-size: 1rem;
+}
+
+footer li {
+  margin-bottom: 8px;
+}
+
+footer a {
+  color: white!important;
+}
+
+footer i {
+  font-size: 27px;
+}
+
+/* footer copyright */
+.footer-copyright {
+  background-color: rgba(0, 0, 0, 0.18) !important;
+}

@@ -1,0 +1,153 @@
+// ==========================================================================
+// Trama Specific General Styles
+// ==========================================================================
+//typography
+
+h1,
+h2,
+h3,
+h4{
+  font-weight: 700;
+}
+
+
+// Links
+
+a:not(.carousel-item) {
+  color: $off-black;
+  transition: all .4s ease;
+}
+
+
+a:hover,
+a:focus,
+a:active {
+  color: $primary-color !important;
+}
+
+
+/*Smooth scrolling*/
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* ==========================================================================
+   Secciones General
+   ========================================================================== */
+
+body {
+  background-color: #fafafa;
+}
+
+.container.section {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+
+.alt-container.section {
+  padding: 3.5em 0;
+  overflow: hidden;
+  background-color: $secondary-color;
+}
+
+.alt-container.section .row {
+  width: 90%;
+  max-width: 1280px;
+}
+
+.alt-container.section.wide .row {
+  width: 90%;
+  max-width: 1920px;
+}
+
+
+@media only screen and (min-width: 901px) {
+  .reversed {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+
+.valign-row-l,
+.valign-row-m {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width:992px) {
+  .valign-row-l {
+    display: block;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .valign-row-m {
+    display: block;
+  }
+}
+
+
+/* ==========================================================================
+   Other tabs
+   ========================================================================== */
+
+  //  .back {
+  //   margin-top: 2rem;
+  // }
+  
+  // .back a {
+  //   text-decoration: none;
+  //   font-size: 1.5em;
+  // }
+  
+  // .back a::before {
+  //   content: "< ";
+  // }
+
+
+  
+/* ==========================================================================
+   Cambios Materialize
+   ========================================================================== */
+
+.row {
+  margin-bottom: 0;
+}
+
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+@media only screen and (max-width:901px) {
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.valign-wrapper {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.responsive-img {
+  display: block;
+  margin: auto;
+}
+
+
+/* ==========================================================================
+   Browser Fixes
+   ========================================================================== */
+/* Firefox */
+
+@-moz-document url-prefix() {
+  /* .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/fondo-firefox.jpg) !important;
+  } */
+
+}

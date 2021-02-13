@@ -34,8 +34,8 @@
     integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/materialize.min.js"></script>
-  <script src="js/main.js?v=0.1"></script>
-  <script src="js/init.js?v=0.1"></script>
+  <script src="js/main.js"></script>
+  <script src="js/init.js"></script>
 
 </body>
 

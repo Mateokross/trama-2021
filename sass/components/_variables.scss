@@ -34,11 +34,21 @@
 // 1. Colors
 // ==========================================================================
 
-$primary-color: #de4343 !default;
-$primary-color-light: lighten($primary-color, 15%) !default;
-$primary-color-dark: darken($primary-color, 15%) !default;
+$primary-color: #b79dc4 !default;
+$primary-color-light: #e7cbf5 !default;
+$primary-color-dark: #897294 !default;
+$secondary-color: #e5e5e5 !default;
+$footer-color: #4c4e56 !default;
+$club-consultoria: #9C2830 !default;
+$club-comunicacion: #344A8B !default;
+$club-it: #d6b33f !default;
+$club-media: #a274b8 !default;
+$club-finanzas: #518D4B !default;
+$club-emprendedores: #D35931 !default;
+$text-color: rgba(0, 0, 0, .87);
 
-$secondary-color: #4c4e56 !default;
+
+
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
 $link-color: color("light-blue", "darken-1") !default;
@@ -308,8 +318,7 @@ $toast-action-color: #eeff41;
 // 20. Typography
 // ==========================================================================
 
-$font-stack: 'Montserrat',
-sans-serif !default;
+$font-stack: 'Montserrat', sans-serif !default;
 $off-black: rgba(0, 0, 0, 0.87) !default;
 // Header Styles
 $h1-fontsize: 4.2rem !default;

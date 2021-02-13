@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+// Variables;
+@import "components/materialize/color-variables";
+@import "components/variables";
+
+// Reset
+@import "components/materialize/normalize";
+
+// Base
+@import "components/materialize/global";
+@import "components/typography";
+@import "components/trama";
+
+// components
+@import "components/materialize/grid";
+@import "components/materialize/navbar";
+@import "components/materialize/sidenav";
+@import "components/materialize/carousel";
+@import "components/materialize/slider";
+@import "components/materialize/buttons";
+@import "components/materialize/dropdown";
+@import "components/plugins/timeline";
+@import "components/footer";
+@import "components/header";
+@import "components/hero";
+@import "components/preloader";
+@import "components/sponsor-slider";
+
+
+//pages
+@import "components/pages/club";
+@import "components/pages/bootcamp";
+@import "components/pages/index";
+
+
+
+// @import "components/materialize/color-variables";
+// @import "components/materialize/color-classes";
+// @import "components/materialize/global";
+// @import "components/materialize/badges";
+// @import "components/materialize/icons-material-design";
+// @import "components/materialize/grid";
+// @import "components/materialize/navbar";
+// @import "components/materialize/typography";
+// @import "components/materialize/transitions";
+// @import "components/materialize/cards";
+// @import "components/materialize/toast";
+// @import "components/materialize/tabs";
+// @import "components/materialize/tooltip";
+// @import "components/materialize/buttons";
+// @import "components/materialize/dropdown";
+// @import "components/materialize/waves";
+// @import "components/materialize/modal";
+// @import "components/materialize/collapsible";
+// @import "components/materialize/chips";
+// @import "components/materialize/materialbox";
+// @import "components/materialize/forms/forms";
+// @import "components/materialize/table_of_contents";
+// @import "components/materialize/sidenav";
+// @import "components/materialize/preloader";
+// @import "components/materialize/slider";
+// @import "components/materialize/carousel";
+// @import "components/materialize/tapTarget";
+// @import "components/materialize/pulse";
+// @import "components/materialize/datepicker";
+// @import "components/materialize/timepicker";
