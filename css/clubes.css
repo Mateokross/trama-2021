@@ -1,142 +1,97 @@
-/*Color*/
-:root {
-    --accent-color: #b79dc4;
-    --accent-color-darker: #897294;
-    --accent-color-lighter: #e7cbf5;
-    --secondary-color: #e5e5e5;
-    --footer-color: #4c4e56;
-    --club-consultoría: #9C2830;
-    --club-comunicación: #344A8B;
-    --club-it: #CEB64F;
-    --club-media: #344A8B;
-    --club-finanzas: #518D4B;
-    --club-emprendedores: #D35931;
-  
-  }
-
-/*Font*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-body,
-button,
-input,
-select,
-textarea,
-p,
-li,
-a {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+.pro-card *,
+.pro-card:after,
+.pro-card:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 700;
+.pro-card {
+    width: 300px;
+    padding: 10%;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: 100% auto;
+    background-color: #fafafa;
+    background-blend-mode: hard-light;
+    transition: all 0.4s ease-out;
+    position: relative;
+    overflow: hidden;
 }
 
-p,
-li {
-  font-size: 18px;
+.pro-card img {
+    max-width: 100%;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.4s ease-out;
+    transform-origin: top;
+    position: relative;
+    z-index: 1;
 }
 
-a:not(.carousel-item) {
-  color: white;
-  transition: all .4s ease;
+.pro-card a {
+    color: black;
 }
 
-
-a:hover {
-  color: var(--accent-color);
+.pro-card:hover {
+    background-position: 0 -50%
 }
 
-
-.pro-card *, .pro-card:after, .pro-card:before{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
+.pro-card:hover img {
+    transform: scale(0.5);
 }
 
-.pro-card{
-	width: 300px;
-	padding: 10%;
-	background: url(../images/bg.jpg) no-repeat;
-	background-size:100% auto;
-	background-color: #fafafa;
-	background-blend-mode: hard-light;  
-	transition: all 0.4s ease-out;
-	position: relative;
-	overflow: hidden;
+.pro-card .description {
+    color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10%;
+    font-size: 18px;
+    text-align: center;
 }
-.pro-card img{
-  max-width: 100%;
-	border-radius: 50%;
-	display: block;
-	transition: all 0.4s ease-out;
-	transform-origin: top;
-	position: relative;
-	z-index: 1;
+
+.pro-card .description h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    transition: all 0.4s ease-out;
+    transform: translateX(-150%);
 }
-.pro-card a{
-  color:black;
+
+.pro-card .description p {
+    margin-bottom: 0px;
+    transition: all 0.4s ease-out;
+    transform: translateX(150%);
 }
-.pro-card:hover{
-	background-position: 0 -50%
+
+.pro-card .description p a {
+    padding: 0 5px;
+    margin-bottom: 0px;
 }
-.pro-card:hover img{
-	transform: scale(0.5);
+
+.pro-card:hover .description h3 {
+    transform: translateX(0%);
 }
-.pro-card .description{
-	color: black;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	padding: 10%;
-	font-size: 18px;
-	text-align: center;
-}
-.pro-card .description h3{
-	text-transform: uppercase;
-	font-size: 24px;
-	text-align: center;
-	transition: all 0.4s ease-out;
-	transform: translateX(-150%);
-}
-.pro-card .description p{
-	margin-bottom: 0px;
-	transition: all 0.4s ease-out;
-	transform: translateX(150%);
-}
-.pro-card .description p a{
-  padding:0 5px;
-	margin-bottom: 0px;
-}
-.pro-card:hover .description h3{
-	transform: translateX(0%);
-}
-.pro-card:hover .description p{
-	transform: translateX(0%);
+
+.pro-card:hover .description p {
+    transform: translateX(0%);
 }
 
 
 @media screen and (max-width: 600px) {
-	.pro-card{
-		max-width: 90%;
-	}
-	.pro-card .description h3{
-		margin-bottom: 0px;
-		font-size: 14px;
-	}
+    .pro-card {
+        max-width: 90%;
+    }
 
-	.pro-card p{
-		margin-top: 0px;
-		font-size: 12px;
-	}
+    .pro-card .description h3 {
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+
+    .pro-card p {
+        margin-top: 0px;
+        font-size: 12px;
+    }
 }

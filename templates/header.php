@@ -9,7 +9,7 @@
   <!-- custom -->
   <title>Club Trama</title>
   <!-- Cambiar -->
-  <meta name="description" content="----aca va la desc----">
+  <meta name="description" content="Acercando el mundo profesional a los estudiantes universitarios desde 2012">
   <link rel="shortcut icon" href="trama.ico" />
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">

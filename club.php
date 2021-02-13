@@ -10,7 +10,7 @@ include('templates/header.php');
           <div class="row valign-row-l" data-aos="fade-up">
             <div class="col s12 m12 l5">
               <h1>Club Consultoría</h1>
-              <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minus eveniet quia dolor quasi ipsa nobis voluptatum, error architecto dolore facilis expedita id, repudiandae unde doloremque iure ut provident? Tenetur!</h5>
+              <h5>¿Te gusta resolver problemas? A través del Club Consultoría vas a conocer dicha industria, obteniendo herramientas y metodologías de distintos consultores para acercarse al mundo profesional. A lo largo del año se realizan eventos y actividades junto con las mejores consultoras para desarrollar tu potencial. ¡Te esperamos!</h5>
             </div>
             <div class="col s12 m12 l6 offset-l1">
               <img src="img/placeholder.jpg" class="responsive-img" alt="placeholder">
@@ -76,14 +76,14 @@ include('templates/header.php');
 
     <section class="alt-container section" id="section-2">
       <div class="container">
-        <h4 style="margin-bottom:50px">La actividad principal</h4>
+        <h4 style="margin-bottom:50px">Consulting Prep Club</h4>
       </div>
       <div class="row valign-row-l" data-aos="fade-up">
         <div class="col s12 m12 l6">
           <img src="img/placeholder.jpg" class="responsive-img" alt="placeholder">
         </div>
         <div class="col s12 m12 l6">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cupiditate, non pariatur a iste nemo atque obcaecati accusamus laboriosam maxime similique distinctio fugit enim. Enim labore laborum et officia harum?</p>
+          <p>¿Te gustaría entrar en Bain, McKinsey o BCG? Consulting Prep Club es una comunidad de alumnos que se preparan para los procesos de recruiting de las grandes consultoras. Se realizan prácticas semanales de Case Interviews junto con consultores que aportan su experiencia y feedback. ¡Estás un paso más cerca! </p>
         </div>
       </div>
     </section>
@@ -92,7 +92,7 @@ include('templates/header.php');
     <section class="container section center" id="section-3">
       <h4>Nuestro Sponsor</h4>
       <a class="sponsor" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png" class="responsive-img"></a>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In maxime placeat assumenda eum porro sequi perferendis reprehenderit sed est, distinctio dolorum vel a sint ullam quasi minima eligendi dolorem. Ea?</p>
+      <p>Bain & Company es una de las “Big Three” consultoras estratégicas. Fundada en 1973, cuenta con más de 50 oficinas distribuidas por el mundo. Se distingue por su mentalidad innovadora, integral y colaborativa. ¿Querés saber más? Entrá a <a href="https://www.bain.com/" target="_blank" rel="noreferrer">bain.com</a>.</p>
     </section>
 
     

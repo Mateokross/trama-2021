@@ -11,20 +11,20 @@
     --club-finanzas: #518D4B;
     --club-emprendedores: #D35931;
     --bootcamp: #FF8004;
-  
-  }
 
-.anotate{
+}
+
+.anotate {
     font-weight: 900;
     background-color: var(--bootcamp);
     color: white;
     transition: .5s;
     border: 2px solid transparent;
-    
+
     cursor: pointer;
 }
 
-.anotate:hover{
+.anotate:hover {
     border-color: var(--bootcamp);
     background-color: transparent;
     color: var(--bootcamp);
@@ -35,14 +35,14 @@
 
 #que-es-bc .carousel {
     height: 250px;
-  }
-  
+}
+
 #que-es-bc .carousel .carousel-item {
     width: 300px;
     height: 250px;
-  }
+}
 
-.opinion-card{
+.opinion-card {
     width: 100%;
     height: 100%;
     background-color: var(--secondary-color);
@@ -50,18 +50,21 @@
     padding: 15px;
 
 }
-.opinion-img{
+
+.opinion-img {
     height: 75px;
     width: 75px;
     border-radius: 50%;
 
 }
-.opinion-card h5{
+
+.opinion-card h5 {
     margin-top: 5px;
     margin-bottom: 10px;
     color: black;
 }
-.opinion-card p{
+
+.opinion-card p {
     margin-top: 5px;
     margin-bottom: 5px;
     font-style: italic;
@@ -70,12 +73,12 @@
 
 
 /* CIRCULOS CON STATS*/
-.stats-card{
+.stats-card {
     display: block;
     height: 290px;
 }
 
-.stats-circle{
+.stats-circle {
     width: 80%;
     max-width: 160px;
     border-radius: 50%;
@@ -84,14 +87,15 @@
     position: relative;
     margin: auto;
 }
+
 /* para que sea responsive*/
 .stats-circle::after {
     content: "";
     display: block;
     padding-bottom: 100%;
-  }
+}
 
-.circle-text{
+.circle-text {
     font-size: 64px;
     position: absolute;
     bottom: 50%;
@@ -101,6 +105,6 @@
     color: white;
 }
 
-#section-3 h4{
-    font-size: 24px;
+#section-3 h4 {
+    /* font-size: 24px; */
 }
