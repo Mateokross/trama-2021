@@ -47,6 +47,7 @@ include('templates/header.php');
 
     <?php 
 
+    $index = 1;
     include('templates/clubes.php');
 
     ?>

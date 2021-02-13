@@ -1,4 +1,5 @@
-<section class="section alt-container clubs">
+
+<section class="section <?php echo isset($index) ? "container" : "alt-container"?> clubs">
   <div class="container">
     <h4 style="margin-bottom:50px">Clubes</h4>
   </div>
