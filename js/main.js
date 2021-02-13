@@ -46,16 +46,18 @@ $(window).on("load", function () {
     var header = $("header");
     var navLinks = $("nav ul li a.section-link");
     var win = $(window);
-    var winH = win.height();   // Get the window height.
+    // var winH = win.height();   // Get the window height.
+    var heroH = $(".hero").height(); //Get the hero height
 
     win.on("scroll", function () {
-        if ($(this).scrollTop() > winH ) {
+        if ($(this).scrollTop() > heroH ) {
           header.addClass("shadow");
         } else {
           header.removeClass("shadow");
         }
     }).on("resize", function(){ // If the user resizes the window
-       winH = $(this).height(); // you'll need the new height value
+      //  winH = $(this).height(); // you'll need the new height value
+       heroH = $(".hero").height();
     });
     navLinks.on("click", function () {
         setTimeout(() => {  header.addClass("shadow"); }, 1000);

@@ -3,7 +3,7 @@
 include('templates/header.php');
 
 ?>
-  <main>
+  <main class="club consultoria">
     <section class="hero club consultoria">
       <div class="-blur">
         <div class="container">
@@ -22,59 +22,60 @@ include('templates/header.php');
 
 
 
-    <section class="container section" id="section-1">
+    <section class="container section team" id="section-1">
       <h4 style="padding-bottom:20px;">Team</h4>
 
     <div class="row valign-row-l" data-aos="fade-up">
 
-      <div class="col s6 m6 l4">
-
-        <div class="pro-card">
-          <img src="img/placeholder2.jpg">
-          <div class="description">
-            <h3>Lucas Jorge Cugitachi</h3>
-            <p>Coordinador
-              <br>
-            <a href="#!"><i class="fa fa-envelope"></i></a>
-            <a href="#!"><i class="fab fa-linkedin"></i></a>
-            </p>
+      <div class="col s12 m6 l4 member-card-container">
+        <div class="member-card">
+          <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
+            <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
           </div>
+          <p class="name">Lucas Cugitachi</p>
+          <p class="position">Coordinador Emprendedores</p>
+          <ul class="contact">
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fas fa-at"></i></a></li>
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
         </div>
       </div>
-
-      <div class="col s6 m6 l4">
-
-        <div class="pro-card">
-          <img src="img/placeholder2.jpg">
-          <div class="description">
-            <h3>Lucas Jorge Cugitachi</h3>
-            <p>Coordinador
-              <br>
-            <a href="#!"><i class="fa fa-envelope"></i></a>
-            <a href="#!"><i class="fab fa-linkedin"></i></a>
-            </p>
+      <div class="col s12 m6 l4 member-card-container">
+        <div class="member-card">
+          <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
+            <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
           </div>
+          <p class="name">Lucas Cugitachi</p>
+          <p class="position">Coordinador Emprendedores</p>
+          <ul class="contact">
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fas fa-at"></i></a></li>
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
         </div>
       </div>
-
-      <div class="col s6 m6 l4">
-
-        <div class="pro-card">
-          <img src="img/placeholder2.jpg">
-          <div class="description">
-            <h3>Lucas Jorge Cugitachi</h3>
-            <p>Coordinador
-              <br>
-            <a href="#!"><i class="fa fa-envelope"></i></a>
-            <a href="#!"><i class="fab fa-linkedin"></i></a>
-            </p>
+      <div class="col s12 m6 l4 member-card-container">
+        <div class="member-card">
+          <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
+            <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
           </div>
+          <p class="name">Lucas Cugitachi</p>
+          <p class="position">Coordinador Emprendedores</p>
+          <ul class="contact">
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fas fa-at"></i></a></li>
+            <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
         </div>
       </div>
 
     </section>
 
-    <section class="alt-container section" id="section-2">
+    <section class="alt-container section main-activity" id="section-2">
       <div class="container">
         <h4 style="margin-bottom:50px">Consulting Prep Club</h4>
       </div>
@@ -89,7 +90,7 @@ include('templates/header.php');
     </section>
 
 
-    <section class="container section center" id="section-3">
+    <section class="container section center sponsor" id="section-3">
       <h4>Nuestro Sponsor</h4>
       <a class="sponsor" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png" class="responsive-img"></a>
       <p>Bain & Company es una de las “Big Three” consultoras estratégicas. Fundada en 1973, cuenta con más de 50 oficinas distribuidas por el mundo. Se distingue por su mentalidad innovadora, integral y colaborativa. ¿Querés saber más? Entrá a <a href="https://www.bain.com/" target="_blank" rel="noreferrer">bain.com</a>.</p>
@@ -105,7 +106,7 @@ include('templates/header.php');
           <div class="club-background-img"></div>
           <div class="club-background-color"><div class="club-text"><p>Emprendedores</p></div></div>
         </a>
-        <a href="#!" class="col s12 m6 l4 club consultoría">
+        <a href="#!" class="col s12 m6 l4 club consultoria">
           <div class="club-background-img"></div>
           <div class="club-background-color"><div class="club-text"><p>Consultoría</p></div></div>
         </a>
