@@ -6,7 +6,7 @@ include('templates/header.php');
 
 
 
-$api_url = 'http://localhost/trama-2021/admin/api/collections/get/eventos';
+$api_url = 'http://trama.mateokrossler.com/admin/api/collections/get/eventos';
 
 // Read JSON file
 $json_data = file_get_contents($api_url);
