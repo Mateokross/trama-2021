@@ -75,32 +75,32 @@ include('templates/header.php');
             <div class="stats-circle">
               <div class="circle-text">7</div>
             </div>
-            <h4>Años</h4>
-            <p>Construyendo el mundo emprendedor</p>
+            <h4>Ediciones</h4>
+            <p></p>
           </div>
 
           <div class="col s6 m3 l3 center-align stats-card">
             <div class="stats-circle">
-              <div class="circle-text">120</div>
+              <div class="circle-text">21</div>
+            </div>
+            <h4>Proyectos Ganadores</h4>
+            <p></p>
+          </div>
+
+          <div class="col s6 m3 l3 center-align stats-card">
+            <div class="stats-circle">
+              <div class="circle-text" style="font-size:58px;">+630</div>
             </div>
             <h4>Participantes</h4>
-            <p>De toda latinoamerica</p>
+            <p></p>
           </div>
 
           <div class="col s6 m3 l3 center-align stats-card">
             <div class="stats-circle">
-              <div class="circle-text">15</div>
+              <div class="circle-text" style="font-size:58px;">+120</div>
             </div>
-            <h4>finalistas</h4>
-            <p>acompañados por los mejores profesionales</p>
-          </div>
-
-          <div class="col s6 m3 l3 center-align stats-card">
-            <div class="stats-circle">
-              <div class="circle-text">800</div>
-            </div>
-            <h4>fenomenos</h4>
-            <p>Construyendo el mundo emprendedor</p>
+            <h4>Proyectos de impacto</h4>
+            <p></p>
           </div>
 
         </div> 
@@ -112,10 +112,10 @@ include('templates/header.php');
       <h4 class="center-align">Nuestros Sponsors</h4>
       <div class="carousel" id="sponsors-carousel">
         <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-mercadolibre.png"></a>
-        <a class="carousel-item" href="https://www.bancogalicia.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-galicia.png"></a>
-        <a class="carousel-item" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png"></a>
-        <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-clarin.png"></a>
-        <a class="carousel-item" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-globant.png"></a>
+        <a class="carousel-item" href="https://www.cerveceriaymalteriaquilmes.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-quilmes.png"></a>
+        <a class="carousel-item" href="https://www.swissmedical.com.ar/prepagaclientes/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-swiss.png"></a>
+        <a class="carousel-item" href="https://www.nestle.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-nestle.png"></a>
+        <a class="carousel-item" href="https://aws.amazon.com/es/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-aws.png"></a>
       </div>
     </section>
 

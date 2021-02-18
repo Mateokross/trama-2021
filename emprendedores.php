@@ -26,13 +26,13 @@ include('templates/header.php');
       <h4 style="padding-bottom:20px;">Team</h4>
       <!-- ROW -->
       <div class="row valign-row-l" data-aos="fade-up">
-        <div class="col s12 m6 l4 member-card-container">
+        <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
               <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
             </div>
             <p class="name">Lucas Cugitachi</p>
-            <p class="position">Coordinador Emprendedores</p>
+            <p class="position">Coordinador</p>
             <ul class="contact">
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
@@ -41,28 +41,13 @@ include('templates/header.php');
             </ul>
           </div>
         </div>
-        <div class="col s12 m6 l4 member-card-container">
+        <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
               <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
             </div>
-            <p class="name">Lucas Cugitachi</p>
-            <p class="position">Coordinador Emprendedores</p>
-            <ul class="contact">
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col s12 m6 l4 member-card-container">
-          <div class="member-card">
-            <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
-              <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
-            </div>
-            <p class="name">Lucas Cugitachi</p>
-            <p class="position">Coordinador Emprendedores</p>
+            <p class="name">Camila Howlin</p>
+            <p class="position">Coordinadora</p>
             <ul class="contact">
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
@@ -79,8 +64,8 @@ include('templates/header.php');
             <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
               <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
             </div>
-            <p class="name">Lucas Cugitachi</p>
-            <p class="position">Coordinador Emprendedores</p>
+            <p class="name">Martin Nieponice</p>
+            <p class="position">Head of Workshops</p>
             <ul class="contact">
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
@@ -94,8 +79,8 @@ include('templates/header.php');
             <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
               <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
             </div>
-            <p class="name">Lucas Cugitachi</p>
-            <p class="position">Coordinador Emprendedores</p>
+            <p class="name">Felipe Gutiérrez</p>
+            <p class="position">Head of Workshops</p>
             <ul class="contact">
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
@@ -109,8 +94,89 @@ include('templates/header.php');
             <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
               <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
             </div>
-            <p class="name">Lucas Cugitachi</p>
-            <p class="position">Coordinador Emprendedores</p>
+            <p class="name">Malena Vasquez</p>
+            <p class="position">Head of Workshops</p>
+            <ul class="contact">
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- ROW -->
+      <div class="row valign-row-l" data-aos="fade-up">
+        <div class="col s12 m6 l4 member-card-container">
+          <div class="member-card">
+            <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
+              <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
+            </div>
+            <p class="name">Juan Diego Alcocer</p>
+            <p class="position">Head of Fundraising</p>
+            <ul class="contact">
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 member-card-container">
+          <div class="member-card">
+            <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
+              <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
+            </div>
+            <p class="name">Conrado Valenzuela</p>
+            <p class="position">Head of Fundraising</p>
+            <ul class="contact">
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 member-card-container">
+          <div class="member-card">
+            <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
+              <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
+            </div>
+            <p class="name">Nicolás Bukschtein</p>
+            <p class="position">Head of Fundraising</p>
+            <ul class="contact">
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+            <!-- ROW -->
+            <div class="row valign-row-l" data-aos="fade-up">
+        <div class="col s12 m6 l6 member-card-container">
+          <div class="member-card">
+            <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
+              <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
+            </div>
+            <p class="name">Luciana Gesusmaria</p>
+            <p class="position">Head of Recruiting</p>
+            <ul class="contact">
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col s12 m6 l6 member-card-container">
+          <div class="member-card">
+            <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
+              <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
+            </div>
+            <p class="name">Juan Ignacio Reig</p>
+            <p class="position">Head of Recruiting</p>
             <ul class="contact">
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
               <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
@@ -139,8 +205,8 @@ include('templates/header.php');
 
     <section class="container section center sponsor" >
       <h4>Nuestro Sponsor</h4>
-      <a class="sponsor" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png" class="responsive-img"></a>
-      <p>Bain & Company es una de las “Big Three” consultoras estratégicas. Fundada en 1973, cuenta con más de 50 oficinas distribuidas por el mundo. Se distingue por su mentalidad innovadora, integral y colaborativa. ¿Querés saber más? Entrá a <a href="https://www.bain.com/" target="_blank" rel="noreferrer">bain.com</a>.</p>
+      <a class="sponsor" href="https://www.mercadolibre.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-mercadolibre.png" class="responsive-img"></a>
+      <p>La compañía lider de e-commerce y fintech de América Latina. Que construye un ecosistema emprendedor que está democratizando el comercio, el dinero y los pagos facilitando el poder de emprender a millones de personas en América Latina.</p>
     </section>
 
         
