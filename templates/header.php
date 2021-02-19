@@ -23,7 +23,6 @@
 
   <!-- fuente/s  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <!-- css -->
   <link href="css/materialize.css?v=0.1" type="text/css" rel="stylesheet" media="screen,projection" />
