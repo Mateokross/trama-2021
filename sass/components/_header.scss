@@ -32,6 +32,10 @@ header nav a {
   color: white !important;
 }
 
+header nav a:hover,header nav a:focus {
+  color: $primary-color!important;
+}
+
 header nav i {
   font-size: 27px;
   height: 90px !important;

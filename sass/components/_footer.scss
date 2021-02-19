@@ -24,6 +24,10 @@ footer a {
   color: white!important;
 }
 
+footer a:hover,footer a:focus {
+  color: $primary-color!important;
+}
+
 footer i {
   font-size: 27px;
 }

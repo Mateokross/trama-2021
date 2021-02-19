@@ -122,7 +122,7 @@ include('templates/header.php');
     <section class="container section" id="section-4">
 
       <div class="container" id="bootcamps-viejos">
-        <ul class="collapsible">
+        <ul class="collapsible bootcamps-viejos">
             <li>
                 <div class="collapsible-header">Bootcamp 2020</div>
                 <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -143,6 +143,20 @@ include('templates/header.php');
     <section class="alt-container section" id="section-4">
       <div class="container">
         <h3 style="margin-bottom:50px">FAQ</h3>
+        <ul class="collapsible faq">
+            <li>
+                <div class="collapsible-header">Bootcamp 2020</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header">Bootcamp 2019</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header">Bootcamp 2018</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+        </ul>
       </div>
     </section>
 

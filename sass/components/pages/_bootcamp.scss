@@ -32,7 +32,7 @@
   width: 100%;
   height: 100%;
   background-color: $secondary-color;
-  border-radius: 5%;
+  // border-radius: 5%;
   padding: 15px;
   cursor: default;
 
@@ -115,20 +115,43 @@
   box-shadow: none;
 }
 
-.collapsible-header {
+//viejos
+.bootcamps-viejos .collapsible-header {
   background-color: #fafafa;
   transition: background-color .4s ease, color .4s ease;
   font-size: 1.6rem;
 }
 
-.collapsible li:hover .collapsible-header {
+.collapsible.bootcamps-viejos  li:hover .collapsible-header {
   background-color: #f5f5f5;
 }
 
-.collapsible li:hover .collapsible-header {
+.collapsible.bootcamps-viejos  li:hover .collapsible-header {
   color: $club-emprendedores;
 }
 
-.collapsible-header span {
+.bootcamps-viejos .collapsible-header span {
+  transition: color .4s ease;
+}
+
+//faq
+.faq .collapsible-body{
+  background-color: #f5f5f5;
+}
+.faq .collapsible-header, {
+  background-color: #f5f5f5;
+  transition: background-color .4s ease, color .4s ease;
+  font-size: 1.6rem;
+}
+
+.collapsible.faq  li:hover .collapsible-header {
+  background-color: #fafafa;
+}
+
+.collapsible.faq  li:hover .collapsible-header {
+  color: $club-emprendedores;
+}
+
+.faq .collapsible-header span {
   transition: color .4s ease;
 }
