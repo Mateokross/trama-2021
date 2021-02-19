@@ -4,20 +4,17 @@
 
   
 .anotate {
-  font-weight: 900;
+  font-weight: 700;
   background-color: $club-emprendedores;
-  color: white;
-  transition: .5s;
-  border: 2px solid transparent;
-
-  cursor: pointer;
+  color: white!important;
+  transition: all .4s ease;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .anotate:hover {
-  border-color: $club-emprendedores;
-  background-color: transparent;
-  color: $club-emprendedores;
-  transition: .5s;
+  background-color: $club-emprendedores-light
+  
 }
 
 /* CARDS DE ORADORES */
@@ -37,6 +34,7 @@
   background-color: $secondary-color;
   border-radius: 5%;
   padding: 15px;
+  cursor: default;
 
 }
 
@@ -59,6 +57,18 @@
   font-style: italic;
 
 }
+
+
+//IFRAME
+.bootcamp iframe{
+  max-height: 600px;
+  max-width: 998px;
+  width: 90%;
+}
+
+
+
+
 
 
 /* CIRCULOS CON STATS*/
@@ -96,4 +106,29 @@
 
 #section-3 h4 {
   /* font-size: 24px; */
+}
+
+//Collapsible
+
+
+.collapsible {
+  box-shadow: none;
+}
+
+.collapsible-header {
+  background-color: #fafafa;
+  transition: background-color .4s ease, color .4s ease;
+  font-size: 1.6rem;
+}
+
+.collapsible li:hover .collapsible-header {
+  background-color: #f5f5f5;
+}
+
+.collapsible li:hover .collapsible-header {
+  color: $club-emprendedores;
+}
+
+.collapsible-header span {
+  transition: color .4s ease;
 }

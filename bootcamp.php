@@ -3,7 +3,7 @@
 include('templates/header.php');
 
 ?>
-  <main>
+  <main class="bootcamp">
     <section class="hero bootcamp">
       <div class="-blur">
         <div class="container center-align white-text">
@@ -15,7 +15,7 @@ include('templates/header.php');
           <h4 style="margin:0px" class="center-align white-text">Aprender a Emprender</h4>
           <h5 style="font-weight:500" >Del 8 al 16 de Mayo</h5>
 
-          <button class="anotate" href="#!" target="_blank">Anotate!</button>
+          <a class="anotate btn" href="#!" target="_blank">Anotate!</a>
         </div>
       </div>
     </section>
