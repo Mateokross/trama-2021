@@ -25,22 +25,30 @@
   }
   
   .hero.club.it {
-    background-image: linear-gradient(rgba($club-it, 0.4), rgba($club-it, 0.4)), url(../img/placeholder.jpg);
+    background-image: linear-gradient(rgba($club-it, 0.4), rgba($club-it, 0.4)), url(../img/IT/hero.jpg);
   }
   
   .hero.club.media {
-    background-image: linear-gradient(rgba($club-media, 0.4), rgba($club-media, 0.4)), url(../img/placeholder.jpg);
+    background-image: linear-gradient(rgba($club-media, 0.4), rgba($club-media, 0.4)), url(../img/media/pinceles.jpg);
   }
   
   .hero.club.comunicacion {
-    background-image: linear-gradient(rgba($club-comunicacion, 0.4), rgba($club-comunicacion, 0.4)), url(../img/placeholder.jpg);
+    background-image: linear-gradient(rgba($club-comunicacion, 0.4), rgba($club-comunicacion, 0.4)), url(../img/comunicación/microphone.jpg);
   }
   
   .hero.club.finanzas {
-    background-image: linear-gradient(rgba($club-finanzas, 0.4), rgba($club-finanzas, 0.4)), url(../img/placeholder.jpg);
+    background-image: linear-gradient(rgba($club-finanzas, 0.4), rgba($club-finanzas, 0.4)), url(../img/finanzas/trading.jpg);
   }
   
+  #link-bc-texto {
+    color: white;
+    font-weight: bolder;
+  }
 
+  #link-bc-texto:hover {
+    color: #b79dc4;
+    font-weight: bolder;
+  }
 
 /* ==========================================================================
    Team
@@ -64,6 +72,25 @@
 
 .main-activity p{
   font-size: 1.4rem;
+}
+
+.ver-mas {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  background-color: $club-emprendedores;
+  border: solid 2px $club-emprendedores;
+  color: white!important;
+  transition: all .4s ease;
+  border-radius: 0;
+  box-shadow: none;
+  margin: auto;
+}
+
+.ver-mas:hover {
+  background-color: $club-emprendedores-light;
+  border: solid 2px $club-emprendedores;
+  
 }
 
 

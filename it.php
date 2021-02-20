@@ -3,85 +3,90 @@
 include('templates/header.php');
 
 ?>
-  <main class="club it">
-    <section class="hero club it">
-      <div class="-blur">
-        <div class="container">
-          <div class="row valign-row-l" data-aos="fade-up">
-            <div class="col s12 m12 l5">
-              <h1>Club IT</h1>
-              <h5>¿Te interesa la tecnología? ¿queres saber cuales son las novedades en el sector?  En el Club IT vas a aprender sobre las innovaciones tecnológicas y también a aplicarlas de maneras disruptivas.</h5>
-            </div>
-            <div class="col s12 m12 l6 offset-l1">
-              <img src="img/placeholder.jpg" class="responsive-img" alt="placeholder">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <section class="container section team" >
-      <h4 style="padding-bottom:20px;">Team</h4>
-      <!-- ROW -->
-      <div class="row valign-row-l" data-aos="fade-up">
-        <div class="col s12 m6 l6 member-card-container">
-          <div class="member-card">
-            <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
-              <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
-            </div>
-            <p class="name">Santiago Colantonio</p>
-            <p class="position">Coordinador</p>
-            <ul class="contact">
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col s12 m6 l6 member-card-container">
-          <div class="member-card">
-            <div class="member-image" style="background-image: url('img/placeholder3.jpg')">
-              <img src="img/placeholder2.jpg" alt="miembro" class="responsive-img" >
-            </div>
-            <p class="name">Lautaro Hernando</p>
-            <p class="position">Coordinador</p>
-            <ul class="contact">
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#!" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="alt-container section main-activity" >
+<main class="club it">
+  <section class="hero club it">
+    <div class="-blur">
       <div class="container">
-        <h4 style="margin-bottom:50px">Bot Challenge</h4>
-      </div>
-      <div class="row valign-row-l" data-aos="fade-up">
-        <div class="col s12 m12 l6">
-          <img src="img/it/robocode.png" class="responsive-img" alt="placeholder">
+        <div class="row valign-row-l" data-aos="fade-up">
+          <div class="col s12 m12 l5">
+            <h1>Club IT</h1>
+            <h5>¿Te interesa la tecnología? ¿queres saber cuales son las novedades en el sector? En el Club IT vas a
+              aprender sobre las innovaciones tecnológicas y también a aplicarlas de maneras disruptivas.</h5>
+          </div>
+          <div class="col s12 m12 l7">
+          </div>
         </div>
-        <div class="col s12 m12 l6">
-          <p>BotChallenge es una competencia de Inteligencia Artificial donde en equipo se programaran uno o varios bots para competir en combates virtuales contra los de otros equipos. Un evento para despertar la curiosidad, desarrollar habilidades y derrumbar las “barreras”causadas por el temor a lo desconocido.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="container section team">
+    <h4 style="padding-bottom:20px;">Equipo</h4>
+    <!-- ROW -->
+    <div class="row valign-row-l" data-aos="fade-up">
+      <div class="col s12 m6 l6 member-card-container">
+        <div class="member-card">
+          <div class="member-image" style="background-image: url('img/miembros/tramero23.jpg')"><img
+              src="img/miembros/tramero22.jpg" alt="miembro" class="responsive-img"></div>
+          <p class="name">Lautaro Hernando</p>
+          <p class="position">Coordinador IT</p>
+          <ul class="contact">
+            <li><a href="https://www.linkedin.com/in/lautaro-hernando-060b31164/" target="_blank" rel="noreferrer"><i
+                  class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="mailto: lhernando@itba.edu.ar" target="_blank" rel="noreferrer"><i
+                  class="far fa-envelope"></i></a></li>
+          </ul>
         </div>
       </div>
-    </section>
+
+      <div class="col s12 m6 l6 member-card-container">
+        <div class="member-card">
+          <div class="member-image" style="background-image: url('img/miembros/tramero12.jpg')"><img
+              src="img/miembros/tramero11.jpg" alt="miembro" class="responsive-img"></div>
+          <p class="name">Santiago Colantonio</p>
+          <p class="position">Coordinador IT</p>
+          <ul class="contact">
+            <li><a href="https://www.linkedin.com/in/santiago-colantonio-9392b61ab/" target="_blank" rel="noreferrer"><i
+                  class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="mailto: scolantonio@itba.edu.ar" target="_blank" rel="noreferrer"><i
+                  class="far fa-envelope"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="alt-container section main-activity">
+    <div class="container">
+      <h4 style="margin-bottom:50px">Bot Challenge</h4>
+    </div>
+    <div class="row valign-row-l" data-aos="fade-up">
+      <div class="col s12 m12 l6">
+        <img src="img/it/robocode.png" class="responsive-img" alt="placeholder">
+      </div>
+      <div class="col s12 m12 l6">
+        <p>BotChallenge es una competencia de Inteligencia Artificial donde en equipo se programaran uno o varios bots
+          para competir en combates virtuales contra los de otros equipos. Un evento para despertar la curiosidad,
+          desarrollar habilidades y derrumbar las “barreras”causadas por el temor a lo desconocido.</p>
+      </div>
+    </div>
+  </section>
 
 
-    <section class="container section center sponsor" >
-      <h4>Nuestro Sponsor</h4>
-      <a class="sponsor" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-globant.png" class="responsive-img"></a>
-      <p>Globant es una empresa de ingeniería de software y tecnología de la información originaria de Argentina con sede en Luxemburgo.​ Es considerada como uno de los cuatro unicornios argentinos ¿Querés saber más? Entrá a <a href="https://www.globant.com/" target="_blank" rel="noreferrer">bain.com</a>.</p>
-    </section>
+  <section class="container section center sponsor">
+    <h4>Nuestro Sponsor</h4>
+    <a class="sponsor" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img
+        src="img/sponsors/logo-globant.png" class="responsive-img"></a>
+    <p>Globant es una empresa de ingeniería de software y tecnología de la información originaria de Argentina con sede
+      en Luxemburgo.​ Es considerada como uno de los cuatro unicornios argentinos ¿Querés saber más? Entrá a <a
+        href="https://www.globant.com/" target="_blank" rel="noreferrer">bain.com</a>.</p>
+  </section>
 
-        
-    <?php 
+
+  <?php 
 
     include('templates/clubes.php');
 
@@ -90,7 +95,7 @@ include('templates/header.php');
 
 
 
-  </main>
+</main>
 
 
 <?php 
