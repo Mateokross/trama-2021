@@ -19,6 +19,24 @@
     text-align:center;
 }
 
+.equipo .team-section h4{
+    padding-bottom: 25px;
+}
+
+
 .equipo .team-section.members-2 .row{
     max-width: 750px;
 }
+
+.equipo .team-section .members-3.row{
+    max-width: 1140px;
+}
+
+
+
+/*links*/
+
+.equipo a:not(.btn):hover, .equipo a:not(.btn):focus{
+    color: $primary-color !important;
+}
+  

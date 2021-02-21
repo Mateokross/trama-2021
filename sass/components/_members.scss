@@ -12,14 +12,29 @@
     border-radius: 50%;
     background-size: cover;
     background-position: center;
+    position: relative;
+    max-width: 100%;
 }
 .member-card img{
     border-radius: 50%;
     transition: opacity .4s ease;
 }
-.member-card img:hover{
+.member-card .member-image img.member-alt{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
     opacity: 0;
+    transition: opacity .2s;
 }
+
+.member-card .member-image:hover img.member-alt {
+    opacity: 1;
+}
+
+
 
 .member-card p.name{
     font-size: 1.5rem;

@@ -7,8 +7,9 @@ include('templates/header.php');
   <section class="hero club consultoria">
     <div class="darken">
       <div class="container">
-        <div class="row valign-row-l" data-aos="fade-up">
-          <div class="col s12 m12 l5">
+        <div class="row valign-row-l">
+          <div class="col s12 m12 l7">
+          <!-- <div class="col s12 m12 l5"> -->
             <h1>Club Consultoría</h1>
             <h5>¿Te gusta resolver problemas? A través del Club Consultoría vas a conocer dicha industria, obteniendo
               herramientas y metodologías de distintos consultores para acercarse al mundo profesional. A lo largo del
@@ -26,13 +27,14 @@ include('templates/header.php');
 
 
   <section class="container section team">
-    <div class="team-section members-2 aos-init aos-animate" data-aos="fade-up">
+    <div class="team-section aos-init aos-animate">
       <h4 style="padding-bottom:20px;">Equipo</h4>
-      <div class="row valign-row-l">
+      <div class="row valign-row-l  members-2">
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
-            <div class="member-image" style="background-image: url('img/miembros/tramero43.jpg')"><img
-                src="img/miembros/tramero05.jpg" alt="miembro" class="responsive-img"></div>
+            <div class="member-image"">
+            <img src="img/miembros/tramero43.jpg" alt="miembro" class="responsive-img member-alt">
+            <img src="img/miembros/tramero05.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Mateo Krössler</p>
             <p class="position">Coordinador Consultoría y Podcast</p>
             <ul class="contact">
@@ -46,8 +48,9 @@ include('templates/header.php');
 
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
-            <div class="member-image" style="background-image: url('img/miembros/tramero18.jpg')"><img
-                src="img/miembros/tramero16.jpg" alt="miembro" class="responsive-img"></div>
+            <div class="member-image"">
+            <img src="img/miembros/tramero18.jpg" alt="miembro" class="responsive-img member-alt">
+            <img src="img/miembros/tramero16.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Pedro Ceballos</p>
             <p class="position">Coordinador Consultoría</p>
             <ul class="contact">
@@ -67,7 +70,7 @@ include('templates/header.php');
     <div class="container">
       <h4 style="margin-bottom:50px">Consulting Prep Club</h4>
     </div>
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l">
       <div class="col s12 m12 l6">
         <img src="img/consultoría/cpc.png" class="responsive-img" alt="placeholder">
       </div>

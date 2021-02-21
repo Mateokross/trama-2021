@@ -7,8 +7,9 @@ include('templates/header.php');
   <section class="hero club finanzas">
     <div class="darken">
       <div class="container">
-        <div class="row valign-row-l" data-aos="fade-up">
-          <div class="col s12 m12 l5">
+        <div class="row valign-row-l">
+          <div class="col s12 m12 l7">
+          <!-- <div class="col s12 m12 l5"> -->
             <h1>Club Finanzas</h1>
             <h5>¿Te gustaría iniciarte en el mundo de las finanzas? ¿Querés aprender pero no sabes por dónde empezar? En
               el Club de Finanzas de Trama ITBA organizamos actividades para ayudarte a introducirte en este apasionante
@@ -27,11 +28,12 @@ include('templates/header.php');
   <section class="container section team">
     <h4 style="padding-bottom:20px;">Equipo</h4>
     <!-- ROW -->
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l">
       <div class="col s12 m6 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image" style="background-image: url('img/miembros/tramero01.jpg')"><img
-              src="img/miembros/tramero27.jpg" alt="miembro" class="responsive-img"></div>
+          <div class="member-image"">
+            <img src="img/miembros/tramero01.jpg" alt="miembro" class="responsive-img member-alt">
+            <img src="img/miembros/tramero27.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Benjamin Durruty</p>
           <p class="position">Coordinador Finanzas</p>
           <ul class="contact">
@@ -43,8 +45,9 @@ include('templates/header.php');
       </div>
       <div class="col s12 m6 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image" style="background-image: url('img/miembros/tramero33.jpg')"><img
-              src="img/miembros/tramero32.jpg" alt="miembro" class="responsive-img"></div>
+          <div class="member-image"">
+            <img src="img/miembros/tramero33.jpg" alt="miembro" class="responsive-img member-alt">
+            <img src="img/miembros/tramero32.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Tomas Galizia</p>
           <p class="position">Coordinador Finanzas</p>
           <ul class="contact">
@@ -54,10 +57,11 @@ include('templates/header.php');
           </ul>
         </div>
       </div>
-      <div class="col s12 m6 l4 member-card-container">
+      <div class="col s12 m12 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image" style="background-image: url('img/miembros/tramero41.jpg')"><img
-              src="img/miembros/tramero40.jpg" alt="miembro" class="responsive-img"></div>
+          <div class="member-image"">
+            <img src="img/miembros/tramero41.jpg" alt="miembro" class="responsive-img member-alt">
+            <img src="img/miembros/tramero40.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Ramiro Pereda</p>
           <p class="position">Coordinador Finanzas</p>
           <ul class="contact">
@@ -74,9 +78,9 @@ include('templates/header.php');
     <div class="container">
       <h4 style="margin-bottom:50px">University Trading Challenge</h4>
     </div>
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l">
       <div class="col s12 m12 l6">
-        <img src="img/Finanzas/utc.jpeg" style="max-width:400px" class="responsive-img" alt="placeholder">
+        <img src="img/Finanzas/utc-min.jpg" style="max-width:400px" class="responsive-img" alt="placeholder">
       </div>
       <div class="col s12 m12 l6">
         <p>Durante esta competencia equipos de hasta tres jugadores realizan inversiones con plata ficticia a lo largo

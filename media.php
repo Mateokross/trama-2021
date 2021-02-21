@@ -7,8 +7,9 @@ include('templates/header.php');
   <section class="hero club media">
     <div class="darken">
       <div class="container">
-        <div class="row valign-row-l" data-aos="fade-up">
-          <div class="col s12 m12 l5">
+        <div class="row valign-row-l">
+          <div class="col s12 m12 l7">
+          <!-- <div class="col s12 m12 l5"> -->
             <h1>Club Media</h1>
             <h5>Estamos dedicados a trabajar transversalmente con los demás clubes apoyando en la organización, difusión
               y crecimiento de eventos, proyectos y actividades buscando transimitir la información y la esencia de cada
@@ -28,7 +29,7 @@ include('templates/header.php');
   <section class="container section team">
     <h4 style="padding-bottom:20px;">Equipo</h4>
     <!-- ROW -->
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l">
       <div class="col s12 m6 l4 member-card-container">
         <div class="member-card">
           <div class="member-image" style="background-image: url('img/miembros/tramero44.jpg')"><img

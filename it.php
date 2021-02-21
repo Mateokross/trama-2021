@@ -7,8 +7,9 @@ include('templates/header.php');
   <section class="hero club it">
     <div class="darken">
       <div class="container">
-        <div class="row valign-row-l" data-aos="fade-up">
-          <div class="col s12 m12 l5">
+        <div class="row valign-row-l">
+          <div class="col s12 m12 l7">
+          <!-- <div class="col s12 m12 l5"> -->
             <h1>Club IT</h1>
             <h5>¿Te interesa la tecnología? ¿queres saber cuales son las novedades en el sector? En el Club IT vas a
               aprender sobre las innovaciones tecnológicas y también a aplicarlas de maneras disruptivas.</h5>
@@ -25,11 +26,12 @@ include('templates/header.php');
   <section class="container section team">
     <h4 style="padding-bottom:20px;">Equipo</h4>
     <!-- ROW -->
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l members-2">
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
-          <div class="member-image" style="background-image: url('img/miembros/tramero23.jpg')"><img
-              src="img/miembros/tramero22.jpg" alt="miembro" class="responsive-img"></div>
+          <div class="member-image"">
+            <img src="img/miembros/tramero23.jpg" alt="miembro" class="responsive-img member-alt">
+            <img src="img/miembros/tramero22.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Lautaro Hernando</p>
           <p class="position">Coordinador IT</p>
           <ul class="contact">
@@ -43,8 +45,9 @@ include('templates/header.php');
 
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
-          <div class="member-image" style="background-image: url('img/miembros/tramero12.jpg')"><img
-              src="img/miembros/tramero11.jpg" alt="miembro" class="responsive-img"></div>
+          <div class="member-image"">
+            <img src="img/miembros/tramero12.jpg" alt="miembro" class="responsive-img member-alt">
+            <img src="img/miembros/tramero11.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Santiago Colantonio</p>
           <p class="position">Coordinador IT</p>
           <ul class="contact">
@@ -63,7 +66,7 @@ include('templates/header.php');
     <div class="container">
       <h4 style="margin-bottom:50px">Bot Challenge</h4>
     </div>
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l">
       <div class="col s12 m12 l6">
         <img src="img/it/robocode.png" class="responsive-img" alt="placeholder">
       </div>

@@ -7,8 +7,9 @@ include('templates/header.php');
   <section class="hero club comunicacion">
     <div class="darken">
       <div class="container">
-        <div class="row valign-row-l" data-aos="fade-up">
-          <div class="col s12 m12 l5">
+        <div class="row valign-row-l">
+        <div class="col s12 m12 l7">
+          <!-- <div class="col s12 m12 l5"> -->
             <h1>Club Comunicación</h1>
             <h5>En en club Comunicación creemos en la importancia de la inspiración, de la creatividad, de la
               introspección y en el valor de las relaciones humanas en este mundo interconectado.
@@ -30,11 +31,12 @@ include('templates/header.php');
   <section class="container section team">
     <h4 style="padding-bottom:20px;">Equipo</h4>
     <!-- ROW -->
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l members-2">
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
-          <div class="member-image" style="background-image: url('img/miembros/tramero04.jpg')"><img
-              src="img/miembros/tramero06.jpg" alt="miembro" class="responsive-img"></div>
+          <div class="member-image"">
+            <img src="img/miembros/tramero04.jpg" alt="miembro" class="responsive-img member-alt">
+            <img src="img/miembros/tramero06.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Luciano Ceschin</p>
           <p class="position">Coordinador Comunicación</p>
           <ul class="contact">
@@ -47,8 +49,9 @@ include('templates/header.php');
 
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
-          <div class="member-image" style="background-image: url('img/miembros/tramero25.jpg')"><img
-              src="img/miembros/tramero25.jpg" alt="miembro" class="responsive-img"></div>
+          <div class="member-image"">
+            <img src="img/miembros/tramero25.jpg" alt="miembro" class="responsive-img member-alt">
+            <img src="img/miembros/tramero25.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Sofia Ivnisky</p>
           <p class="position">Coordinadora Comunicación</p>
           <ul class="contact">
@@ -65,7 +68,7 @@ include('templates/header.php');
     <div class="container">
       <h4 style="margin-bottom:50px">In&Out</h4>
     </div>
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l">
       <div class="col s12 m12 l6">
         <img src="img/comunicación/in&out.png" class="responsive-img" alt="placeholder">
       </div>

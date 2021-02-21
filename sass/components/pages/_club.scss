@@ -16,28 +16,28 @@
   }
   
   .hero.club.emprendedores {
-    background-image: linear-gradient(rgba($club-emprendedores, 0.4), rgba($club-emprendedores, 0.4)), url(../img/bootcamp/_DSC2311.jpg);
+    background-image: linear-gradient(rgba($club-emprendedores, 0.4), rgba($club-emprendedores, 0.4)), url(../img/emprendedores/hero-emprendedores-min.jpg);
     
   }
   
   .hero.club.consultoria {
-    background-image: linear-gradient(rgba($club-consultoria, 0.4), rgba($club-consultoria, 0.4)), url(../img/consultoría/hero-min.jpg);
+    background-image: linear-gradient(rgba($club-consultoria, 0.4), rgba($club-consultoria, 0.4)), url(../img/consultoría/hero-consultoria-min.jpg);
   }
   
   .hero.club.it {
-    background-image: linear-gradient(rgba($club-it, 0.4), rgba($club-it, 0.4)), url(../img/it/hero.jpg);
+    background-image: linear-gradient(rgba($club-it, 0.4), rgba($club-it, 0.4)), url(../img/it/hero-it-min.jpg);
   }
   
   .hero.club.media {
-    background-image: linear-gradient(rgba($club-media, 0.4), rgba($club-media, 0.4)), url(../img/media/pinceles.jpg);
+    background-image: linear-gradient(rgba($club-media, 0.4), rgba($club-media, 0.4)), url(../img/media/hero-media-min.jpg);
   }
   
   .hero.club.comunicacion {
-    background-image: linear-gradient(rgba($club-comunicacion, 0.4), rgba($club-comunicacion, 0.4)), url(../img/comunicación/microphone.jpg);
+    background-image: linear-gradient(rgba($club-comunicacion, 0.4), rgba($club-comunicacion, 0.4)), url(../img/comunicación/hero-comunicacion-min.jpg);
   }
   
   .hero.club.finanzas {
-    background-image: linear-gradient(rgba($club-finanzas, 0.4), rgba($club-finanzas, 0.4)), url(../img/finanzas/trading.jpg);
+    background-image: linear-gradient(rgba($club-finanzas, 0.4), rgba($club-finanzas, 0.4)), url(../img/finanzas/hero-finanzas-min.jpg);
   }
   
   #link-bc-texto {
@@ -61,6 +61,11 @@
 .team .members-2.row {
   max-width: 750px;
 }
+
+.team .members-3.row{
+  max-width: 1140px;
+}
+
 /* ==========================================================================
    Main activity
    ========================================================================== */
@@ -123,7 +128,7 @@
 
 .sponsor p{
   font-size: 1.3rem;
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
 }
 

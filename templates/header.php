@@ -45,7 +45,7 @@
         <a id="logo-container" href="index.php" class="brand-logo"><img src="img/logo-negro.png" alt="Trama logo"></a>
       </li>
       <li><a href="index.php">Home</a></li>
-      <li><a href="index.php#acerca" class="section-link">Acerca</a></li>
+      <!-- <li><a href="index.php#acerca" class="section-link">Acerca</a></li> -->
       <li><a href="equipo.php">Equipo</a></li>
       <li>
         <a href="#!" class='dropdown-trigger' data-target='dropdown'>Clubes</a>
@@ -67,7 +67,7 @@
         <a id="logo-container" href="index.php" class="brand-logo"><img src="img/logo.png" alt="Trama logo"></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="index.php">Home</a></li>
-          <li><a href="index.php#section-1" class="section-link">Acerca</a></li>
+          <!-- <li><a href="index.php#section-1" class="section-link">Acerca</a></li> -->
           <li><a href="equipo.php">Equipo</a></li>
           <li>
             <a href="#!" class='dropdown-trigger' data-target='dropdown'>Clubes</a>
