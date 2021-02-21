@@ -39,7 +39,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/tamaraolazar/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: tolazar@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+            <li><a href="mailto:tolazar@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
           </ul>
         </div>
       </div>
@@ -52,7 +52,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://linkedin.com/in/valentina-cesaris-a90610175" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: vcesaris@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+            <li><a href="mailto:vcesaris@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
           </ul>
         </div>
       </div>
@@ -65,7 +65,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/milagroscornidez/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: mcornidez@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a>
+            <li><a href="mailto:mcornidez@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a>
             </li>
           </ul>
         </div>

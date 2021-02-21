@@ -31,7 +31,7 @@ include('templates/header.php');
     <div class="row valign-row-l">
       <div class="col s12 m6 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero01.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero27.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Benjamin Durruty</p>
@@ -39,13 +39,13 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/benjamin-durruty-a1874a15a/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: bdurruty@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+            <li><a href="mailto:bdurruty@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
           </ul>
         </div>
       </div>
       <div class="col s12 m6 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero33.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero32.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Tomas Galizia</p>
@@ -53,13 +53,13 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/tomasgalizia/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: tgalizia@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+            <li><a href="mailto:tgalizia@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
           </ul>
         </div>
       </div>
       <div class="col s12 m12 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero41.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero40.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Ramiro Pereda</p>
@@ -67,7 +67,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/ramiro-pereda/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: rpereda@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+            <li><a href="mailto:rpereda@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
           </ul>
         </div>
       </div>

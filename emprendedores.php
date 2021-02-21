@@ -31,7 +31,7 @@ include('templates/header.php');
     <div class="row valign-row-l  members-2">
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero09.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero09.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Camila Howlin</p>
@@ -39,7 +39,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/camilahowlin/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: cahowlin@itba.edu.ar" target="_blank" rel="noreferrer"><i
+            <li><a href="mailto:cahowlin@itba.edu.ar" target="_blank" rel="noreferrer"><i
                   class="far fa-envelope"></i></a></li>
           </ul>
         </div>
@@ -47,7 +47,7 @@ include('templates/header.php');
 
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero03.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero03.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Lucas Cugitachi</p>
@@ -55,7 +55,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/lucas-cugitachi-812188187/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: lcugitachi@itba.edu.ar" target="_blank" rel="noreferrer"><i
+            <li><a href="mailto:lcugitachi@itba.edu.ar" target="_blank" rel="noreferrer"><i
                   class="far fa-envelope"></i></a>
             </li>
           </ul>
@@ -67,7 +67,7 @@ include('templates/header.php');
     <div class="row valign-row-l">
       <div class="col s12 m6 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero38.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero38.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Martín Nieponice</p>
@@ -75,7 +75,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/mart%C3%ADn-nieponice-781b92164/" target="_blank"
                 rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: mnieponice@itba.edu.ar" target="_blank" rel="noreferrer"><i
+            <li><a href="mailto:mnieponice@itba.edu.ar" target="_blank" rel="noreferrer"><i
                   class="far fa-envelope"></i></a>
             </li>
           </ul>
@@ -83,7 +83,7 @@ include('templates/header.php');
       </div>
       <div class="col s12 m6 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero35.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero34.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Felipe Gutiérrez</p>
@@ -91,7 +91,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/felipe-guti%C3%A9rrez-mosquera-471936162/" target="_blank"
                 rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: fegutierrez@itba.edu.ar" target="_blank" rel="noreferrer"><i
+            <li><a href="mailto:fegutierrez@itba.edu.ar" target="_blank" rel="noreferrer"><i
                   class="far fa-envelope"></i></a>
             </li>
           </ul>
@@ -99,7 +99,7 @@ include('templates/header.php');
       </div>
       <div class="col s12 m12 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero02.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero02.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Malena Vasquez</p>
@@ -107,7 +107,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/malena-vasquez-currie-6b3ab4199/" target="_blank"
                 rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: mavasquez@itba.edu.ar" target="_blank" rel="noreferrer"><i
+            <li><a href="mailto:mavasquez@itba.edu.ar" target="_blank" rel="noreferrer"><i
                   class="far fa-envelope"></i></a>
             </li>
           </ul>
@@ -118,7 +118,7 @@ include('templates/header.php');
     <div class="row valign-row-l">
       <div class="col s12 m6 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero29.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero29.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Conrado Valenzuela</p>
@@ -126,7 +126,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/conradovalenzuela/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: cvalenzuela@itba.edu.ar" target="_blank" rel="noreferrer"><i
+            <li><a href="mailto:cvalenzuela@itba.edu.ar" target="_blank" rel="noreferrer"><i
                   class="far fa-envelope"></i></a>
             </li>
           </ul>
@@ -134,7 +134,7 @@ include('templates/header.php');
       </div>
       <div class="col s12 m6 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero20.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero19.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Nicolás Bukschtein</p>
@@ -142,7 +142,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/nicolasbukschtein" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: nbukschtein@itba.edu.ar" target="_blank" rel="noreferrer"><i
+            <li><a href="mailto:nbukschtein@itba.edu.ar" target="_blank" rel="noreferrer"><i
                   class="far fa-envelope"></i></a>
             </li>
           </ul>
@@ -150,7 +150,7 @@ include('templates/header.php');
       </div>
       <div class="col s12 m12 l4 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero26.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero15.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Juan Diego Alcocer</p>
@@ -158,7 +158,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/juan-alcocer-1214b5175/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: jalcocer@itba.edu.ar" target="_blank" rel="noreferrer"><i
+            <li><a href="mailto:jalcocer@itba.edu.ar" target="_blank" rel="noreferrer"><i
                   class="far fa-envelope"></i></a></li>
           </ul>
         </div>
@@ -177,14 +177,14 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/juan-ignacio-reig-803403169/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: jreig@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a>
+            <li><a href="mailto:jreig@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a>
             </li>
           </ul>
         </div>
       </div>
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero17.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero17.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Luciana Gesusmaria</p>
@@ -192,7 +192,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/luciana-gesusmaria-4722871a9/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: lgesusmaria@itba.edu.ar" target="_blank" rel="noreferrer"><i
+            <li><a href="mailto:lgesusmaria@itba.edu.ar" target="_blank" rel="noreferrer"><i
                   class="far fa-envelope"></i></a>
             </li>
           </ul>

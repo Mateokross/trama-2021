@@ -34,7 +34,7 @@ include('templates/header.php');
     <div class="row valign-row-l members-2">
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero04.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero06.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Luciano Ceschin</p>
@@ -42,14 +42,14 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/luciano-ceschin-040b711b4/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: lceschin@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+            <li><a href="mailto:lceschin@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
           </ul>
         </div>
       </div>
 
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero25.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero25.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Sofia Ivnisky</p>
@@ -57,7 +57,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/sofia-ivnisky-77a8501a7/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: sivnisky@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
+            <li><a href="mailto:sivnisky@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a></li>
           </ul>
         </div>
       </div>

@@ -32,7 +32,7 @@ include('templates/header.php');
       <div class="row valign-row-l  members-2">
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
-            <div class="member-image"">
+            <div class="member-image">
             <img src="img/miembros/tramero43.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero05.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Mateo Krössler</p>
@@ -40,7 +40,7 @@ include('templates/header.php');
             <ul class="contact">
               <li><a href="https://www.linkedin.com/in/mateokrossler/" target="_blank" rel="noreferrer"><i
                     class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="mailto: mkrossler@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a>
+              <li><a href="mailto:mkrossler@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a>
               </li>
             </ul>
           </div>
@@ -48,7 +48,7 @@ include('templates/header.php');
 
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
-            <div class="member-image"">
+            <div class="member-image">
             <img src="img/miembros/tramero18.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero16.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Pedro Ceballos</p>
@@ -56,7 +56,7 @@ include('templates/header.php');
             <ul class="contact">
               <li><a href="https://www.linkedin.com/in/ceballos-pedro/" target="_blank" rel="noreferrer"><i
                     class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="mailto: pceballos@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a>
+              <li><a href="mailto:pceballos@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a>
               </li>
             </ul>
           </div>

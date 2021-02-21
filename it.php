@@ -29,7 +29,7 @@ include('templates/header.php');
     <div class="row valign-row-l members-2">
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero23.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero22.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Lautaro Hernando</p>
@@ -37,7 +37,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/lautaro-hernando-060b31164/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: lhernando@itba.edu.ar" target="_blank" rel="noreferrer"><i
+            <li><a href="mailto:lhernando@itba.edu.ar" target="_blank" rel="noreferrer"><i
                   class="far fa-envelope"></i></a></li>
           </ul>
         </div>
@@ -45,7 +45,7 @@ include('templates/header.php');
 
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
-          <div class="member-image"">
+          <div class="member-image">
             <img src="img/miembros/tramero12.jpg" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero11.jpg" alt="miembro" class="responsive-img"></div>
           <p class="name">Santiago Colantonio</p>
@@ -53,7 +53,7 @@ include('templates/header.php');
           <ul class="contact">
             <li><a href="https://www.linkedin.com/in/santiago-colantonio-9392b61ab/" target="_blank" rel="noreferrer"><i
                   class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="mailto: scolantonio@itba.edu.ar" target="_blank" rel="noreferrer"><i
+            <li><a href="mailto:scolantonio@itba.edu.ar" target="_blank" rel="noreferrer"><i
                   class="far fa-envelope"></i></a></li>
           </ul>
         </div>
