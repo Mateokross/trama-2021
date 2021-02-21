@@ -114,7 +114,7 @@ include('templates/header.php');
     </div>
   </section>
 
-  <section class="container section center-align" id="section-3" style="margin-top:0;">
+  <section class="container section center-align" id="section-3" style="margin-top: 0;margin-bottom: 0;">
     <h3 style="padding-bottom:40px;" data-aos="fade-up">Un evento con impacto</h3>
     <div class="row valign-row-l" data-aos="fade-up">
 
@@ -177,16 +177,36 @@ include('templates/header.php');
       <h3 style="margin-bottom:50px">FAQ</h3>
       <ul class="collapsible faq">
         <li>
-          <div class="collapsible-header">Bootcamp 2020</div>
+          <div class="collapsible-header">¿Qué es el Bootcamp?</div>
+          <div class="collapsible-body"><span>El BootCamp es un evento de emprendedurismo en donde en el marco de una competencia, los participantes desarrollan proyectos de impacto que luego son presentados ante un jurado.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header">¿Puedo aplicar con un amigo?</div>
+          <div class="collapsible-body"><span>Sí, al final del formulario dejas el nombre de tu amigo@. Ambos deben ser seleccionados para participar juntos.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header">¿El evento es gratuito?</div>
+          <div class="collapsible-body"><span>Todos los gastos del evento están cubiertos. Si no residís en CABA o GBA, tenés cubierto el hospedaje y podés conseguir una bonificación para el traslado a capital.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header">¿Cuánto Dura?</div>
+          <div class="collapsible-body"><span>Las actividades se realizarán durante los dos fines de semana (Online: del 22 al 25 de mayo y presencial: 29 y 30 de mayo) y se harán mentoreos opcionales en los días de semana. La asistencia en los dos fines de semana es obligatoria y crucial para aprovechar la experiencia. Los días online consistirán de 4 hs de actividades y charlas, con un entregable por equipo para el final del día; Mientras que los días presenciales ocuparán todo el día.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header">¿Como puedo participar?</div>
           <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
         </li>
         <li>
-          <div class="collapsible-header">Bootcamp 2019</div>
+          <div class="collapsible-header">¿Puedo participar siendo del exterior?</div>
           <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
         </li>
         <li>
-          <div class="collapsible-header">Bootcamp 2018</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          <div class="collapsible-header">¿Necesito conocimientos previos?</div>
+          <div class="collapsible-body"><span>No se necesita ningún conocimiento previo, lo que más importa es el compromiso, la buena actitud y las ganás de trabajar en equipo</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header">¿Quienes pueden participar?</div>
+          <div class="collapsible-body"><span>Si tenes entre 18 y 26 anos, y sos estudiante universitario podes participar.</span></div>
         </li>
       </ul>
     </div>
