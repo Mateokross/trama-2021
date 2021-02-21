@@ -12,7 +12,7 @@ include('templates/header.php');
           <img style="max-width:400px" src="img/bootcamp/logo.png" class="responsive-img" alt="placeholder">
         </div>
 
-        <h4 style="margin:0px" class="center-align white-text">Aprender a Emprender</h4>
+        <h4 style="margin:0px" class="center-align white-text">Aprendé a Emprender</h4>
         <h5 style="font-weight:500">Del 22 al 30 de Mayo</h5>
 
         <a class="anotate btn" href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">Anotate!</a>
