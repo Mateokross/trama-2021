@@ -27,7 +27,7 @@
   <!-- css -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link href="css/aos.min.css" rel="stylesheet">
-  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="css/main.css?v=0.1 type="text/css" rel="stylesheet" media="screen" />
   <!-- <link rel="stylesheet" href="styles/debug.css"> -->
 </head>
 
