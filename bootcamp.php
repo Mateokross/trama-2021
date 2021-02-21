@@ -5,7 +5,7 @@ include('templates/header.php');
 ?>
 <main class="bootcamp">
   <section class="hero bootcamp">
-    <div class="-blur">
+    <div class="darken">
       <div class="container center-align white-text">
 
         <div class="center-align">
@@ -64,27 +64,33 @@ include('templates/header.php');
   </section>
 
   <section class="alt-container section center-align" id="section-2">
+    <h3 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2020</h3>
+    <div class="container" style="max-width: 1086px">
+      <div class="iframe-container">
+        <iframe src="https://www.youtube.com/embed/L3rP5BfAkAk" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+          data-aos="fade-up"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section center-align" id="section-2">
+    <h3>Otros Años</h3>
     <div class="container" id="bootcamps-viejos">
       <ul class="collapsible bootcamps-viejos center-align">
-        <li class="active">
-          <div class="collapsible-header">Bootcamp 2020</div>
-          <div class="collapsible-body">
-
-            <h3 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2020</h3>
-            <iframe width="80%" height="500px" src="https://www.youtube.com/embed/L3rP5BfAkAk" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen data-aos="fade-up"></iframe>
-
-          </div>
-        </li>
+        <!-- <li class="active">
+         
+        </li> -->
         <li>
           <div class="collapsible-header">Bootcamp 2019</div>
           <div class="collapsible-body">
 
-            <h3 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2019</h3>
-            <iframe width="80%" height="500px" src="https://www.youtube.com/embed/KuCqX2Ch014" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2019</h4>
+            <div class="iframe-container">
+              <iframe width="80%" height="500px" src="https://www.youtube.com/embed/KuCqX2Ch014" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
 
           </div>
         </li>
@@ -92,21 +98,25 @@ include('templates/header.php');
           <div class="collapsible-header">Bootcamp 2018</div>
           <div class="collapsible-body">
 
-            <h3 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2018</h3>
-            <iframe width="80%" height="500px" src="https://www.youtube.com/embed/Azgl3obTMgI" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-
+            <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2018</h4>
+            <div class="iframe-container">
+              <iframe width="80%" height="500px" src="https://www.youtube.com/embed/Azgl3obTMgI" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
           </div>
         </li>
         <li>
           <div class="collapsible-header">Bootcamp 2017</div>
           <div class="collapsible-body">
 
-            <h3 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2017</h3>
-            <iframe width="80%" height="500px" src="https://www.youtube.com/embed/8uVaPgv0Sv8" frameborder="0"
+            <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2017</h4>
+            <div class="iframe-container">
+              <iframe width="80%" height="500px" src="https://www.youtube.com/embed/8uVaPgv0Sv8" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
+            </div>
+
 
           </div>
         </li>
@@ -114,7 +124,10 @@ include('templates/header.php');
     </div>
   </section>
 
-  <section class="container section center-align" id="section-3" style="margin-top:0;">
+
+    
+
+  <section class="alt-container section center-align" id="section-3" style="margin-top:0;">
     <h3 style="padding-bottom:40px;" data-aos="fade-up">Un evento con impacto</h3>
     <div class="row valign-row-l" data-aos="fade-up">
 
@@ -155,7 +168,7 @@ include('templates/header.php');
 
   </section>
 
-  <section class="section alt-container sponsors" id="section-2" style="margin-top:0;">
+  <section class="section container sponsors" id="section-2" style="margin-top:0;">
     <h4 class="center-align">Nuestros Sponsors</h4>
     <div class="carousel" id="sponsors-carousel">
       <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer"><img
@@ -172,7 +185,7 @@ include('templates/header.php');
   </section>
 
 
-  <section class="container section" id="section-4">
+  <section class="alt-container section" id="section-4">
     <div class="container">
       <h3 style="margin-bottom:50px">FAQ</h3>
       <ul class="collapsible faq">

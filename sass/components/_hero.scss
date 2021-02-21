@@ -25,6 +25,10 @@
     backdrop-filter: blur(5px);
 }
 
+.hero>div.darken{
+    background: rgba(0,0,0,0.45);
+}
+
 .hero .container {
     margin: auto;
     padding-top: 10vh;

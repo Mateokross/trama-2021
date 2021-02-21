@@ -5,7 +5,7 @@ include('templates/header.php');
 ?>
 <main class="club it">
   <section class="hero club it">
-    <div class="-blur">
+    <div class="darken">
       <div class="container">
         <div class="row valign-row-l" data-aos="fade-up">
           <div class="col s12 m12 l5">

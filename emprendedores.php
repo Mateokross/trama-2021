@@ -5,9 +5,9 @@ include('templates/header.php');
 ?>
 <main class="club emprendedores">
   <section class="hero club emprendedores">
-    <div class="-blur">
+    <div class="darken">
       <div class="container">
-        <div class="row valign-row-l" data-aos="fade-up">
+        <div class="row valign-row-l" data-aos="zoom-out">
           <div class="col s12 m12 l5">
             <h1>Club Emprendedores</h1>
             <h5>El Club de Emprendedores de Trama se caracteriza por desarrollar encuentros de la mano de múltiples
@@ -28,7 +28,7 @@ include('templates/header.php');
   <section class="container section team">
     <h4 style="padding-bottom:20px;">Equipo</h4>
     <!-- ROW -->
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l  members-2">
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
           <div class="member-image" style="background-image: url('img/miembros/tramero09.jpg')"><img
@@ -60,7 +60,7 @@ include('templates/header.php');
     </div>
 
     <!-- ROW -->
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l">
       <div class="col s12 m6 l4 member-card-container">
         <div class="member-card">
           <div class="member-image" style="background-image: url('img/miembros/tramero38.jpg')"><img
@@ -105,7 +105,7 @@ include('templates/header.php');
       </div>
     </div>
     <!-- ROW -->
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l" >
       <div class="col s12 m6 l4 member-card-container">
         <div class="member-card">
           <div class="member-image" style="background-image: url('img/miembros/tramero29.jpg')"><img
@@ -149,7 +149,7 @@ include('templates/header.php');
       </div>
     </div>
     <!-- ROW -->
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l  members-2" >
       <div class="col s12 m6 l6 member-card-container">
         <div class="member-card">
           <div class="member-image" style="background-image: url('img/miembros/tramero14.jpg')"><img
@@ -184,7 +184,7 @@ include('templates/header.php');
     <div class="container">
       <h4 style="margin-bottom:50px">Bootcamp</h4>
     </div>
-    <div class="row valign-row-l" data-aos="fade-up">
+    <div class="row valign-row-l" >
       <div class="col s12 m12 l6">
         <img src="img/bootcamp/_DSC1031.jpg" class="responsive-img" alt="placeholder">
       </div>
@@ -192,7 +192,7 @@ include('templates/header.php');
         <p>BootCamp Trama es un evento anual totalmente gratuito, con el propósito de fomentar el crecimiento del
           ecosistema emprendedor en el país. 80 participantes, 2 categorías y 1 proyecto ganador. Descubrí como
           acercarte al mundo profesional!</p>
-        <p style="padding-top:20px;" class="center"><a href="bootcamp.php" class="ver-mas">Ver más</a></p>
+        <p style="padding-top:20px;" class="center"><a href="bootcamp.php" class="ver-mas  btn">Ver más</a></p>
       </div>
     </div>
   </section>

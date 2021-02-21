@@ -2,6 +2,7 @@
   background-image: linear-gradient(rgba($club-emprendedores, 0.4), rgba($club-emprendedores, 0.4)), url(../img/bootcamp/_DSC2311.jpg);
 }
 
+
   
 .anotate {
   padding: 10px;
@@ -9,21 +10,16 @@
   font-weight: 700;
   font-size: 30px;
   background-color: $club-emprendedores;
-  border: solid 4px $club-emprendedores;
   color: white!important;
   transition: all .4s ease;
   border-radius: 0;
   box-shadow: none;
+  text-transform: none;
 }
 
-.anotate:focus {
-  background-color: $club-emprendedores;
-  border: solid 4px $club-emprendedores;
-}
-
-.anotate:hover {
-  background-color: transparent;
-  border: solid 4px $club-emprendedores;
+.anotate:focus, .anotate:hover {
+  background-color: $club-emprendedores-light;
+  color: white!important;
 }
 
 /* CARDS DE ORADORES */
@@ -66,17 +62,6 @@
   font-style: italic;
 
 }
-
-
-//IFRAME
-.bootcamp iframe{
-  max-height: 600px;
-  max-width: 998px;
-  width: 90%;
-}
-
-
-
 
 
 

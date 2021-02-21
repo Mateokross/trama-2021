@@ -1,96 +1,93 @@
-
 /* ==========================================================================
      Clubes (Index)
      ========================================================================== */
-     .clubs .club {
-        height: 300px;
-        padding: 0;
-        overflow: hidden;
-        position: relative;
-    }
-    
-    .clubs .club .club-background-img {
-        background-image: url(../img/placeholder.jpg);
-        background-size: cover;
-        background-position: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 100%;
-        transition: all .4s ease;
-    }
-    
-    .clubs .club:hover .club-background-img {
-        transform: scale(1.1)
-    }
-    
-    .clubs .club .club-background-color {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        // filter: brightness(1.4);
-    }
-    
-    .clubs .club .club-background-color .club-text {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        // background: rgba(0, 0, 0, 0.05);
-    }
-    
-    .clubs .club .club-text p {
-        color: white;
-        font-size: 1.75rem;
-        margin: auto;
-    }
-    
-    .clubs .club.emprendedores .club-background-img {
-        background-image: url(../img/bootcamp/_DSC2311.jpg);
-    }
-    
-    .clubs .club.emprendedores .club-background-color {
-        background: rgba($club-emprendedores, 0.5);
-    }
-    
-    .clubs .club.consultoria .club-background-img {
-        background-image: url(../img/consultoría/icon-min.jpg);
-    }
-    
-    .clubs .club.consultoria .club-background-color {
-        background: rgba($club-consultoria, 0.5);
-    }
-    
-    .clubs .club.it .club-background-img {
-        background-image: url(../img/IT/hero.jpg);
-    }
-    
-    .clubs .club.it .club-background-color {
-        background: rgba($club-it, 0.5);
-    }
-    
-    .clubs .club.media .club-background-img {
-        background-image: url(../img/media/pinceles.jpg);
-    }
-    
-    .clubs .club.media .club-background-color {
-        background: rgba($club-media, 0.5);
-    }
-    
-    .clubs .club.comunicacion .club-background-img {
-        background-image: url(../img/comunicación/microphone.jpg);
-    }
-    
-    .clubs .club.comunicacion .club-background-color {
-        background: rgba($club-comunicacion, 0.5);
-    }
-    
-    .clubs .club.finanzas .club-background-img {
-        background-image: url(../img/finanzas/trading.jpg);
-    }
-    
-    .clubs .club.finanzas .club-background-color {
-        background: rgba($club-finanzas, 0.5);
-    }
-    
-    
+.clubs .club {
+    height: 300px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.clubs .club .club-background-img {
+    background-image: url(../img/placeholder.jpg);
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    transition: all .4s ease;
+}
+
+.clubs .club:hover .club-background-img {
+    transform: scale(1.1)
+}
+
+.clubs .club .club-background-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // filter: brightness(1.4);
+}
+
+.clubs .club .club-background-color .club-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    // background: rgba(0, 0, 0, 0.05);
+}
+
+.clubs .club .club-text p {
+    color: white;
+    font-size: 1.75rem;
+    margin: auto;
+}
+
+.clubs .club.emprendedores .club-background-img {
+    background-image: url(../img/bootcamp/_DSC2311.jpg);
+}
+
+.clubs .club.emprendedores .club-background-color {
+    background: rgba($club-emprendedores, 0.5);
+}
+
+.clubs .club.consultoria .club-background-img {
+    background-image: url(../img/consultoría/icon-min.jpg);
+}
+
+.clubs .club.consultoria .club-background-color {
+    background: rgba($club-consultoria, 0.5);
+}
+
+.clubs .club.it .club-background-img {
+    background-image: url(../img/it/hero.jpg);
+}
+
+.clubs .club.it .club-background-color {
+    background: rgba($club-it, 0.5);
+}
+
+.clubs .club.media .club-background-img {
+    background-image: url(../img/media/pinceles.jpg);
+}
+
+.clubs .club.media .club-background-color {
+    background: rgba($club-media, 0.5);
+}
+
+.clubs .club.comunicacion .club-background-img {
+    background-image: url(../img/comunicación/microphone.jpg);
+}
+
+.clubs .club.comunicacion .club-background-color {
+    background: rgba($club-comunicacion, 0.5);
+}
+
+.clubs .club.finanzas .club-background-img {
+    background-image: url(../img/finanzas/trading.jpg);
+}
+
+.clubs .club.finanzas .club-background-color {
+    background: rgba($club-finanzas, 0.5);
+}

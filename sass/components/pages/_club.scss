@@ -25,7 +25,7 @@
   }
   
   .hero.club.it {
-    background-image: linear-gradient(rgba($club-it, 0.4), rgba($club-it, 0.4)), url(../img/IT/hero.jpg);
+    background-image: linear-gradient(rgba($club-it, 0.4), rgba($club-it, 0.4)), url(../img/it/hero.jpg);
   }
   
   .hero.club.media {
@@ -58,10 +58,9 @@
   text-align: center;
 }
 
-.club .team-section.members-2 .row{
+.team .members-2.row {
   max-width: 750px;
 }
-    
 /* ==========================================================================
    Main activity
    ========================================================================== */
@@ -74,24 +73,24 @@
   font-size: 1.4rem;
 }
 
-.ver-mas {
-  padding: 10px;
-  font-weight: 600;
-  font-size: 24px;
-  background-color: $club-emprendedores;
-  border: solid 2px $club-emprendedores;
-  color: white!important;
-  transition: all .4s ease;
-  border-radius: 0;
-  box-shadow: none;
-  margin: auto;
-}
+// .ver-mas {
+//   padding: 10px;
+//   font-weight: 600;
+//   font-size: 24px;
+//   background-color: $club-emprendedores;
+//   border: solid 2px $club-emprendedores;
+//   color: white!important;
+//   transition: all .4s ease;
+//   border-radius: 0;
+//   box-shadow: none;
+//   margin: auto;
+// }
 
-.ver-mas:hover {
-  background-color: $club-emprendedores-light;
-  border: solid 2px $club-emprendedores;
+// .ver-mas:hover {
+//   background-color: $club-emprendedores-light;
+//   border: solid 2px $club-emprendedores;
   
-}
+// }
 
 
 @media only screen and (min-width:993px){
@@ -126,4 +125,93 @@
   font-size: 1.3rem;
   max-width: 600px;
   margin: auto;
+}
+
+/* ==========================================================================
+  Links
+  ========================================================================== */
+
+.emprendedores a:not(.btn):hover, .emprendedores a:not(.btn):focus, .bootcamp a:not(.btn):hover, .bootcamp a:not(.btn):focus{
+  color: $club-emprendedores !important;
+}
+
+.consultoria a:not(.btn):hover, .consultoria a:not(.btn):focus{
+  color: $club-consultoria !important;
+}
+
+.it a:not(.btn):hover, .it a:not(.btn):focus{
+  color: $club-it !important;
+}
+
+.comunicacion a:not(.btn):hover, .comunicacion a:not(.btn):focus{
+  color: $club-comunicacion !important;
+}
+
+.finanzas a:not(.btn):hover, .finanzas a:not(.btn):focus{
+  color: $club-finanzas !important;
+}
+
+.media a:not(.btn):hover, .media a:not(.btn):focus{
+  color: $club-media !important;
+}
+
+.btn.ver-mas{
+  padding: 8px 15px;
+  font-weight: 600;
+  font-size: 21px;
+  color: #fff !important;
+  transition: all .4s ease;
+  border-radius: 0;
+  box-shadow: none;
+  margin: auto;
+  box-sizing: content-box;
+  text-transform: none;
+}
+
+.emprendedores .btn{
+  background-color: $club-emprendedores;
+}
+
+.consultoria .btn{
+  background-color: $club-consultoria;
+}
+
+.it .btn{
+  background-color: $club-it;
+}
+
+.comunicacion .btn{
+  background-color: $club-comunicacion;
+}
+
+.finanzas .btn{
+  background-color: $club-finanzas;
+}
+
+.media .btn{
+  background-color: $club-media;
+}
+
+.emprendedores .btn:hover, .emprendedores .btn:focus, .bootcamp .btn:hover, .bootcamp .btn:focus{
+  background-color: $club-emprendedores-light;
+}
+
+.consultoria .btn:hover, .consultoria .btn:focus{
+  background-color: $club-consultoria-light;
+}
+
+.it .btn:hover, .it .btn:focus{
+  background-color: $club-it-light;
+}
+
+.comunicacion .btn:hover, .comunicacion .btn:focus{
+  background-color: $club-comunicacion-light;
+}
+
+.finanzas .btn:hover, .finanzas .btn:focus{
+  background-color: $club-finanzas-light;
+}
+
+.media .btn:hover, .media .btn:focus{
+  background-color: $club-media-light;
 }

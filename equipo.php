@@ -7,7 +7,7 @@ include('templates/header.php');
   <section class="hero equipo">
     <div class="-blur">
       <div class="container">
-        <div class="row valign-row-l" data-aos="fade-up">
+        <div class="row valign-row-l">
           <div class="col s12 m12 l12">
             <h1>El Equipo</h1>
             <!-- <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam natus eum dolor perferendis dolore,
@@ -23,7 +23,7 @@ include('templates/header.php');
 
   <section class="container section team">
 
-    <div class="team-section members-2" data-aos="fade-up">
+    <div class="team-section members-2">
       <h4 style="padding-bottom:20px;">Directores</h4>
       <div class="row valign-row-l">
         <div class="col s12 m6 l6 member-card-container">
@@ -59,9 +59,9 @@ include('templates/header.php');
     </div>
 
 
-    <div class="team-section members-2" data-aos="fade-up">
+    <div class="team-section members-2">
       <h4 style="padding:20px;">Club Emprendedores</h4>
-      <div class="row valign-row-l" data-aos="fade-up">
+      <div class="row valign-row-l">
 
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
@@ -218,9 +218,9 @@ include('templates/header.php');
     </div>
 
 
-    <div class="team-section members-2" data-aos="fade-up">
+    <div class="team-section members-2">
       <h4 style="padding-bottom:20px;">Club Consultoría</h4>
-      <div class="row valign-row-l" data-aos="fade-up">
+      <div class="row valign-row-l">
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image" style="background-image: url('img/miembros/tramero43.jpg')"><img
@@ -255,10 +255,10 @@ include('templates/header.php');
     </div>
 
 
-    <div class="team-section members-2" data-aos="fade-up">
+    <div class="team-section members-2">
       <h4 style="padding-bottom:20px;">Club Finanzas</h4>
 
-      <div class="row valign-row-l" data-aos="fade-up">
+      <div class="row valign-row-l">
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image" style="background-image: url('img/miembros/tramero01.jpg')"><img
@@ -288,7 +288,7 @@ include('templates/header.php');
           </div>
         </div>
       </div>
-      <div class="row valign-row-l" data-aos="fade-up">
+      <div class="row valign-row-l">
         <div class="col s12 m6 l12 member-card-container">
           <div class="member-card">
             <div class="member-image" style="background-image: url('img/miembros/tramero41.jpg')"><img
@@ -308,9 +308,9 @@ include('templates/header.php');
     </div>
 
 
-    <div class="team-section members-2" data-aos="fade-up">
+    <div class="team-section members-2">
       <h4 style="padding-bottom:20px;">Club IT</h4>
-      <div class="row valign-row-l" data-aos="fade-up">
+      <div class="row valign-row-l">
 
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
@@ -345,9 +345,9 @@ include('templates/header.php');
     </div>
 
 
-    <div class="team-section members-2" data-aos="fade-up">
+    <div class="team-section members-2">
       <h4 style="padding-bottom:20px;">Club Comunicación</h4>
-      <div class="row valign-row-l" data-aos="fade-up">
+      <div class="row valign-row-l">
 
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
@@ -382,9 +382,9 @@ include('templates/header.php');
     </div>
 
 
-    <div class="team-section members-2" data-aos="fade-up">
+    <div class="team-section members-2">
       <h4 style="padding-bottom:20px;">Club Media</h4>
-      <div class="row valign-row-l" data-aos="fade-up">
+      <div class="row valign-row-l">
 
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
@@ -415,7 +415,7 @@ include('templates/header.php');
           </div>
         </div>
       </div>
-      <div class="row valign-row-l" data-aos="fade-up">
+      <div class="row valign-row-l">
         <div class="col s12 m6 l12 member-card-container">
           <div class="member-card">
             <div class="member-image" style="background-image: url('img/miembros/tramero42.jpg')"><img
