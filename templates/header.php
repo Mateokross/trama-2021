@@ -50,7 +50,7 @@
       <li>
         <a href="#!" class='dropdown-trigger-mobile' data-target='dropdown-mobile'>Clubes</a>
         <ul id='dropdown-mobile' class='dropdown-content'>
-          <li><a href="emprendedores.php">Emprendedores</a></li>
+          <li style="padding-bottom: 0px;"><a href="emprendedores.php">Emprendedores</a></li>
           <li><a href="consultoría.php">Consultoría</a></li>
           <li><a href="finanzas.php">Finanzas</a></li>
           <li><a href="it.php">IT</a></li>
