@@ -9,7 +9,7 @@ include('templates/header.php');
         <div class="container">
           <div class="half-width" data-aos="fade-up">
             <h1>Club Trama</h1>
-            <h5>Acercamos el mundo profesional a los estudiantes para aprender y crecer.  </h5>
+            <h5>Acercamos el mundo profesional a los estudiantes para aprender y crecer.</h5>
           </div>
         </div>
       </div>
@@ -27,7 +27,7 @@ include('templates/header.php');
             La organización cuenta con cinco clubes: Emprendedores, Finanzas, Consultoría, Comunicación y IT, también con un departamento de Media. Cada club tiene un ciclo de actividades cuatrimestral, abierto a todos los estudiantes, que brinda la posibilidad de conocer de cerca cada uno de estos campos.</p>
         </div>
         <div class="col s12 m12 l6 center">
-          <img id="img-5-clubes" class="responsive-img" src="img/5clubes.png" alt="Clubes Trama">
+          <img id="img-5-clubes" class="responsive-img" src="img/5clubes-min.png" alt="Clubes Trama">
         </div>
       </div>
     </section>

@@ -26,7 +26,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <!-- css -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="css/aos.min.css" rel="stylesheet">
   <link href="css/main.css" type="text/css" rel="stylesheet" media="screen" />
   <!-- <link rel="stylesheet" href="styles/debug.css"> -->
 </head>

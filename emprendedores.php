@@ -222,7 +222,7 @@ include('templates/header.php');
   <section class="container section center sponsor">
     <h4>Nuestro Sponsor</h4>
     <a class="sponsor" href="https://www.mercadolibre.com.ar/" target="_blank" rel="noreferrer"><img
-        src="img/sponsors/logo-mercadolibre.png" class="responsive-img"></a>
+        src="img/sponsors/logo-mercadolibre.png" class="responsive-img" alt="mercado libre"></a>
     <p>La compañía lider de e-commerce y fintech de América Latina. Que construye un ecosistema emprendedor que está
       democratizando el comercio, el dinero y los pagos facilitando el poder de emprender a millones de personas en
       América Latina.</p>
