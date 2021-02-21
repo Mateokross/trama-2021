@@ -33,14 +33,14 @@ include('templates/header.php');
     </section>
 
 
-    <section class="section alt-container sponsors"style="margin-bottom:0;">
+    <section class="section alt-container sponsors" style="margin-bottom:0;">
       <h4 class="center-align" >Nuestros Sponsors</h4>
       <div class="carousel" id="sponsors-carousel">
-        <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-mercadolibre.png"></a>
-        <a class="carousel-item" href="https://www.bancogalicia.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-galicia.png"></a>
-        <a class="carousel-item" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png"></a>
-        <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-clarin.png"></a>
-        <a class="carousel-item" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-globant.png"></a>
+        <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer" ><img src="img/sponsors/logo-mercadolibre.png" alt="mercado libre"></a>
+        <a class="carousel-item" href="https://www.bancogalicia.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-galicia.png" alt="banco galicia"></a>
+        <a class="carousel-item" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png" alt="bain"></a>
+        <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-clarin.png" alt="clarin"></a>
+        <a class="carousel-item" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-globant.png" alt="globant"></a>
       </div>
     </section>
 

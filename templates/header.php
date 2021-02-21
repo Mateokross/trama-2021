@@ -27,7 +27,7 @@
   <!-- css -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen" />
   <!-- <link rel="stylesheet" href="styles/debug.css"> -->
 </head>
 
@@ -42,14 +42,14 @@
   <header>
     <ul id="nav-mobile" class="sidenav">
       <li>
-        <a id="logo-container" href="index.php" class="brand-logo"><img src="img/logo-negro.png" alt="Trama logo"></a>
+        <a href="index.php" class="brand-logo"><img src="img/logo-negro.png" alt="Trama logo"></a>
       </li>
       <li><a href="index.php">Home</a></li>
       <!-- <li><a href="index.php#acerca" class="section-link">Acerca</a></li> -->
       <li><a href="equipo.php">Equipo</a></li>
       <li>
-        <a href="#!" class='dropdown-trigger' data-target='dropdown'>Clubes</a>
-        <ul id='dropdown' class='dropdown-content'>
+        <a href="#!" class='dropdown-trigger-mobile' data-target='dropdown-mobile'>Clubes</a>
+        <ul id='dropdown-mobile' class='dropdown-content'>
           <li><a href="emprendedores.php">Emprendedores</a></li>
           <li><a href="consultoría.php">Consultoría</a></li>
           <li><a href="finanzas.php">Finanzas</a></li>
@@ -62,9 +62,9 @@
       <li><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
     </ul>
 
-    <nav class=" transparent z-depth-0" role="navigation">
+    <nav class=" transparent z-depth-0">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="index.php" class="brand-logo"><img src="img/logo.png" alt="Trama logo"></a>
+        <a href="index.php" class="brand-logo"><img src="img/logo.png" alt="Trama logo"></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="index.php">Home</a></li>
           <!-- <li><a href="index.php#section-1" class="section-link">Acerca</a></li> -->

@@ -26,6 +26,14 @@ $(document).ready(function () {
     outDuration:400
   });
 
+  $('.dropdown-trigger-mobile').dropdown({
+    hover:true,
+    constrainWidth:false,
+    coverTrigger:false,
+    inDuration:400,
+    outDuration:400
+  });
+
   if($('.collapsible').length > 0){
     $('.collapsible').collapsible();
   }
