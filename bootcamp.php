@@ -28,6 +28,7 @@ include('templates/header.php');
       busca desarrollar o explotar habilidades esenciales para el contexto laboral actual y potenciar el crecimiento
       personal en un entorno de aprendizaje a partir del desarrollo de un proyecto de startup.</h5>
 
+      <!--
     <div class="carousel" id="bootcamp-carousel" style="margin-top:90px" data-aos="fade-up">
 
       <div class="carousel-item" rel="noreferrer">
@@ -59,7 +60,7 @@ include('templates/header.php');
         </div>
       </div>
 
-    </div>
+    </div>  -->
 
   </section>
 
@@ -187,7 +188,7 @@ include('templates/header.php');
 
   <section class="alt-container section" id="section-4">
     <div class="container">
-      <h3 style="margin-bottom:50px">FAQ</h3>
+      <h3 style="margin-bottom:50px">Preguntas Frecuentes</h3>
       <ul class="collapsible faq">
         <li>
           <div class="collapsible-header">¿Qué es el Bootcamp?</div>
@@ -199,7 +200,7 @@ include('templates/header.php');
         </li>
         <li>
           <div class="collapsible-header">¿El evento es gratuito?</div>
-          <div class="collapsible-body"><span>Todos los gastos del evento están cubiertos. Si no residís en CABA o GBA, tenés cubierto el hospedaje y podés conseguir una bonificación para el traslado a capital.</span></div>
+          <div class="collapsible-body"><span>Todos los gastos del evento están cubiertos. Si no residís en CABA o GBA, tenés cubierto el hospedaje y podés participar por una beca para el traslado a capital.</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Cuánto Dura?</div>
@@ -207,11 +208,11 @@ include('templates/header.php');
         </li>
         <li>
           <div class="collapsible-header">¿Como puedo participar?</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          <div class="collapsible-body"><span>Para participar tenés que llenar el <a href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">form de inscripción</a> y ser de los 80 que quedan seleccionados</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Puedo participar siendo del exterior?</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          <div class="collapsible-body"><span>Sí podes participar siempre y cuando quedes entre los 80 seleccionados y no haya restricciones de turismo a causa del Coronavirus.</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Necesito conocimientos previos?</div>
