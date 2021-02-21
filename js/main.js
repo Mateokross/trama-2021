@@ -22,23 +22,29 @@ $(window).on("load", function () {
     var instance = M.Carousel.getInstance(bootcampCarousel);
   }
   
-  var play = 1;
 
-  $('.carousel').hover(function () {
-    play = false;
-  }, function () {
-    play = true;
-  });
+  if (typeof instance !== 'undefined') {
+    // the instance is set
+    var play = 1;
 
-  function slide() {
-    setInterval(function () {
-      if (play) {
-        instance.next();
-      }
-    }, 4000);
+    $('.carousel').hover(function () {
+      play = false;
+    }, function () {
+      play = true;
+    });
+  
+    function slide() {
+      setInterval(function () {
+        if (play) {
+          instance.next();
+        }
+      }, 4000);
+    }
+  
+    slide();
   }
 
-  slide();
+  
   
   /* ==========================================================================
     Change header on scroll
