@@ -60,7 +60,7 @@
           <!-- <li><a href="index.php#section-1" class="section-link">Acerca</a></li> -->
           <li><a href="equipo.php">Equipo</a></li>
           <li>
-            <a href="#!" class='dropdown-trigger' data-target='dropdown'>Clubes</a>
+            <a href="clubes.php" class='dropdown-trigger' data-target='dropdown'>Clubes</a>
             <ul id='dropdown' class='dropdown-content'>
               <li><a href="emprendedores.php">Emprendedores</a></li>
               <li><a href="consultoría.php">Consultoría</a></li>
