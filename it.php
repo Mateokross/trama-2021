@@ -81,7 +81,7 @@ include('templates/header.php');
 
   <section class="container section center sponsor">
     <h4>Nuestro Sponsor</h4>
-    <a class="sponsor" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img
+    <a class="sponsor" href="https://www.globant.com/" target="_blank" rel="noreferrer" alt="globant"><img
         src="img/sponsors/logo-globant.png" class="responsive-img"></a>
     <p>Globant es una empresa de ingeniería de software y tecnología de la información originaria de Argentina con sede
       en Luxemburgo.​ Es considerada como uno de los cuatro unicornios argentinos ¿Querés saber más? Entrá a <a

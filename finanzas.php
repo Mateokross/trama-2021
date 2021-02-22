@@ -93,7 +93,7 @@ include('templates/header.php');
 
   <section class="container section center sponsor">
     <h4>Nuestro Sponsor</h4>
-    <a class="sponsor" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img
+    <a class="sponsor" href="https://www.bancogalicia.com/banca/online/web/Eminent" target="_blank" rel="noreferrer" alt="galicia"><img
         src="img/sponsors/logo-galicia.png" class="responsive-img"></a>
     <p>Como banco universal, y a través de distintas compañías vinculadas y de variados canales de distribución, ofrece
       una amplia gama de servicios financieros a más de 3 millones de clientes, tanto individuos como empresas, y opera

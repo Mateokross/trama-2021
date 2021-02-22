@@ -169,24 +169,24 @@ include('templates/header.php');
 
   </section>
 
-  <section class="section container sponsors" id="section-2" style="margin-top:0;">
+  <section class="section container sponsors" id="section-4" style="margin-top:0;">
     <h4 class="center-align">Nuestros Sponsors</h4>
     <div class="carousel" id="sponsors-carousel">
-      <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer"><img
+      <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer" alt="mercado libre"><img
           src="img/sponsors/logo-mercadolibre.png"></a>
-      <a class="carousel-item" href="https://www.cerveceriaymalteriaquilmes.com/" target="_blank" rel="noreferrer"><img
+      <a class="carousel-item" href="https://www.cerveceriaymalteriaquilmes.com/" target="_blank" rel="noreferrer" alt="cervecería y malteria quilmes"><img
           src="img/sponsors/logo-quilmes.png"></a>
-      <a class="carousel-item" href="https://www.swissmedical.com.ar/prepagaclientes/" target="_blank"
+      <a class="carousel-item" href="https://www.swissmedical.com.ar/prepagaclientes/" target="_blank" alt="swiss medical"
         rel="noreferrer"><img src="img/sponsors/logo-swiss.png"></a>
-      <a class="carousel-item" href="https://www.nestle.com.ar/" target="_blank" rel="noreferrer"><img
+      <a class="carousel-item" href="https://www.nestle.com.ar/" target="_blank" rel="noreferrer" alt="nestle"><img
           src="img/sponsors/logo-nestle.png"></a>
-      <a class="carousel-item" href="https://aws.amazon.com/es/" target="_blank" rel="noreferrer"><img
+      <a class="carousel-item" href="https://aws.amazon.com/es/" target="_blank" rel="noreferrer" alt="aws"><img
           src="img/sponsors/logo-aws.png"></a>
     </div>
   </section>
 
 
-  <section class="alt-container section" id="section-4">
+  <section class="alt-container section" id="section-5">
     <div class="container">
       <h3 style="margin-bottom:50px">Preguntas Frecuentes</h3>
       <ul class="collapsible faq">
