@@ -20,14 +20,21 @@ $entries = $response_data->entries;
 // Cut long data into small & select only first 10 records
 $entries = array_slice($entries, 0, 9);
 
-// Print data if need to debug
-// print_r($user_data);
 
 // Traverse array and display user data
 foreach ($entries as $entry) {
-  echo "name: ".$entry->nombre;
-  echo "<img src='".$entry->thumbnail->path."'>";
+  //aca se loopea cada articulo
+  ?>  
+
+  <div class="card">
+    <h1 class="titulo"><?php echo $entry->nombre; ?></h1>
+    <img src="trama.mateokrossler.com<?php echo $entry->thumbnail->path; ?>" class="responsive-img" alt="">
+  </div>
+  
+<?php 
 }
+
+
 
 
 

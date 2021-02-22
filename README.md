@@ -13,108 +13,16 @@ Y acá podes aprender de Github:
 
 
 
-## Especificaciones Finales
+# Todo
 
-**Inicio**
-
-1. Hero 
-2. Quienes somos
-3. Eventos
-4. Sponsors
-5. Noticias
-6. Clubes
-7. Suscripción newsletter
-
-**Integrantes**
-
-8. Hero
-9. Integrantes 2020-21
-10. Integrantes de otros años
-
-**Historia**
-
-11. Hero
-12. Timeline
-
-**Clubes (Una para cada uno)**
-
-13. Hero
-14. Contenido principal
-15. Evento
-
-**Noticias**
-
-16. Hero
-17. Feed de noticias
-
-**Aceleradora**
-
-18. Hero
-19. Contenido principal
-20. Link a form
-21. Anotate!
-22. FAQ
-
-**Panel de admin**
-
-- Editor de eventos
-- Editor de noticias
+1. Agregar Timeline (historia de trama)
+2. Que las secciones se colorizen automáticamente (Mate lo hace)
+3. Agregar página y sección eventos
+4. Agregar página y sección noticias
+5. Agregar página y sección recursos
+6. Actualizar los logos de los clubes 🤢🤮 --> ✨✨
+7. Contenido de eventos principales
+8. Colores cool en hover de lista de clubes
 
 
 
-## Roadmap
-
-1. **V0.1** Incluye:
-
-   1. Página principal
-
-      1. Header [X]
-
-      2. Hero [X]
-
-      3. Quienes somos [X]
-
-      4. Sponsors [X]
-
-      5. Clubes [X]
-
-      6. Footer [X]
-
-         
-
-2. **V0.2** Agrega:
-
-   1. Clubes (una para cada club)
-
-      1. Ultimo video [  ]
-      2. Texto desc [  ]
-
-   2. Integrantes
-
-      1. Individuales 2020-2021 [  ]
-      2. Fotos grupales otros años [  ]
-
-   3. Historia
-
-      1. timeline [  ]
-
-         
-
-3. **V0.3** Agrega:
-
-   1. Página principal
-      1. Eventos [  ]
-      2. Noticias [  ]
-   2. Clubes (una para cada club)
-      1. Evento/s [  ]
-      2. Newsletter individual [  ]
-   3. Noticias [  ]
-
-   
-
-4. **V1** Agrega:
-
-   1. Página principal
-      1. Suscrpción newsletter [  ]
-   2. Integrantes
-      1. Individuales otros años [  ]
