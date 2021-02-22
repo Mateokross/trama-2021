@@ -9,7 +9,7 @@ include('templates/header.php');
       <div class="container center-align white-text">
 
         <div class="center-align">
-          <img style="max-width:80%" src="img/bootcamp/logo.png" class="responsive-img" alt="placeholder">
+          <img style="width:80%; max-width:400px;" src="img/bootcamp/logo.png" class="responsive-img" alt="placeholder">
         </div>
 
         <h4 style="margin:0px" class="center-align white-text">Aprendé a Emprender</h4>
