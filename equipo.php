@@ -4,7 +4,7 @@ include('templates/header.php');
 
 ?>
 <main class="equipo">
-  <section class="hero equipo">
+  <section class="hero short-hero equipo">
     <div class="darken">
       <div class="container">
         <div class="row valign-row-l">

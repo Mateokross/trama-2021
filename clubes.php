@@ -4,7 +4,7 @@ include('templates/header.php');
 
 ?>
   <main class="clubes">
-    <section class="hero">
+    <section class="hero short-hero">
       <div class="-blur">
         <div class="container">
           <div class="half-width">

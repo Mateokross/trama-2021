@@ -71,6 +71,35 @@
     }
 }
 
+
+//Short hero
+
+.short-hero.hero{
+    height: 35vh;
+}
+
+.short-hero.hero .container{
+    padding-top: 5vh;
+}
+@media only screen and (max-width: 600px){
+    .short-hero.hero{
+        height: 40vh;
+    }
+    
+    .short-hero.hero h1{
+        font-size: 2.5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
 /*Arrow*/
 
 .arrow {

@@ -1,6 +1,8 @@
 
 <section class="section <?php echo isset($index) ? "container" : "alt-container"?> clubs">
-    <?php echo isset($title) ? '' : '<h4 style="margin-bottom:50px">Clubes</h4>'?>
+    <?php echo isset($index) ? "" : "<div class='container'>"?>
+      <?php echo isset($title) ? '' : '<h4 style="margin-bottom:50px">Clubes</h4>'?>
+    <?php echo isset($index) ? "" : "</div>"?>
   <div class="row">
     <a href="emprendedores.php" class="col s12 m6 l4 club emprendedores">
       <div class="club-background-img"></div>
