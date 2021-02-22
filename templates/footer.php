@@ -43,8 +43,8 @@
   <script src="js/jquery-3.5.0.min.js"></script>
   <script src="js/aos.min.js"></script>
   <script src="js/materialize.min.js"></script>
-  <script src="js/main.js?v=0.1"></script>
-  <script src="js/init.js?v=0.1"></script>
+  <script src="js/main.js?v=2"></script>
+  <script src="js/init.js?v=2"></script>
 
 </body>
 
