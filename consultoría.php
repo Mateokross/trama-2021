@@ -33,7 +33,7 @@ include('templates/header.php');
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src="img/miembros/tramero43.jpg" alt="miembro" class="responsive-img member-alt">
+            <img src="img/miembros/tramero43.jpg?v=2" alt="miembro" class="responsive-img member-alt">
             <img src="img/miembros/tramero05.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Mateo Krössler</p>
             <p class="position">Coordinador Consultoría y Podcast</p>
