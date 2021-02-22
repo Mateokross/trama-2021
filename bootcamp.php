@@ -9,7 +9,7 @@ include('templates/header.php');
       <div class="container center-align white-text">
 
         <div class="center-align">
-          <img style="max-width:400px" src="img/bootcamp/logo.png" class="responsive-img" alt="placeholder">
+          <img style="max-width:80%" src="img/bootcamp/logo.png" class="responsive-img" alt="placeholder">
         </div>
 
         <h4 style="margin:0px" class="center-align white-text">Aprendé a Emprender</h4>
@@ -136,7 +136,7 @@ include('templates/header.php');
         <div class="stats-circle">
           <div class="circle-text">7</div>
         </div>
-        <h5 style="font-weight:600">Ediciones</h5>
+        <h5 >Ediciones</h5>
         <p></p>
       </div>
 
@@ -144,23 +144,23 @@ include('templates/header.php');
         <div class="stats-circle">
           <div class="circle-text">21</div>
         </div>
-        <h5 style="font-weight:600">Proyectos Ganadores</h5>
+        <h5>Proyectos Ganadores</h5>
         <p></p>
       </div>
 
       <div class="col s6 m3 l3 center-align stats-card">
         <div class="stats-circle">
-          <div class="circle-text" style="font-size:58px;">+630</div>
+          <div class="circle-text">+630</div>
         </div>
-        <h5 style="font-weight:600">Participantes</h5>
+        <h5>Participantes</h5>
         <p></p>
       </div>
 
       <div class="col s6 m3 l3 center-align stats-card">
         <div class="stats-circle">
-          <div class="circle-text" style="font-size:58px;">+120</div>
+          <div class="circle-text" >+120</div>
         </div>
-        <h5 style="font-weight:600">Proyectos de impacto</h5>
+        <h5>Proyectos de impacto</h5>
         <p></p>
       </div>
 

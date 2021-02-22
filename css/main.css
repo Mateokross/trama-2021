@@ -3571,13 +3571,16 @@ form #website {
   padding-bottom: 100%; }
 
 .circle-text {
-  font-size: 64px;
+  font-size: 58px;
   position: absolute;
   bottom: 50%;
   width: 100%;
   text-align: center;
   font-weight: bold;
   color: white; }
+
+.circle-text h5 {
+  font-weight: 600; }
 
 #section-3 h4 {
   /* font-size: 24px; */ }
@@ -3621,6 +3624,18 @@ form #website {
   -webkit-transition: color .4s ease;
   transition: color .4s ease; }
 
+@media only screen and (max-width: 992px) {
+  .stats-card h5 {
+    font-size: 16px;
+    font-weight: 500; }
+
+  .circle-text {
+    font-size: 30px;
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+    color: white; } }
 /* ==========================================================================
    Quienes somos
    ========================================================================== */
