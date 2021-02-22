@@ -1,60 +1,67 @@
-
 /* ==========================================================================
    Hero
    ========================================================================== */
-  /*págnias de clubes*/
-  .hero.club {
-    height: 70vh;
-    min-height: 670px;
-    overflow: hidden;
-  }
-  
-  @media only screen and (max-width:992px) {
-    .hero.club {
-      height: 100vh;
-    }
-  }
-  
-  .hero.club.emprendedores {
-    background-image: linear-gradient(rgba($club-emprendedores, 0.4), rgba($club-emprendedores, 0.4)), url(../img/emprendedores/hero-emprendedores-min.jpg);
-    
-  }
-  
-  .hero.club.consultoria {
-    background-image: linear-gradient(rgba($club-consultoria, 0.4), rgba($club-consultoria, 0.4)), url(../img/consultoría/hero-consultoria-min.jpg);
-  }
-  
-  .hero.club.it {
-    background-image: linear-gradient(rgba($club-it, 0.4), rgba($club-it, 0.4)), url(../img/it/hero-it-min.jpg);
-  }
-  
-  .hero.club.media {
-    background-image: linear-gradient(rgba($club-media, 0.4), rgba($club-media, 0.4)), url(../img/media/hero-media-min.jpg);
-  }
-  
-  .hero.club.comunicacion {
-    background-image: linear-gradient(rgba($club-comunicacion, 0.4), rgba($club-comunicacion, 0.4)), url(../img/comunicación/hero-comunicacion-min.jpg);
-  }
-  
-  .hero.club.finanzas {
-    background-image: linear-gradient(rgba($club-finanzas, 0.4), rgba($club-finanzas, 0.4)), url(../img/finanzas/hero-finanzas-min.jpg);
-  }
-  
-  #link-bc-texto {
-    color: white;
-    font-weight: bolder;
-  }
+/*págnias de clubes*/
+.hero.club {
+  height: 70vh;
+  min-height: 670px;
+  overflow: hidden;
+}
 
-  #link-bc-texto:hover {
-    color: #b79dc4;
-    font-weight: bolder;
+@media only screen and (max-width:992px) {
+  .hero.club {
+    height: 95vh;
   }
+}
+
+.hero.club.emprendedores {
+  background-image: linear-gradient(rgba($club-emprendedores, 0.4), rgba($club-emprendedores, 0.4)), url(../img/emprendedores/hero-emprendedores-min.jpg);
+
+}
+
+.hero.club.consultoria {
+  background-image: linear-gradient(rgba($club-consultoria, 0.4), rgba($club-consultoria, 0.4)), url(../img/consultoría/hero-consultoria-min.jpg);
+}
+
+.hero.club.it {
+  background-image: linear-gradient(rgba($club-it, 0.4), rgba($club-it, 0.4)), url(../img/it/hero-it-min.jpg);
+}
+
+.hero.club.media {
+  background-image: linear-gradient(rgba($club-media, 0.4), rgba($club-media, 0.4)), url(../img/media/hero-media-min.jpg);
+}
+
+.hero.club.comunicacion {
+  background-image: linear-gradient(rgba($club-comunicacion, 0.4), rgba($club-comunicacion, 0.4)), url(../img/comunicación/hero-comunicacion-min.jpg);
+}
+
+.hero.club.finanzas {
+  background-image: linear-gradient(rgba($club-finanzas, 0.4), rgba($club-finanzas, 0.4)), url(../img/finanzas/hero-finanzas-min.jpg);
+}
+
+@media only screen and (max-width: 500px){
+  .hero h5{
+    font-size: 1.3rem;
+  }
+}
+
+
+
+#link-bc-texto {
+  color: white;
+  font-weight: bolder;
+}
+
+#link-bc-texto:hover {
+  color: #b79dc4;
+  font-weight: bolder;
+}
 
 /* ==========================================================================
    Team
    ========================================================================== */
 
-.club .container.section.team{
+.club .container.section.team {
   text-align: center;
 }
 
@@ -62,19 +69,19 @@
   max-width: 750px;
 }
 
-.team .members-3.row{
+.team .members-3.row {
   max-width: 1140px;
 }
 
 /* ==========================================================================
    Main activity
    ========================================================================== */
-.main-activity .container{
+.main-activity .container {
   width: 90%;
   max-width: 1280px;
 }
 
-.main-activity p{
+.main-activity p {
   font-size: 1.4rem;
 }
 
@@ -94,30 +101,31 @@
 // .ver-mas:hover {
 //   background-color: $club-emprendedores-light;
 //   border: solid 2px $club-emprendedores;
-  
+
 // }
 
 
-@media only screen and (min-width:993px){
-  .main-activity > div.row> div:nth-child(1){
+@media only screen and (min-width:993px) {
+  .main-activity>div.row>div:nth-child(1) {
     padding-left: 0;
   }
-  .main-activity p{
+
+  .main-activity p {
     padding: 0 30px 0 40px;
   }
 }
 
-@media only screen and (max-width:992px){
+@media only screen and (max-width:992px) {
   .main-activity {
     text-align: center;
   }
 }
 
-  
+
 /* ==========================================================================
    Sponsor Club
    ========================================================================== */
-.sponsor{
+.sponsor {
   text-align: center;
 }
 
@@ -126,7 +134,7 @@
   height: 200px;
 }
 
-.sponsor p{
+.sponsor p {
   font-size: 1.3rem;
   max-width: 800px;
   margin: auto;
@@ -136,31 +144,39 @@
   Links
   ========================================================================== */
 
-.emprendedores a:not(.btn):hover, .emprendedores a:not(.btn):focus, .bootcamp a:not(.btn):hover, .bootcamp a:not(.btn):focus{
+.emprendedores a:not(.btn):hover,
+.emprendedores a:not(.btn):focus,
+.bootcamp a:not(.btn):hover,
+.bootcamp a:not(.btn):focus {
   color: $club-emprendedores !important;
 }
 
-.consultoria a:not(.btn):hover, .consultoria a:not(.btn):focus{
+.consultoria a:not(.btn):hover,
+.consultoria a:not(.btn):focus {
   color: $club-consultoria !important;
 }
 
-.it a:not(.btn):hover, .it a:not(.btn):focus{
+.it a:not(.btn):hover,
+.it a:not(.btn):focus {
   color: $club-it !important;
 }
 
-.comunicacion a:not(.btn):hover, .comunicacion a:not(.btn):focus{
+.comunicacion a:not(.btn):hover,
+.comunicacion a:not(.btn):focus {
   color: $club-comunicacion !important;
 }
 
-.finanzas a:not(.btn):hover, .finanzas a:not(.btn):focus{
+.finanzas a:not(.btn):hover,
+.finanzas a:not(.btn):focus {
   color: $club-finanzas !important;
 }
 
-.media a:not(.btn):hover, .media a:not(.btn):focus{
+.media a:not(.btn):hover,
+.media a:not(.btn):focus {
   color: $club-media !important;
 }
 
-.btn.ver-mas{
+.btn.ver-mas {
   padding: 8px 15px;
   font-weight: 600;
   font-size: 21px;
@@ -173,50 +189,58 @@
   text-transform: none;
 }
 
-.emprendedores .btn{
+.emprendedores .btn {
   background-color: $club-emprendedores;
 }
 
-.consultoria .btn{
+.consultoria .btn {
   background-color: $club-consultoria;
 }
 
-.it .btn{
+.it .btn {
   background-color: $club-it;
 }
 
-.comunicacion .btn{
+.comunicacion .btn {
   background-color: $club-comunicacion;
 }
 
-.finanzas .btn{
+.finanzas .btn {
   background-color: $club-finanzas;
 }
 
-.media .btn{
+.media .btn {
   background-color: $club-media;
 }
 
-.emprendedores .btn:hover, .emprendedores .btn:focus, .bootcamp .btn:hover, .bootcamp .btn:focus{
+.emprendedores .btn:hover,
+.emprendedores .btn:focus,
+.bootcamp .btn:hover,
+.bootcamp .btn:focus {
   background-color: $club-emprendedores-light;
 }
 
-.consultoria .btn:hover, .consultoria .btn:focus{
+.consultoria .btn:hover,
+.consultoria .btn:focus {
   background-color: $club-consultoria-light;
 }
 
-.it .btn:hover, .it .btn:focus{
+.it .btn:hover,
+.it .btn:focus {
   background-color: $club-it-light;
 }
 
-.comunicacion .btn:hover, .comunicacion .btn:focus{
+.comunicacion .btn:hover,
+.comunicacion .btn:focus {
   background-color: $club-comunicacion-light;
 }
 
-.finanzas .btn:hover, .finanzas .btn:focus{
+.finanzas .btn:hover,
+.finanzas .btn:focus {
   background-color: $club-finanzas-light;
 }
 
-.media .btn:hover, .media .btn:focus{
+.media .btn:hover,
+.media .btn:focus {
   background-color: $club-media-light;
 }

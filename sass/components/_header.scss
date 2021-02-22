@@ -47,6 +47,9 @@ header nav i {
 .dropdown-trigger:focus {
   color: white !important;
 }
+.dropdown-content{
+  top: 70px !important;
+}
 
 .dropdown-content li:hover,
 .dropdown-content li.active {
@@ -81,6 +84,15 @@ header nav i {
   padding-bottom: 40px;
 }
 
+#nav-mobile a{
+  font-size: 17px;
+  height: 60px;
+}
+
+.sidenav-trigger i{
+  font-size: 3rem!important;
+  padding-top: 15px;
+}
 
 .nav-wrapper {
   color: #fafafa;
@@ -115,6 +127,7 @@ ul.sidenav a {
 
 }
 
+
 nav ul a,
 nav ul li,
 nav .sidenav-trigger i {
@@ -129,3 +142,4 @@ ul.sidenav a:hover {
   color: $primary-color;
 
 }
+

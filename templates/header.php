@@ -47,17 +47,7 @@
       <li><a href="index.php">Home</a></li>
       <!-- <li><a href="index.php#acerca" class="section-link">Acerca</a></li> -->
       <li><a href="equipo.php">Equipo</a></li>
-      <li>
-        <a href="#!" class='dropdown-trigger-mobile' data-target='dropdown-mobile'>Clubes</a>
-        <ul id='dropdown-mobile' class='dropdown-content'>
-          <li style="padding-bottom: 0px;"><a href="emprendedores.php">Emprendedores</a></li>
-          <li><a href="consultoría.php">Consultoría</a></li>
-          <li><a href="finanzas.php">Finanzas</a></li>
-          <li><a href="it.php">IT</a></li>
-          <li><a href="media.php">Media</a></li>
-          <li><a href="comunicación.php">Comunicación</a></li>
-        </ul>
-      </li>
+      <li><a href="clubes.php">Clubes</a></li>
       <li><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
       <li><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
     </ul>
