@@ -28,48 +28,13 @@ include('templates/header.php');
       busca desarrollar o explotar habilidades esenciales para el contexto laboral actual y potenciar el crecimiento
       personal en un entorno de aprendizaje a partir del desarrollo de un proyecto de startup.</h5>
 
-      <!--
-    <div class="carousel" id="bootcamp-carousel" style="margin-top:90px" data-aos="fade-up">
-
-      <div class="carousel-item" rel="noreferrer">
-        <div class="opinion-card center-align">
-          <img src="img/placeholder2.jpg" class="opinion-img" alt="placeholder.jpg">
-          <h5>Lucas Cugitachi</h5>
-          <p>La verdad que trama me encanta por su versatilidad para bla blabal balbalbalab bla bla</p>
-        </div>
-      </div>
-      <div class="carousel-item" rel="noreferrer">
-        <div class="opinion-card center-align">
-          <img src="img/placeholder2.jpg" class="opinion-img" alt="placeholder.jpg">
-          <h5>Lucas Cugitachi</h5>
-          <p>La verdad que trama me encanta por su versatilidad para bla blabal balbalbalab bla bla</p>
-        </div>
-      </div>
-      <div class="carousel-item" rel="noreferrer">
-        <div class="opinion-card center-align">
-          <img src="img/placeholder2.jpg" class="opinion-img" alt="placeholder.jpg">
-          <h5>Lucas Cugitachi</h5>
-          <p>La verdad que trama me encanta por su versatilidad para bla blabal balbalbalab bla bla</p>
-        </div>
-      </div>
-      <div class="carousel-item" rel="noreferrer">
-        <div class="opinion-card center-align">
-          <img src="img/placeholder2.jpg" class="opinion-img" alt="placeholder.jpg">
-          <h5>Lucas Cugitachi</h5>
-          <p>La verdad que trama me encanta por su versatilidad para bla blabal balbalbalab bla bla</p>
-        </div>
-      </div>
-
-    </div>  -->
-
   </section>
 
   <section class="alt-container section center-align" id="section-2">
     <h3 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2020</h3>
     <div class="container" style="max-width: 1086px">
       <div class="iframe-container">
-        <iframe src="https://www.youtube.com/embed/L3rP5BfAkAk" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+        <iframe src="https://www.youtube.com/embed/L3rP5BfAkAk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
           data-aos="fade-up"></iframe>
       </div>
     </div>
@@ -88,7 +53,7 @@ include('templates/header.php');
 
             <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2019</h4>
             <div class="iframe-container">
-              <iframe width="80%" height="500px" src="https://www.youtube.com/embed/KuCqX2Ch014" frameborder="0"
+              <iframe width="80%" height="500" src="https://www.youtube.com/embed/KuCqX2Ch014"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </div>
@@ -101,7 +66,7 @@ include('templates/header.php');
 
             <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2018</h4>
             <div class="iframe-container">
-              <iframe width="80%" height="500px" src="https://www.youtube.com/embed/Azgl3obTMgI" frameborder="0"
+              <iframe width="80%" height="500" src="https://www.youtube.com/embed/Azgl3obTMgI"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </div>
@@ -113,7 +78,7 @@ include('templates/header.php');
 
             <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2017</h4>
             <div class="iframe-container">
-              <iframe width="80%" height="500px" src="https://www.youtube.com/embed/8uVaPgv0Sv8" frameborder="0"
+              <iframe width="80%" height="500" src="https://www.youtube.com/embed/8uVaPgv0Sv8"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
             </div>
@@ -172,16 +137,16 @@ include('templates/header.php');
   <section class="section container sponsors" id="section-4" style="margin-top:0;">
     <h4 class="center-align">Nuestros Sponsors</h4>
     <div class="carousel" id="sponsors-carousel">
-      <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer" alt="mercado libre"><img
-          src="img/sponsors/logo-mercadolibre.png"></a>
-      <a class="carousel-item" href="https://www.cerveceriaymalteriaquilmes.com/" target="_blank" rel="noreferrer" alt="cervecería y malteria quilmes"><img
-          src="img/sponsors/logo-quilmes.png"></a>
-      <a class="carousel-item" href="https://www.swissmedical.com.ar/prepagaclientes/" target="_blank" alt="swiss medical"
-        rel="noreferrer"><img src="img/sponsors/logo-swiss.png"></a>
-      <a class="carousel-item" href="https://www.nestle.com.ar/" target="_blank" rel="noreferrer" alt="nestle"><img
-          src="img/sponsors/logo-nestle.png"></a>
-      <a class="carousel-item" href="https://aws.amazon.com/es/" target="_blank" rel="noreferrer" alt="aws"><img
-          src="img/sponsors/logo-aws.png"></a>
+      <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer" ><img
+          src="img/sponsors/logo-mercadolibre.png" alt="mercado libre"></a>
+      <a class="carousel-item" href="https://www.cerveceriaymalteriaquilmes.com/" target="_blank" rel="noreferrer"><img
+          src="img/sponsors/logo-quilmes.png" alt="cervecería y malteria quilmes"></a>
+      <a class="carousel-item" href="https://www.swissmedical.com.ar/prepagaclientes/" target="_blank"
+        rel="noreferrer"><img src="img/sponsors/logo-swiss.png"  alt="swiss medical"></a>
+      <a class="carousel-item" href="https://www.nestle.com.ar/" target="_blank" rel="noreferrer"><img
+          src="img/sponsors/logo-nestle.png"  alt="nestle"></a>
+      <a class="carousel-item" href="https://aws.amazon.com/es/" target="_blank" rel="noreferrer"><img
+          src="img/sponsors/logo-aws.png" alt="aws"></a>
     </div>
   </section>
 
