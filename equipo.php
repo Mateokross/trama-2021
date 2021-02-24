@@ -29,7 +29,7 @@ include('templates/header.php');
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero45.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero45.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero45.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Isabella Cardoni</p>
             <p class="position">Codirectora</p>
@@ -46,7 +46,7 @@ include('templates/header.php');
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero30.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero30.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero37.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Juan Bautista Scelzi</p>
             <p class="position">Codirector</p>
@@ -251,14 +251,15 @@ include('templates/header.php');
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src="img/miembros/tramero43.jpg?v=2" alt="miembro" class="responsive-img member-alt">
-            <img src="img/miembros/tramero05.jpg" alt="miembro" class="responsive-img"></div>
+              <img src="img/miembros/tramero43.jpg?v=2" alt="miembro" class="responsive-img member-alt">
+              <img src="img/miembros/tramero05.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Mateo Krössler</p>
             <p class="position">Coordinador Consultoría y Podcast</p>
             <ul class="contact">
               <li><a href="https://www.linkedin.com/in/mateokrossler/" target="_blank" rel="noreferrer"><i
                     class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="mailto:mkrossler@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a>
+              <li><a href="mailto:mkrossler@itba.edu.ar" target="_blank" rel="noreferrer"><i
+                    class="far fa-envelope"></i></a>
               </li>
             </ul>
           </div>
@@ -267,14 +268,15 @@ include('templates/header.php');
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src="img/miembros/tramero18.jpg" alt="miembro" class="responsive-img member-alt">
-            <img src="img/miembros/tramero16.jpg" alt="miembro" class="responsive-img"></div>
+              <img src="img/miembros/tramero18.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src="img/miembros/tramero16.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Pedro Ceballos</p>
             <p class="position">Coordinador Consultoría</p>
             <ul class="contact">
               <li><a href="https://www.linkedin.com/in/ceballos-pedro/" target="_blank" rel="noreferrer"><i
                     class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="mailto:pceballos@itba.edu.ar" target="_blank" rel="noreferrer"><i class="far fa-envelope"></i></a>
+              <li><a href="mailto:pceballos@itba.edu.ar" target="_blank" rel="noreferrer"><i
+                    class="far fa-envelope"></i></a>
               </li>
             </ul>
           </div>
@@ -290,7 +292,7 @@ include('templates/header.php');
         <div class="col s12 m6 l4 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero01.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero01.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero27.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Benjamin Durruty</p>
             <p class="position">Coordinador Finanzas</p>
@@ -306,7 +308,7 @@ include('templates/header.php');
         <div class="col s12 m6 l4 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero33.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero33.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero32.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Tomas Galizia</p>
             <p class="position">Coordinador Finanzas</p>
@@ -322,7 +324,7 @@ include('templates/header.php');
         <div class="col s12 m12 l4 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero41.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero41.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero40.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Ramiro Pereda</p>
             <p class="position">Coordinador Finanzas</p>
@@ -348,7 +350,7 @@ include('templates/header.php');
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero23.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero23.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero22.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Lautaro Hernando</p>
             <p class="position">Coordinador IT</p>
@@ -364,7 +366,7 @@ include('templates/header.php');
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero12.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero12.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero11.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Santiago Colantonio</p>
             <p class="position">Coordinador IT</p>
@@ -389,7 +391,7 @@ include('templates/header.php');
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero04.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero04.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero06.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Luciano Ceschin</p>
             <p class="position">Coordinador Comunicación</p>
@@ -405,7 +407,7 @@ include('templates/header.php');
         <div class="col s12 m6 l6 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero25.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero25.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero25.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Sofia Ivnisky</p>
             <p class="position">Coordinadora Comunicación</p>
@@ -430,7 +432,7 @@ include('templates/header.php');
         <div class="col s12 m6 l4 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero44.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero44.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero44.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Tamara Olazar</p>
             <p class="position">Coordinadora Media</p>
@@ -446,7 +448,7 @@ include('templates/header.php');
         <div class="col s12 m6 l4 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero39.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero39.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero39.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Valentina Cesaris</p>
             <p class="position">Coordinadora Media y Podcast</p>
@@ -463,7 +465,7 @@ include('templates/header.php');
         <div class="col s12 m12 l4 member-card-container">
           <div class="member-card">
             <div class="member-image">
-            <img src=" img/miembros/tramero42.jpg" alt="miembro" class="responsive-img member-alt">
+              <img src=" img/miembros/tramero42.jpg" alt="miembro" class="responsive-img member-alt">
               <img src="img/miembros/tramero42.jpg" alt="miembro" class="responsive-img"></div>
             <p class="name">Milagros Cornídez</p>
             <p class="position">Coordinadora Media</p>
@@ -475,11 +477,8 @@ include('templates/header.php');
             </ul>
           </div>
         </div>
-        
+
       </div>
-
-    </div>
-
 
     </div>
 
