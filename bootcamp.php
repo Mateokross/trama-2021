@@ -53,7 +53,7 @@ include('templates/header.php');
 
             <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2019</h4>
             <div class="iframe-container">
-              <iframe height="500" src="https://www.youtube.com/embed/KuCqX2Ch014"
+              <iframe height="500" frameborder="0" src="https://www.youtube.com/embed/KuCqX2Ch014"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </div>
@@ -66,7 +66,7 @@ include('templates/header.php');
 
             <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2018</h4>
             <div class="iframe-container">
-              <iframe height="500" src="https://www.youtube.com/embed/Azgl3obTMgI"
+              <iframe height="500" frameborder="0" src="https://www.youtube.com/embed/Azgl3obTMgI"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </div>
@@ -78,7 +78,7 @@ include('templates/header.php');
 
             <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2017</h4>
             <div class="iframe-container">
-              <iframe height="500" src="https://www.youtube.com/embed/8uVaPgv0Sv8"
+              <iframe height="500" frameborder="0" src="https://www.youtube.com/embed/8uVaPgv0Sv8"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
             </div>
