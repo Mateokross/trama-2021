@@ -84,8 +84,8 @@ include('templates/header.php');
 
   <section class="container section center sponsor" id="section-3">
     <h4>Nuestro Sponsor</h4>
-    <a class="sponsor" href="https://www.clarin.com/" target="_blank" rel="noreferrer" alt="clarin"><img
-        src="img/sponsors/logo-clarin.png" class="responsive-img"></a>
+    <a class="sponsor" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img
+        src="img/sponsors/logo-clarin.png" class="responsive-img" alt="clarin"></a>
     <p>Clarín es una compañía de medios con más de 70 años de experiencia, líder en prensa gráfica y digital de
       Argentina. A través de la calidad periodística de sus colaboradores y sus más de 25 productos editoriales, brinda
       servicios informativos que reflejan y analizan los principales intereses y preocupaciones de la sociedad.</p>

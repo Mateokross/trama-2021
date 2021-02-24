@@ -28,7 +28,7 @@ foreach ($entries as $entry) {
 
   <div class="card">
     <h1 class="titulo"><?php echo $entry->nombre; ?></h1>
-    <img src="trama.mateokrossler.com<?php echo $entry->thumbnail->path; ?>" class="responsive-img" alt="">
+    <img src="trama.mateokrossler.com<?php echo $entry->thumbnail->path; ?>" class="responsive-img" alt="test">
   </div>
   
 <?php 

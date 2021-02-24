@@ -85,8 +85,8 @@ include('templates/header.php');
 
   <section class="container section center sponsor">
     <h4>Nuestro Sponsor</h4>
-    <a class="sponsor" href="https://www.bain.com/" target="_blank" rel="noreferrer" alt="bain"><img
-        src="img/sponsors/logo-bain.png" class="responsive-img"></a>
+    <a class="sponsor" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img
+        src="img/sponsors/logo-bain.png" class="responsive-img"  alt="bain"></a>
     <p>Bain & Company es una de las “Big Three” consultoras estratégicas. Fundada en 1973, cuenta con más de 50 oficinas
       distribuidas por el mundo. Se distingue por su mentalidad innovadora, integral y colaborativa. ¿Querés saber más?
       Entrá a <a href="https://www.bain.com/" target="_blank" rel="noreferrer">bain.com</a>.</p>
