@@ -22,20 +22,21 @@ include('templates/header.php');
 
 
 
-  <section class="container section center-align" id="que-es-bc">
-    <h3 style="padding-bottom:20px; margin-top:0px;" data-aos="fade-up">¿Qué es el Bootcamp?</h3>
-    <h5 data-aos="fade-up">BootCamp es un evento de emprendedurismo que surge del Club de Emprendedores de TRAMA que
+  <section class="container section center-align" id="que-es-bc" >
+    <h3 style="padding-bottom:20px; margin-top:0px;">¿Qué es el Bootcamp?</h3>
+    <h5>BootCamp es un evento de emprendedurismo que surge del Club de Emprendedores de TRAMA que
       busca desarrollar o explotar habilidades esenciales para el contexto laboral actual y potenciar el crecimiento
       personal en un entorno de aprendizaje a partir del desarrollo de un proyecto de startup.</h5>
 
   </section>
 
   <section class="alt-container section center-align" id="section-2">
-    <h3 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2020</h3>
-    <div class="container" style="max-width: 1086px">
-      <div class="iframe-container">
-        <iframe src="https://www.youtube.com/embed/L3rP5BfAkAk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-          data-aos="fade-up"></iframe>
+    <div >
+      <h3 style="margin-bottom:50px">The Bootcamp Experience 2020</h3>
+      <div class="container" style="max-width: 1086px">
+        <div class="iframe-container">
+          <iframe src="https://www.youtube.com/embed/L3rP5BfAkAk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
   </section>
@@ -44,14 +45,11 @@ include('templates/header.php');
     <h3>Otros Años</h3>
     <div class="container" id="bootcamps-viejos">
       <ul class="collapsible bootcamps-viejos center-align">
-        <!-- <li class="active">
-         
-        </li> -->
         <li>
           <div class="collapsible-header">Bootcamp 2019</div>
           <div class="collapsible-body">
 
-            <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2019</h4>
+            <h4 style="margin-bottom:50px">The Bootcamp Experience 2019</h4>
             <div class="iframe-container">
               <iframe height="500" style="border: none" src="https://www.youtube.com/embed/KuCqX2Ch014"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -64,7 +62,7 @@ include('templates/header.php');
           <div class="collapsible-header">Bootcamp 2018</div>
           <div class="collapsible-body">
 
-            <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2018</h4>
+            <h4 style="margin-bottom:50px">The Bootcamp Experience 2018</h4>
             <div class="iframe-container">
               <iframe height="500" style="border: none" src="https://www.youtube.com/embed/Azgl3obTMgI"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -76,7 +74,7 @@ include('templates/header.php');
           <div class="collapsible-header">Bootcamp 2017</div>
           <div class="collapsible-body">
 
-            <h4 style="margin-bottom:50px" data-aos="fade-up">The Bootcamp Experience 2017</h4>
+            <h4 style="margin-bottom:50px">The Bootcamp Experience 2017</h4>
             <div class="iframe-container">
               <iframe height="500" style="border: none" src="https://www.youtube.com/embed/8uVaPgv0Sv8"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -93,48 +91,50 @@ include('templates/header.php');
 
     
 
-  <section class="alt-container section center-align" id="section-3" style="margin-top:0;">
-    <h3 style="padding-bottom:40px;" data-aos="fade-up">Un evento con impacto</h3>
-    <div class="row valign-row-l" data-aos="fade-up">
+  <section class="alt-container section center-align" id="section-3" style="margin-top:0;" >
+      <div >
+        <h3 style="padding-bottom:40px;">Un evento con impacto</h3>
+          <div class="row valign-row-l">
 
-      <div class="col s6 m3 l3 center-align stats-card">
-        <div class="stats-circle">
-          <div class="circle-text">7</div>
-        </div>
-        <h5 >Ediciones</h5>
-        <p></p>
-      </div>
+            <div class="col s6 m3 l3 center-align stats-card">
+              <div class="stats-circle">
+                <div class="circle-text">7</div>
+              </div>
+              <h5 >Ediciones</h5>
+              <p></p>
+            </div>
 
-      <div class="col s6 m3 l3 center-align stats-card">
-        <div class="stats-circle">
-          <div class="circle-text">21</div>
-        </div>
-        <h5>Proyectos Ganadores</h5>
-        <p></p>
-      </div>
+            <div class="col s6 m3 l3 center-align stats-card">
+              <div class="stats-circle">
+                <div class="circle-text">21</div>
+              </div>
+              <h5>Proyectos Ganadores</h5>
+              <p></p>
+            </div>
 
-      <div class="col s6 m3 l3 center-align stats-card">
-        <div class="stats-circle">
-          <div class="circle-text">+630</div>
-        </div>
-        <h5>Participantes</h5>
-        <p></p>
-      </div>
+            <div class="col s6 m3 l3 center-align stats-card">
+              <div class="stats-circle">
+                <div class="circle-text">+630</div>
+              </div>
+              <h5>Participantes</h5>
+              <p></p>
+            </div>
 
-      <div class="col s6 m3 l3 center-align stats-card">
-        <div class="stats-circle">
-          <div class="circle-text" >+120</div>
+            <div class="col s6 m3 l3 center-align stats-card">
+              <div class="stats-circle">
+                <div class="circle-text" >+120</div>
+              </div>
+              <h5>Proyectos de impacto</h5>
+              <p></p>
+            </div>
         </div>
-        <h5>Proyectos de impacto</h5>
-        <p></p>
-      </div>
 
     </div>
-
+    
 
   </section>
 
-  <section class="section container sponsors" id="section-4" style="margin-top:0;">
+  <section class="section container sponsors" id="section-4">
     <h4 class="center-align">Nuestros Sponsors</h4>
     <div class="carousel" id="sponsors-carousel">
       <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer" ><img
