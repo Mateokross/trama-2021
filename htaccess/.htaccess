@@ -16,7 +16,6 @@ AddOutputFilterByType DEFLATE application/x-javascript
 SetOutputFilter DEFLATE
 </files>
 
-
 #force https
 RewriteEngine On
 RewriteCond %{HTTPS} off
