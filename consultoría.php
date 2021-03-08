@@ -78,6 +78,8 @@ include('templates/header.php');
         <p>¿Te gustaría entrar en Bain, McKinsey o BCG? Consulting Prep Club es una comunidad de alumnos que se preparan
           para los procesos de recruiting de las grandes consultoras. Se realizan prácticas semanales de Case Interviews
           junto con consultores que aportan su experiencia y feedback. ¡Estás un paso más cerca! </p>
+          <p style="padding-top:20px;" class="center"><a href="https://forms.gle/xQWRLFRcGs42PBcg7" class="ver-mas btn" target="_blank" rel="noreferrer">Inscripciones</a></p>
+          
       </div>
     </div>
   </section>
