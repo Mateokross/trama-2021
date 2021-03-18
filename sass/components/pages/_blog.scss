@@ -1,0 +1,13 @@
+.hero.blog {
+    height: 20vh;
+    min-height: 300px;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(209,129,255,0.4), rgba(189,74,255,0.4)), url(../img/bootcamp/_DSC1438.jpg);
+
+  }
+  
+  @media only screen and (max-width:992px) {
+    .hero.club {
+      height: 30vh;
+    }
+  }

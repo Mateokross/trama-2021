@@ -123,9 +123,8 @@ include('templates/header.php');
 
 
 
-    
-    <!--Noticias-->
-    <!-- <section class="container section" id="Noticias">
+    <!--    Noticias-->
+     <section class="alt-container section" id="Noticias">
       <div class="row" class="container">
         <div class="noticias-head">
           <div class="col s6 m6 l6 left-align"><h4>Noticias</h4></div>
@@ -178,7 +177,7 @@ include('templates/header.php');
         </div>
         
       </div>
-    </section>   -->
+    </section>   
 
 
 
