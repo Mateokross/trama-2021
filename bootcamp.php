@@ -169,7 +169,7 @@ include('templates/header.php');
         </li>
         <li>
           <div class="collapsible-header">¿Cuánto Dura?</div>
-          <div class="collapsible-body"><span>Las actividades se realizarán durante los dos fines de semana (Online: del 22 al 25 de mayo y presencial: 29 y 30 de mayo) y se harán mentoreos opcionales en los días de semana. La asistencia en los dos fines de semana es obligatoria y crucial para aprovechar la experiencia. Los días online consistirán de 4 hs de actividades y charlas, con un entregable por equipo para el final del día; Mientras que los días presenciales ocuparán todo el día.</span></div>
+          <div class="collapsible-body"><span>Las actividades se realizarán durante los dos fines de semana y se harán mentoreos opcionales en los días de semana. La asistencia en los dos fines de semana es obligatoria y crucial para aprovechar la experiencia. Los días del primer fin de semana consistirán de 4 hs de actividades y charlas, con un entregable por equipo para el final del día; Mientras que los días 29 y 30 serán más flexibles y orientados al networking y la presentación de los proyectos.</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Como puedo participar?</div>
