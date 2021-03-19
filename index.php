@@ -125,58 +125,36 @@ include('templates/header.php');
 
     <!--    Noticias-->
      <section class="alt-container section" id="Noticias">
-      <div class="row" class="container">
-        <div class="noticias-head">
-          <div class="col s6 m6 l6 left-align"><h4>Noticias</h4></div>
-          <div class="col s6 m6 l6 right-align"><h4><a href="">Ir al Blog <i class="far fa-newspaper"></i></a></h4></div>
-        </div>
-        <div class="col s12 m12 l4"> 
+       <div class="container">
 
-          <div class="card small">
-            <div class="card-image">
-              <img src="img/_DSC0764.jpg">
-              <span  class="card-title" id="card-tit">Bootcamp Experience</span>
-            </div>
-            <div class="card-content">
-              <p id="card-text" class="truncate-overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate, perferendis ad laudantium at voluptatum reiciendis. Labore, illo delectus. Libero possimus explicabo consequatur quibusdam exercitationem veniam assumenda! Veritatis, quis vitae.</p>
-              <a id="read-more" href="">Leer más</a>  
-            </div>
-            <div class="card-date">09/12/2018</div>
-          </div>
-          
+        <div id="noticias-head">
+          <h4><a href="">Ir al Blog <i class="far fa-newspaper"></i></a></h4>
         </div>
 
-        <div class="col s12 m12 l4"> 
-          <div class="card small">
-            <div class="card-image">
-              <img src="img/_DSC0764.jpg">
-              <span  class="card-title" id="card-tit">Bootcamp Experience</span>
-            </div>
-            <div class="card-content">
-              <p id="card-text" class="truncate-overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate, perferendis ad laudantium at voluptatum reiciendis. Labore, illo delectus. Libero possimus explicabo consequatur quibusdam exercitationem veniam assumenda! Veritatis, quis vitae.</p>
-              <a id="read-more" href="">Leer más</a>  
-            </div>
-            <div class="card-date">09/12/2018</div>
+        <div class="row">
+          <div class="col s12 m12 l4">
+            <div class="responsive-img"></div>
+            <h5>titulo de la nota</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
+            <a href="">Leer más</a>
           </div>
-          
+          <div class="col s12 m12 l4">
+            <div class="responsive-img"></div>
+            <h5>titulo de la nota</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
+            <a href="">Leer más</a>
+          </div>
+          <div class="col s12 m12 l4">
+            <div class="responsive-img"></div>
+            <h5>titulo de la nota</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
+            <a href="">Leer más</a>
+          </div>
+
+
         </div>
 
-        <div class="col s12 m12 l4"> 
-          <div class="card small">
-            <div class="card-image">
-              <img src="img/_DSC0764.jpg">
-              <span  class="card-title" id="card-tit">Bootcamp Experience</span>
-            </div>
-            <div class="card-content">
-              <p id="card-text" class="truncate-overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate, perferendis ad laudantium at voluptatum reiciendis. Labore, illo delectus. Libero possimus explicabo consequatur quibusdam exercitationem veniam assumenda! Veritatis, quis vitae.</p>
-              <a id="read-more" href="">Leer más</a>  
-            </div>
-            <div class="card-date">09/12/2018</div>
-          </div>
-          
-        </div>
-        
-      </div>
+      
     </section>   
 
 
