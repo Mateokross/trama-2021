@@ -11,3 +11,37 @@
       height: 30vh;
     }
   }
+  .container.blog{
+    max-width: 650px;
+  }
+
+  .blog-card{
+    margin-bottom:30px;
+  }
+
+  .categoria{
+    margin: 0px;
+    padding: 0px;
+    color:red;
+  }
+  .fecha{
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+    color:#bbb;
+  }
+  .titulo{
+    margin-top:5px;
+  }
+  .subtitulo{
+    font-size: 28px;
+    color: #333333
+  }
+
+  .contenido{
+    color:#757575;
+    font-size: 18px;
+  }
+  .post-footer{
+    margin: 20px 0;
+  }
