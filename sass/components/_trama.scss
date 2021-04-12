@@ -23,9 +23,12 @@ a:not(.carousel-item) {
 }
 
 
-a:hover,
-a:focus,
-a:active {
+.footer a:hover,
+.footer a:focus,
+.footer a:active,
+.header a:hover,
+.header a:focus,
+.header a:active {
   color: $primary-color;
 }
 

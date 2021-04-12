@@ -48,6 +48,7 @@
       <!-- <li><a href="index.php#acerca" class="section-link">Acerca</a></li> -->
       <li><a href="equipo.php">Equipo</a></li>
       <li><a href="clubes.php">Clubes</a></li>
+      <li><a href="blog.php">Blog</a></li>
       <li><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
       <li><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
     </ul>
@@ -70,6 +71,7 @@
               <li><a href="comunicación.php">Comunicación</a></li>
             </ul>
           </li>
+          <li><a href="blog.php">Blog</a></li>
           <li><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
           <li><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
           

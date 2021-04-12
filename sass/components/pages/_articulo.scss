@@ -1,0 +1,50 @@
+.articulo .hero {
+    height: 100px;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(189, 74, 255, 0.4), rgba(189, 74, 255, 0.4)), url(../img/bootcamp/_DSC1438.jpg);
+
+}
+
+.container.blog {
+    max-width: 750px;
+}
+
+.articulo .blog-card {
+    margin-bottom: 40px;
+}
+
+.articulo .categoria {
+    // margin: 0px;
+    // padding: 0px;
+    color: red;
+}
+
+.articulo .title {
+    margin-top: 5px;
+}
+
+.articulo .subtitle {
+    font-size: 2em;
+    color: #333333
+}
+
+.articulo .date {
+    margin-bottom: 0;
+    color: $primary-color-dark;
+}
+
+.articulo .article-content {
+    font-size: 1em !important;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.articulo .article-content * {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.articulo iframe{
+    position: inherit;
+    width: auto;
+    height: auto;
+}

@@ -15,6 +15,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="index.php#acerca">Acerca</a></li>
             <li><a href="equipo.php">Equipo</a></li>
+            <li><a href="blog.php">Blog</a></li>
           </ul>
         </div>
         <div class="col l3 s12">

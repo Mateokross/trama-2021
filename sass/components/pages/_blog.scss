@@ -1,47 +1,60 @@
 .hero.blog {
-    height: 20vh;
-    min-height: 300px;
-    overflow: hidden;
-    background-image: linear-gradient(rgba(209,129,255,0.4), rgba(189,74,255,0.4)), url(../img/bootcamp/_DSC1438.jpg);
+  height: 20vh;
+  min-height: 300px;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(189, 74, 255, 0.4), rgba(189, 74, 255, 0.4)), url(../img/bootcamp/_DSC1438.jpg);
 
-  }
-  
-  @media only screen and (max-width:992px) {
-    .hero.club {
-      height: 30vh;
-    }
-  }
-  .container.blog{
-    max-width: 650px;
-  }
+}
 
-  .blog-card{
-    margin-bottom:30px;
-  }
+.container.blog {
+  max-width: 750px;
+}
 
-  .categoria{
-    margin: 0px;
-    padding: 0px;
-    color:red;
-  }
-  .fecha{
-    margin: 0px;
-    padding: 0px;
-    font-style: italic;
-    color:#bbb;
-  }
-  .titulo{
-    margin-top:5px;
-  }
-  .subtitulo{
-    font-size: 28px;
-    color: #333333
-  }
+.blog .blog-card {
+  margin-bottom: 40px;
+}
 
-  .contenido{
-    color:#757575;
-    font-size: 18px;
-  }
-  .post-footer{
-    margin: 20px 0;
-  }
+.blog .categoria {
+  // margin: 0px;
+  // padding: 0px;
+  color: red;
+}
+
+.blog .title {
+  margin-top: 5px;
+}
+
+.blog .subtitle {
+  font-size: 2em;
+  color: #333333
+}
+
+.blog .date {
+  margin-bottom: 0;
+  color: $primary-color-dark;
+}
+
+.blog .article-content {
+  color: #757575 !important;
+  font-size: 1em !important;
+  max-height: 400px;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+}
+
+.blog .article-footer {
+  margin: 20px 0;
+}
+
+.blog .article-footer a:hover,
+.blog .article-footer a:focus,
+.blog .article-footer a:active {
+  color: $primary-color;
+}
+
+.blog iframe{
+  position: inherit;
+  width: auto;
+  height: auto;
+}

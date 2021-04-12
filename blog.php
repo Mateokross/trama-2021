@@ -2,6 +2,8 @@
 
 include('templates/header.php');
 
+include('inc/get_blog_data_inc.php');
+
 ?>
 <main class="blog">
 
@@ -31,7 +33,37 @@ include('templates/header.php');
 <section class="section container">
     <div class="container blog row">
 
-        <div class="blog-card col s12 m12 l12">
+
+
+        <?php
+            // Traverse array and display user data
+            foreach ($entries as $id=>$entry) {
+            //aca se loopea cada articulo
+        ?>  
+
+
+            <div class="blog-card col s12 m12 l12">
+                <a href="articulo.php?id=<?php echo $id; ?>">
+                    <h4 class="title"><?php echo $entry->titulo; ?></h5>
+                    <h5 class="subtitle"><?php echo $entry->subtitulo; ?></h5>
+                </a>
+                <p class="date"><?php echo $entry->fecha; ?></p>
+                <div class="article-content"><?php echo $entry->contenido; ?></div>
+                <div class="tags"></div><!-- PENDIENTE-->
+                <div class="article-footer">
+                    <a href="articulo.php?id=<?php echo $id; ?>">Leer Artículo Completo</a> 
+                </div>     
+                <hr style="border-top: 1px solid #eee;">      
+            </div>
+
+        <?php 
+            }
+        ?>
+
+        
+
+
+        <!-- <div class="blog-card col s12 m12 l12">
             <span class="categoria">Categoria</span> · <span> </span> <span class="fecha">9 de diciembre del 2018</span>
             <h4 class="titulo">Este es el título de la nota</h5>
             <h5 class="subtitulo">Un subtitulo que especifica un poco mas</h5>
@@ -42,7 +74,7 @@ include('templates/header.php');
                 sit amet consectetur adipisicing elit. Magnam, delectus. Sapiente exercitationem mollitia voluptatum nostrum fugit dolorum, quasi alias explicabo quos tenetur debitis possimus laudantium deserunt quo quod labore a?
             </div>
 
-            <div class="post-footer row">
+            <div class="article-footer row">
                 <div class="left-align col s6 m6 l6">
                     <a href="">Read More</a> 
                 </div>
@@ -64,7 +96,7 @@ include('templates/header.php');
                 sit amet consectetur adipisicing elit. Magnam, delectus. Sapiente exercitationem mollitia voluptatum nostrum fugit dolorum, quasi alias explicabo quos tenetur debitis possimus laudantium deserunt quo quod labore a?
             </div>
 
-            <div class="post-footer row">
+            <div class="article-footer row">
                 <div class="left-align col s6 m6 l6">
                     <a href="">Read More</a> 
                 </div>
@@ -86,7 +118,7 @@ include('templates/header.php');
                 sit amet consectetur adipisicing elit. Magnam, delectus. Sapiente exercitationem mollitia voluptatum nostrum fugit dolorum, quasi alias explicabo quos tenetur debitis possimus laudantium deserunt quo quod labore a?
             </div>
 
-            <div class="post-footer row">
+            <div class="article-footer row">
                 <div class="left-align col s6 m6 l6">
                     <a href="">Read More</a> 
                 </div>
@@ -95,7 +127,7 @@ include('templates/header.php');
                 </div>
             </div>     
             <hr style="border-top: 1px solid #bbb;">      
-        </div>        
+        </div>         -->
 
     </div>
     </div>
