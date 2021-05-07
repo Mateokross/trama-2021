@@ -85,24 +85,6 @@
   font-size: 1.4rem;
 }
 
-// .ver-mas {
-//   padding: 10px;
-//   font-weight: 600;
-//   font-size: 24px;
-//   background-color: $club-emprendedores;
-//   border: solid 2px $club-emprendedores;
-//   color: white!important;
-//   transition: all .4s ease;
-//   border-radius: 0;
-//   box-shadow: none;
-//   margin: auto;
-// }
-
-// .ver-mas:hover {
-//   background-color: $club-emprendedores-light;
-//   border: solid 2px $club-emprendedores;
-
-// }
 
 
 @media only screen and (min-width:993px) {
@@ -176,18 +158,7 @@
   color: $club-media !important;
 }
 
-.btn.ver-mas {
-  padding: 8px 15px;
-  font-weight: 600;
-  font-size: 21px;
-  color: #fff !important;
-  transition: all .4s ease;
-  border-radius: 0;
-  box-shadow: none;
-  margin: auto;
-  box-sizing: content-box;
-  text-transform: none;
-}
+
 
 .emprendedores .btn {
   background-color: $club-emprendedores;

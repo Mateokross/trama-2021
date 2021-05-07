@@ -53,7 +53,8 @@ $(window).on("load", function () {
     var navLinks = $("nav ul li a.section-link");
     var win = $(window);
     // var winH = win.height();   // Get the window height.
-    var heroH = $(".hero").height(); //Get the hero height
+    // var heroH = $(".hero").height(); //Get the hero height
+    var heroH = "90";
 
     win.on("scroll", function () {
         if ($(this).scrollTop() > heroH ) {
@@ -75,4 +76,47 @@ $(window).on("load", function () {
     Auto-updating year (footer)
     ========================================================================== */
   $("span.year").text(new Date().getFullYear());
+
+
+  /* ==========================================================================
+    EE
+    ========================================================================== */
+
+
+    var tOut;
+    $('body > header > nav > div > a.brand-logo > img').hover(function(){
+        tOut = setTimeout(function(){
+            location.href='https://www.instagram.com/itbamemes/';
+        },10000);
+    },function(){
+        clearTimeout(tOut);
+    });
+
+    $('#ee1').hover(function(){
+      tOut = setTimeout(function(){
+          location.href='https://www.linkedin.com/in/juan-ignacio-reig-803403169/';
+      },3000);
+    },function(){
+        clearTimeout(tOut);
+    });
+
+    $('#ee2').hover(function(){
+      tOut = setTimeout(function(){
+          location.href='https://mateokrossler.com/';
+      },3000);
+    },function(){
+        clearTimeout(tOut);
+    });
+
+
+    
+
+
+
+
+
+
+
+
+
 });

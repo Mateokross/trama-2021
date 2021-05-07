@@ -10,7 +10,6 @@
 // Base
 @import "components/materialize/global";
 @import "components/typography";
-@import "components/trama";
 
 // components
 @import "components/materialize/grid";
@@ -31,11 +30,11 @@
 @import "components/members";
 @import "components/clubs";
 
-
+//custom global styles
+@import "components/trama";
 
 
 //pages
-@import "components/pages/clubes";
 @import "components/pages/club";
 @import "components/pages/bootcamp";
 @import "components/pages/index";

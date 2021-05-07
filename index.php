@@ -2,8 +2,10 @@
 
 include('templates/header.php');
 
+include('inc/get_blog_data_inc.php');
+
 ?>
-  <main>
+  <main class="index">
     <section class="hero">
       <div class="-blur">
         <div class="container">
@@ -19,7 +21,7 @@ include('templates/header.php');
 
 
     <section class="container section quienes-somos" id="acerca">
-      <div class="row valign-row-l" data-aos="fade-up">
+      <div class="row valign-row-l">
         <div class="col s12 m12 l6 valign-wrapper">
           <h4>Acerca de Nosotros</h4>
           <p>Trama es una organización de estudiantes que nace en 2012 con dos objetivos principales, por un lado acercar el mundo laboral a los estudiantes y por otro generar en los jóvenes interés en las temáticas de actualidad.
@@ -53,6 +55,56 @@ include('templates/header.php');
     ?>
 
 
+
+
+
+    <!--  Noticias-->
+     <section class="alt-container section" id="Noticias">
+       <div class="container">
+
+        <div id="noticias-head">
+          <h4><a href="">Ir al Blog</a></h4>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m12 l4">
+            <div class="responsive-img"></div>
+            <h5>titulo de la nota</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
+            <a href="">Leer más</a>
+          </div>
+          <div class="col s12 m12 l4">
+            <div class="responsive-img"></div>
+            <h5>titulo de la nota</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
+            <a href="">Leer más</a>
+          </div>
+          <div class="col s12 m12 l4">
+            <div class="responsive-img"></div>
+            <h5>titulo de la nota</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
+            <a href="">Leer más</a>
+          </div>
+        </div>
+    </section>   
+
+    <!-- Podcast -->
+    <section class="container section podcast" id="acerca">
+      <div class="row valign-row-l">
+        <div class="col s12 m12 l6 center">
+          <img id="img-5-clubes" class="responsive-img" src="img/podcast/logopodcast-min.png" alt="Podcast Trama">
+        </div>
+        <div class="col s12 m12 l6 valign-wrapper">
+          <h4>El Podcast</h4>
+          <p>En este podcast entrevistamos a profesionales interesantes e importantes emprendedores, brindando herramientas e información útil, charlando sobre grandes personalidades y analizando libros sobre temas de interés como liderazgo, productividad, entre otros. Podés escucharlo en cualquier lugar, incluyendo Spotify. 
+          </p>
+          <p style="padding-top:20px;" class="center"><a href="https://open.spotify.com/show/7tcE6aC8G2qFLOUBxT4sPI" class="podcast btn" target="_blank" rel="noreferrer">Escuchalo en Spotify</a></p>
+          
+        </div>
+      </div>
+    </section>
+
+    
 
     <!--Trayecto-->
     <!-- <section class="section alt-container" id="Trayecto">
@@ -120,42 +172,6 @@ include('templates/header.php');
     </div>
   </div>
   </section> -->
-
-
-
-    <!--    Noticias-->
-     <section class="alt-container section" id="Noticias">
-       <div class="container">
-
-        <div id="noticias-head">
-          <h4><a href="">Ir al Blog <i class="far fa-newspaper"></i></a></h4>
-        </div>
-
-        <div class="row">
-          <div class="col s12 m12 l4">
-            <div class="responsive-img"></div>
-            <h5>titulo de la nota</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
-            <a href="">Leer más</a>
-          </div>
-          <div class="col s12 m12 l4">
-            <div class="responsive-img"></div>
-            <h5>titulo de la nota</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
-            <a href="">Leer más</a>
-          </div>
-          <div class="col s12 m12 l4">
-            <div class="responsive-img"></div>
-            <h5>titulo de la nota</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
-            <a href="">Leer más</a>
-          </div>
-
-
-        </div>
-
-      
-    </section>   
 
 
 

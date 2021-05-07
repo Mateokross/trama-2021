@@ -2,55 +2,36 @@
    Quienes somos
    ========================================================================== */
 
-.quienes-somos img {
+.index .quienes-somos img {
     max-width: 90%;
 }
 
 @media only screen and (max-width:992px) {
-    .quienes-somos img {
+    .index .quienes-somos img {
         max-width: 75% !important;
         padding-top: 4rem;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
-      Proximos eventos
-      ========================================================================== */
+   Podcast
+   ========================================================================== */
+.index section.podcast img{
+    padding: 35px;
+}
 
-/* #section-2 {
-    height: 100vh;
-  } */
-
-// #tabla-eventos {
-//     max-height: 200px;
-// }
+@media only screen and (max-width:992px) {
+    .index section.podcast img{
+        padding: 0 0 4rem 0;
+    }
+}
 
 
-// #div-eventos {
-//     background-color: var(--accent-color-darker);
-//     ;
+.index .btn.podcast {
+    background: #1ED760;
+}
 
-//     size: fill;
-//     max-height: 400px;
-//     overflow: scroll;
-//     overflow-x: hidden;
-// }
-
-// .li-eventos {
-//     margin-top: 10px;
-//     border-bottom: 0.5px solid white;
-//     color: white;
-//     padding: 10px;
-// }
-
+.index .btn.podcast:hover,
+.btn.podcast:focus {
+    background: #52ff8f;
+}

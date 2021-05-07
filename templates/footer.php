@@ -33,8 +33,8 @@
     </div>
     <div class="footer-copyright">
       <div class="container center-align">
-        Copyright © <span class="year">2021</span> Club Trama. Todos los
-        derechos reservados. Desarrollo por Club Trama.
+        Copyright © <span class="year">2021</span> <span id="ee1">Club Trama</span>. Todos los
+        derechos reservados. Desarrollo por <span id="ee2">Club Trama</span>.
       </div>
     </div>
   </footer>

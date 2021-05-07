@@ -32,6 +32,18 @@ a:not(.carousel-item) {
   color: $primary-color;
 }
 
+.btn {
+  padding: 8px 15px;
+  font-weight: 600;
+  font-size: 21px;
+  color: #fff !important;
+  transition: all .4s ease;
+  border-radius: 0;
+  box-shadow: none !important;
+  margin: auto;
+  box-sizing: content-box;
+  text-transform: none;
+}
 
 /*Smooth scrolling*/
 html {
