@@ -8,11 +8,13 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(209,129,255,0.4), rgba(189,74,255,0.4)), url(../img/home-banner.jpg);
+    // background-image: linear-gradient(rgba(209,129,255,0.4), rgba(189,74,255,0.4)), url(../img/home-banner.jpg);
+    background-image: linear-gradient(rgba(164 ,68 ,220,0.4), rgba(96,26,136,0.4)), url(../img/home-banner.jpg);
     ;
     /*para centering */
     display: flex;
 }
+
 
 /*contenido hero*/
 .hero>div {
@@ -39,7 +41,7 @@
     margin: 0;
     /* font-family: 'PT Serif', 'Source Sans Pro', sans-serif; */
     color: white;
-    font-size: 3rem;
+    font-size: 3.6rem;
     font-weight: 700;
 }
 
@@ -56,7 +58,7 @@
 
 @media only screen and (max-width:600px) {
     .hero h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 
