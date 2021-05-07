@@ -6,11 +6,12 @@
 
 
 .wysiwyg a {
-    text-decoration: none
+    text-decoration: underline;
 }
 
 .wysiwyg a:hover {
-    border-bottom: 1px solid
+    color: $primary-color-dark;
+    font-weight: bold;
 }
 
 .wysiwyg abbr {
@@ -32,16 +33,21 @@
 }
 
 .wysiwyg img {
-    vertical-align: text-bottom;
+    display: block;
     height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .wysiwyg iframe {
+    display: block;
     width: 100% !important;
     max-width: 600px !important;
+    min-height: 300px;
     height: auto !important;
-    padding-top: 56.25%;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -79,6 +85,7 @@
 .wysiwyg dl,
 .wysiwyg ol,
 .wysiwyg ul,
+.wysiwyg li,
 .wysiwyg blockquote,
 .wysiwyg pre,
 .wysiwyg table {
@@ -165,7 +172,9 @@
     list-style-position: outside;
     margin-left: 1.4em
 }
-
+.wysiwyg li {
+    font-size: 18px;
+}
 .wysiwyg ol {
     list-style-type: decimal
 }

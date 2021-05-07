@@ -13,7 +13,7 @@ include('templates/header.php');
         </div>
 
         <h4 style="margin:0px" class="center-align white-text">Aprendé a Emprender</h4>
-        <h5 style="font-weight:500">Del 22 al 30 de Mayo</h5>
+        <h5 style="font-weight:500">Del 14 al 22 de Agosto</h5>
 
         <a class="anotate btn" href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">Anotate!</a>
       </div>
@@ -23,7 +23,7 @@ include('templates/header.php');
 
 
   <section class="container section center-align" id="que-es-bc" >
-    <h3 style="padding-bottom:20px; margin-top:0px;">¿Qué es el Bootcamp?</h3>
+    <h4 style="padding-bottom:20px; margin-top:0px;">¿Qué es el Bootcamp?</h4>
     <h5>BootCamp es un evento de emprendedurismo que surge del Club de Emprendedores de TRAMA que
       busca desarrollar o explotar habilidades esenciales para el contexto laboral actual y potenciar el crecimiento
       personal en un entorno de aprendizaje a partir del desarrollo de un proyecto de startup.</h5>
@@ -32,7 +32,7 @@ include('templates/header.php');
 
   <section class="alt-container section center-align" id="section-2">
     <div >
-      <h3 style="margin-bottom:50px">The Bootcamp Experience 2020</h3>
+      <h4 style="margin-bottom:50px">The Bootcamp Experience 2020</h4>
       <div class="container" style="max-width: 1086px">
         <div class="iframe-container">
           <iframe src="https://www.youtube.com/embed/L3rP5BfAkAk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ include('templates/header.php');
   </section>
 
   <section class="container section center-align">
-    <h3>Otros Años</h3>
+    <h4>Otros Años</h4>
     <div class="container" id="bootcamps-viejos">
       <ul class="collapsible bootcamps-viejos center-align">
         <li>
@@ -93,7 +93,7 @@ include('templates/header.php');
 
   <section class="alt-container section center-align" id="section-3" style="margin-top:0;" >
       <div >
-        <h3 style="padding-bottom:40px;">Un evento con impacto</h3>
+        <h4 style="padding-bottom:40px;">Un evento con impacto</h4>
           <div class="row valign-row-l">
 
             <div class="col s6 m3 l3 center-align stats-card">
@@ -153,11 +153,15 @@ include('templates/header.php');
 
   <section class="alt-container section" id="section-5">
     <div class="container">
-      <h3 style="margin-bottom:50px">Preguntas Frecuentes</h3>
+      <h4 style="margin-bottom:50px">Preguntas Frecuentes</h4>
       <ul class="collapsible faq">
         <li>
           <div class="collapsible-header">¿Qué es el Bootcamp?</div>
           <div class="collapsible-body"><span>El BootCamp es un evento de emprendedurismo en donde en el marco de una competencia, los participantes desarrollan proyectos de impacto que luego son presentados ante un jurado.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header">¿Si apliqué antes de que se posponga, tengo que aplicar de vuelta?</div>
+          <div class="collapsible-body"><span>No, todas las aplicaciones se guardaron y siguen teniendo validez.</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Puedo aplicar con un amigo?</div>
@@ -169,15 +173,15 @@ include('templates/header.php');
         </li>
         <li>
           <div class="collapsible-header">¿Cuánto Dura?</div>
-          <div class="collapsible-body"><span>Las actividades se realizarán durante los dos fines de semana y se harán mentoreos opcionales en los días de semana. La asistencia en los dos fines de semana es obligatoria y crucial para aprovechar la experiencia. Los días del primer fin de semana consistirán de 4 hs de actividades y charlas, con un entregable por equipo para el final del día; Mientras que los días 29 y 30 serán más flexibles y orientados al networking y la presentación de los proyectos.</span></div>
+          <div class="collapsible-body"><span>Las actividades se realizarán durante los dos fines de semana y se harán mentoreos opcionales en los días de semana. La asistencia en los dos fines de semana es obligatoria y crucial para aprovechar la experiencia. Los días del primer fin de semana consistirán de 4 hs de actividades y charlas, con un entregable por equipo para el final del día; Mientras que los días 21 y 22 serán más flexibles y orientados al networking y la presentación de los proyectos.</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Como puedo participar?</div>
-          <div class="collapsible-body"><span>Para participar tenés que llenar el <a href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">form de inscripción</a> y ser de los 80 que quedan seleccionados</span></div>
+          <div class="collapsible-body"><span>Para participar tenés que llenar el <a href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">form de inscripción</a> y ser de los 120 que quedan seleccionados</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Puedo participar siendo del exterior?</div>
-          <div class="collapsible-body"><span>Sí podes participar siempre y cuando quedes entre los 80 seleccionados y no haya restricciones de turismo a causa del Coronavirus.</span></div>
+          <div class="collapsible-body"><span>Sí podes participar siempre y cuando quedes entre los 120 seleccionados.</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Necesito conocimientos previos?</div>
