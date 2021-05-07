@@ -41,7 +41,7 @@ header nav a {
 }
 
 header nav a:hover,header nav a:focus {
-  color: $primary-color!important;
+  color: $primary-color-saturated!important;
 }
 
 header nav i {
@@ -70,7 +70,7 @@ header nav i {
 
 .dropdown-content li>a:hover,
 .dropdown-content li>span:hover {
-  color: $primary-color !important
+  color: $primary-color-saturated !important
 }
 
 .dropdown-trigger:focus {
@@ -124,7 +124,7 @@ nav .brand-logo {
 }
 
 #nav-mobile i:hover {
-  color: $primary-color;
+  color: $primary-color-saturated;
 }
 
 /*titles*/
@@ -147,7 +147,7 @@ ul.sidenav a:hover {
   /*removes materialize style*/
   background-color: rgba(0, 0, 0, 0);
   /*new style*/
-  color: $primary-color;
+  color: $primary-color-saturated;
 
 }
 
