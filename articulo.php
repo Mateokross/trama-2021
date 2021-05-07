@@ -26,7 +26,7 @@ include('inc/articulo_inc.php');
                 <h4 class="title"><?php echo $entry->titulo; ?></h5>
                 <h5 class="subtitle"><?php echo $entry->subtitulo; ?></h5>
                 <p class="date"><?php echo $entry->fecha; ?></p>
-                <div class="article-content"><?php echo $entry->contenido; ?></div>
+                <div class="article-content wysiwyg"><?php echo $entry->contenido; ?></div>
                 <div class="tags"></div><!-- PENDIENTE-->
             </div>
         </div>

@@ -6,8 +6,6 @@ session_start();
 //Get blog data if needed
 if (!isset($_SESSION['articulos'])) {
 
-    echo "hola";
-    
     // Define Api Url
     $api_url = 'http://trama.mateokrossler.com/admin/api/collections/get/Articulos';
 
