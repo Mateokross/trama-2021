@@ -11,9 +11,9 @@ include('templates/header.php');
           <div class="col s12 m12 l7">
           <!-- <div class="col s12 m12 l5"> -->
             <h1>Club Finanzas</h1>
-            <h5>¿Te gustaría iniciarte en el mundo de las finanzas? ¿Querés aprender pero no sabes por dónde empezar? En
+            <p>¿Te gustaría iniciarte en el mundo de las finanzas? ¿Querés aprender pero no sabes por dónde empezar? En
               el Club de Finanzas de Trama ITBA organizamos actividades para ayudarte a introducirte en este apasionante
-              mundo! Competencias de trading, crypto, challenges, charlas y mucho más!</h5>
+              mundo! Competencias de trading, crypto, challenges, charlas y mucho más!</p>
           </div>
           <div class="col s12 m12 l6 offset-l1">
 
@@ -80,7 +80,7 @@ include('templates/header.php');
     </div>
     <div class="row valign-row-l">
       <div class="col s12 m12 l6">
-        <img src="img/finanzas/utc-min.jpg" style="max-width:400px" class="responsive-img" alt="placeholder">
+        <img src="img/finanzas/utc-min.jpg" style="width:500px" class="responsive-img" alt="placeholder">
       </div>
       <div class="col s12 m12 l6">
         <p>Durante esta competencia equipos de hasta tres jugadores realizan inversiones con plata ficticia a lo largo

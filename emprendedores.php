@@ -10,10 +10,10 @@ include('templates/header.php');
         <div class="row valign-row-l">
           <div class="col s12 m12 l5">
             <h1>Club Emprendedores</h1>
-            <h5>El Club de Emprendedores de Trama se caracteriza por desarrollar encuentros de la mano de múltiples
+            <p>El Club de Emprendedores de Trama se caracteriza por desarrollar encuentros de la mano de múltiples
               emprendedores exitosos que están dispuestos a transmitir su experiencia a los estudiantes interesados en
               este campo. El principal evento del Club de Emprendedores es el <a id="link-bc-texto"
-                href="bootcamp.php">BootCamp Trama.</a></h5>
+                href="bootcamp.php">BootCamp Trama.</a></p>
           </div>
           <div class="col s12 m12 l6 offset-l1">
             <img src="img/bootcamp/_DSC1490.jpg" class="responsive-img" alt="placeholder">

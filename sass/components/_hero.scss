@@ -45,7 +45,13 @@
     font-weight: 700;
 }
 
-.hero h5,
+.hero p{
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 1.0933333333rem 0 .656rem 0;
+}
+
+.hero p,
 .hero i {
     color: rgba(255, 255, 255, 0.9);
 }
@@ -62,7 +68,7 @@
     }
 }
 
-.hero h5 {
+.hero p {
     padding: 10px 0 20px 0;
 }
 

@@ -1,14 +1,12 @@
-
 /* ==========================================================================
    Sponsor slider
    ========================================================================== */
 
-   .carousel {
-    height: 150px;
-  }
-  
-  .carousel .carousel-item {
-    width: 150px;
-    height: 150px;
-  }
-  
+.carousel {
+  height: 150px;
+}
+
+.carousel .carousel-item, .carousel .carousel-item img {
+  width: 150px;
+  height: 150px;
+}

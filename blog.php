@@ -13,7 +13,7 @@ include('templates/header.php');
     <div class="darken">
       <div class="container center-align">        
             <h1>Blog Trama</h1>
-            <h5>Un espacio para compartir grandes ideas.</h5>
+            <p>Un espacio para compartir grandes ideas.</p>
       </div>
     </div>
   </section>

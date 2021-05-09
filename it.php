@@ -11,8 +11,8 @@ include('templates/header.php');
           <div class="col s12 m12 l7">
           <!-- <div class="col s12 m12 l5"> -->
             <h1>Club IT</h1>
-            <h5>¿Te interesa la tecnología? ¿queres saber cuales son las novedades en el sector? En el Club IT vas a
-              aprender sobre las innovaciones tecnológicas y también a aplicarlas de maneras disruptivas.</h5>
+            <p>¿Te interesa la tecnología? ¿queres saber cuales son las novedades en el sector? En el Club IT vas a
+              aprender sobre las innovaciones tecnológicas y también a aplicarlas de maneras disruptivas.</p>
           </div>
           <div class="col s12 m12 l7">
           </div>

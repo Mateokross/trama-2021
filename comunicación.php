@@ -11,12 +11,12 @@ include('templates/header.php');
         <div class="col s12 m12 l7">
           <!-- <div class="col s12 m12 l5"> -->
             <h1>Club Comunicación</h1>
-            <h5>En en club Comunicación creemos en la importancia de la inspiración, de la creatividad, de la
+            <p>En en club Comunicación creemos en la importancia de la inspiración, de la creatividad, de la
               introspección y en el valor de las relaciones humanas en este mundo interconectado.
               Por eso realizamos actividades que ayudan a: mejorar la manera en que uno como futuro profesional logra
               comunicarse, a desarrollar la inteligencia emocional y a potenciar habilidades como el liderazgo, la
               negociación y la oratoria.
-            </h5>
+            </p>
           </div>
           <div class="col s12 m12 l6 offset-l1">
 

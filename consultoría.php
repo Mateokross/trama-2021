@@ -11,10 +11,10 @@ include('templates/header.php');
           <div class="col s12 m12 l7">
           <!-- <div class="col s12 m12 l5"> -->
             <h1>Club Consultoría</h1>
-            <h5>¿Te gusta resolver problemas? A través del Club Consultoría vas a conocer dicha industria, obteniendo
+            <p>¿Te gusta resolver problemas? A través del Club Consultoría vas a conocer dicha industria, obteniendo
               herramientas y metodologías de distintos consultores para acercarse al mundo profesional. A lo largo del
               año se realizan eventos y actividades junto con las mejores consultoras para desarrollar tu potencial. ¡Te
-              esperamos!</h5>
+              esperamos!</p>
           </div>
           <div class="col s12 m12 l6 offset-l1">
             <!-- <img src="img/consultoría/event-min.jpg" class="responsive-img" alt="placeholder"> -->

@@ -96,7 +96,7 @@
    Podcast
    ========================================================================== */
 .index section.podcast img {
-    padding: 35px;
+    // padding: 35px;
 }
 
 @media only screen and (max-width:992px) {
@@ -112,5 +112,5 @@
 
 .index .btn.podcast:hover,
 .btn.podcast:focus {
-    background: #52ff8f;
+    opacity: 0.6;
 }

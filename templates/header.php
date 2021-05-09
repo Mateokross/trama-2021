@@ -16,9 +16,11 @@ $v = "1.1";
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- custom -->
   <title><?php echo $title; ?></title>
-  <meta name="description" content="Acercando el mundo profesional a los estudiantes universitarios desde 2012">
+
+  <?php $desc = $page == "articulo.php" ? $entry->subtitulo : "Acercando el mundo profesional a los estudiantes universitarios desde 2012"; ?>
+  <meta name="description" content="<?php echo $desc; ?>">
+
   <link rel="shortcut icon" href="trama.ico" />
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
@@ -36,14 +38,6 @@ $v = "1.1";
   <link href="css/aos.min.css" rel="stylesheet">
   <link href="css/main.css?v=<?php echo $v;?>" type="text/css" rel="stylesheet" media="screen" />
   <!-- <link rel="stylesheet" href="styles/debug.css"> -->
-
-  <!--  Scripts-->
-  <script src="js/jquery-3.5.0.min.js"></script>
-  <script src="js/aos.min.js"></script>
-  <script src="js/lozad.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/main.js?v=<?php echo $v;?>"></script>
-  <script src="js/init.js?v=<?php echo $v;?>"></script>
 
 
 </head>
