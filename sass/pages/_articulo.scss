@@ -1,7 +1,7 @@
 .articulo .hero {
-    height: 100px;
+    height: 90px;
     overflow: hidden;
-    background-image: linear-gradient(rgba(189, 74, 255, 0.4), rgba(189, 74, 255, 0.4)), url(../img/bootcamp/_DSC1438.jpg);
+    background-image: linear-gradient(rgba(189, 74, 255, 0.4), rgba(189, 74, 255, 0.4)), url(../img/blog-min.jpg);
 
 }
 
@@ -13,11 +13,6 @@
     margin-bottom: 40px;
 }
 
-.articulo .categoria {
-    // margin: 0px;
-    // padding: 0px;
-    color: red;
-}
 
 .articulo .title {
     margin-top: 5px;
@@ -30,7 +25,7 @@
 
 .articulo .date {
     margin-bottom: 0;
-    color: $primary-color-dark;
+    color: $primary-color-saturated;
 }
 
 .articulo .article-content {

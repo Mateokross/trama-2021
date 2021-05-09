@@ -1,8 +1,8 @@
 <?php 
 
-include('templates/header.php');
-
 include('inc/get_blog_data_inc.php');
+
+include('templates/header.php');
 
 ?>
   <main class="index">
@@ -59,32 +59,36 @@ include('inc/get_blog_data_inc.php');
 
 
     <!--  Noticias-->
-     <section class="alt-container section" id="Noticias">
+     <section class="alt-container section blog">
        <div class="container">
 
-        <div id="noticias-head">
-          <h4><a href="">Ir al Blog</a></h4>
-        </div>
+        <h4><a href="blog.php">Blog Trama</a></h4>
 
         <div class="row">
-          <div class="col s12 m12 l4">
-            <div class="responsive-img"></div>
-            <h5>titulo de la nota</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
-            <a href="">Leer más</a>
-          </div>
-          <div class="col s12 m12 l4">
-            <div class="responsive-img"></div>
-            <h5>titulo de la nota</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
-            <a href="">Leer más</a>
-          </div>
-          <div class="col s12 m12 l4">
-            <div class="responsive-img"></div>
-            <h5>titulo de la nota</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos consequuntur facere corrupti soluta doloremque est autem voluptatem necessitatibus a illum praesentium in molestias veritatis voluptate, blanditiis harum quasi magnam!</p>
-            <a href="">Leer más</a>
-          </div>
+        <?php 
+          //get last three articles
+          $entries = array_slice($entries, 0, 3, true);
+          //loop each
+          foreach ($entries as $id=>$entry) {
+        ?>
+          <a href="articulo.php?id=<?php echo $id; ?>" class="col s12 m12 l4">
+            <div class="card">
+              <div class="card-image-container">
+                <div class="card-image lozad" data-background-image="<?php echo $entry->miniatura->path;?>">
+                </div>
+                <!-- <div class="card-image" style="background-image: url('<?php echo $entry->miniatura->path;?>')"> -->
+                <!-- </div> -->
+              </div>
+              <div class="card-content">
+                <span class="card-title"><?php echo $entry->titulo;?></span>
+              </div>
+            </div>
+          </a>
+        <?php
+          }
+        ?>
+
+
         </div>
     </section>   
 

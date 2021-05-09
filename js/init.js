@@ -10,6 +10,13 @@ $(document).ready(function () {
     once: true
   });
 
+  /* ==========================================================================
+  Lozad - https://apoorv.pro/lozad.js/
+  ========================================================================== */
+
+  const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+  observer.observe();
+
 
   /* ==========================================================================
   Materialize - materializecss.com

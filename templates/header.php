@@ -1,3 +1,13 @@
+<?php  
+//naming de pestaña
+include('inc/page_name_inc.php');
+
+//versión
+$v = "1.1";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -7,28 +17,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- custom -->
-  <title>Club Trama</title>
-  <!-- Cambiar -->
+  <title><?php echo $title; ?></title>
   <meta name="description" content="Acercando el mundo profesional a los estudiantes universitarios desde 2012">
   <link rel="shortcut icon" href="trama.ico" />
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 
-  <!-- Cambiar -->
   <meta name="theme-color" content="#B79DC4" />
-  <!-- Cambiar -->
   <meta name="msapplication-navbutton-color" content="#B79DC4">
-  <!-- Cambiar -->
   <meta name="apple-mobile-web-app-status-bar-style" content="#B79DC4">
 
-  <!-- fuente/s  -->
+  <!-- fuentes  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
   <!-- css -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link href="css/aos.min.css" rel="stylesheet">
-  <link href="css/main.css?v=3" type="text/css" rel="stylesheet" media="screen" />
+  <link href="css/main.css?v=<?php echo $v;?>" type="text/css" rel="stylesheet" media="screen" />
   <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+
+  <!--  Scripts-->
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script src="js/aos.min.js"></script>
+  <script src="js/lozad.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/main.js?v=<?php echo $v;?>"></script>
+  <script src="js/init.js?v=<?php echo $v;?>"></script>
+
+
 </head>
 
 <body class="loading">
@@ -56,7 +73,11 @@
 
     <nav class=" transparent z-depth-0">
       <div class="nav-wrapper container">
-        <a href="index.php" class="brand-logo"><img src="img/logo.png" alt="Trama logo"></a>
+        <?php $link = $page == "articulo.php" || $page == "blog.php" ? "blog.php" : "index.php" ?>
+        <a href="<?php echo $link;?>" class="brand-logo">
+          <img src="img/logo.png" alt="Trama logo">
+          <?php echo $link == "blog.php" ? "<span>Blog</span>": "" ?>
+        </a>
         <ul class="right hide-on-med-and-down">
           <li><a href="index.php">Home</a></li>
           <!-- <li><a href="index.php#section-1" class="section-link">Acerca</a></li> -->

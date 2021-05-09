@@ -7,6 +7,7 @@ if(isset($_GET['id'])){
         //id exists
         //save entry
         $entry = $entries[$_GET['id']];
+
     }else{
         //not a valid id
         redirect_to_blog();

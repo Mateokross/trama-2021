@@ -15,6 +15,7 @@
 @import "components/materialize/grid";
 @import "components/materialize/navbar";
 @import "components/materialize/sidenav";
+@import "components/materialize/cards";
 @import "components/materialize/carousel";
 @import "components/materialize/slider";
 @import "components/materialize/buttons";
@@ -35,12 +36,12 @@
 
 
 //pages
-@import "components/pages/club";
-@import "components/pages/bootcamp";
-@import "components/pages/index";
-@import "components/pages/equipo";
-@import "components/pages/blog";
-@import "components/pages/articulo";
+@import "pages/club";
+@import "pages/bootcamp";
+@import "pages/index";
+@import "pages/equipo";
+@import "pages/blog";
+@import "pages/articulo";
 
 
 

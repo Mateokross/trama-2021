@@ -1,0 +1,85 @@
+.hero.blog {
+  height: 20vh;
+  min-height: 300px;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(189, 74, 255, 0.4), rgba(189, 74, 255, 0.4)), url(../img/blog-min.jpg);
+
+}
+
+.container.blog {
+  max-width: 750px;
+}
+
+.blog .blog-card {
+  margin-bottom: 40px;
+}
+
+.blog .categoria {
+  // margin: 0px;
+  // padding: 0px;
+  color: red;
+}
+
+.blog .title {
+  margin-top: 5px;
+}
+
+.blog .subtitle {
+  font-size: 2em;
+  color: #333333
+}
+
+.blog .author-date {
+  margin-bottom: 0;
+}
+.blog .author-date span {
+  color: $primary-color-saturated;
+}
+.blog .article-content {
+  color: #464646 !important;
+  max-height: 1200px;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+}
+
+
+
+.blog .article-content p{
+  font-size: 17px!important;
+}
+.blog .article-content a{
+  color: #757575 !important;
+  cursor: default;
+}
+.blog .article-footer {
+  margin: 20px 0;
+  font-size: 16px!important;
+}
+
+.blog .article-footer a:hover,
+.blog .article-footer a:focus,
+.blog .article-footer a:active {
+  color: $primary-color-saturated;
+}
+
+.blog iframe{
+  position: inherit;
+  width: auto;
+  height: auto;
+}
+
+.blog .article-content .picture-container, .article .article-content .picture-container{
+  overflow: hidden;
+  padding-top: 1.7em;
+}
+
+.blog .article-content .picture, .article .article-content .picture{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-top: 75%;
+  transition: all .4s ease;
+}

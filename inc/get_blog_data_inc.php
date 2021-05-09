@@ -23,10 +23,17 @@ if (!isset($_SESSION['articulos'])) {
     $entries = $response_data->entries;
 
     // Reverse entries array so newer articles are displayed first
-    $entries = array_reverse($entries);
+    $entries = array_reverse($entries, true);
+
+    // lazy loading        
+    foreach ($entries as $id=>$entry) {
+        $entry->contenido = str_replace("<img src=","<img class='lozad' data-src=",$entry->contenido);
+    }
+
 
     //save into session 
     $_SESSION['articulos'] = $entries;
+
 
 }else{
     $entries = $_SESSION['articulos'];
