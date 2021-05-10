@@ -70,7 +70,7 @@ include('templates/header.php');
     </div>
     <div class="row valign-row-l">
       <div class="col s12 m12 l6">
-        <img src="img/comunicación/in&out.png" class="responsive-img" alt="placeholder">
+        <img src="img/comunicacion/in&out.png" class="responsive-img" alt="in and out">
       </div>
       <div class="col s12 m12 l6">
         <p>Como principal evento del club Comunicación, el In&Out propone un día lleno de actividades para potenciar las

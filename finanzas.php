@@ -80,7 +80,7 @@ include('templates/header.php');
     </div>
     <div class="row valign-row-l">
       <div class="col s12 m12 l6">
-        <img src="img/finanzas/utc-min.jpg" style="width:500px" class="responsive-img" alt="placeholder">
+        <img src="img/finanzas/utc-min.jpg" style="width:500px" class="responsive-img" alt="university trading challenge">
       </div>
       <div class="col s12 m12 l6">
         <p>Durante esta competencia equipos de hasta tres jugadores realizan inversiones con plata ficticia a lo largo

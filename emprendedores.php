@@ -16,7 +16,7 @@ include('templates/header.php');
                 href="bootcamp.php">BootCamp Trama.</a></p>
           </div>
           <div class="col s12 m12 l6 offset-l1">
-            <img src="img/bootcamp/_DSC1490.jpg" class="responsive-img" alt="placeholder">
+            <img src="img/emprendedores/emprendedores1-min.jpg" class="responsive-img" alt="bootcamp">
           </div>
         </div>
       </div>
@@ -207,7 +207,7 @@ include('templates/header.php');
     </div>
     <div class="row valign-row-l">
       <div class="col s12 m12 l6">
-        <img src="img/bootcamp/_DSC1031.jpg" class="responsive-img" alt="placeholder">
+        <img src="img/emprendedores/emprendedores2-min.jpg" class="responsive-img" alt="bootcamp">
       </div>
       <div class="col s12 m12 l6">
         <p>BootCamp Trama es un evento anual totalmente gratuito, con el propósito de fomentar el crecimiento del
