@@ -72,7 +72,7 @@ include('templates/header.php');
     </div>
     <div class="row valign-row-l">
       <div class="col s12 m12 l6">
-        <img src="img/consultoria/cpc.png" class="responsive-img" alt="cpc" >
+        <img src="img/consultoria/cpc.png" class="responsive-img border-radius" alt="cpc" >
       </div>
       <div class="col s12 m12 l6">
         <p>¿Te gustaría entrar en Bain, McKinsey o BCG? Consulting Prep Club es una comunidad de alumnos que se preparan

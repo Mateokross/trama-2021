@@ -96,7 +96,7 @@ include('templates/header.php');
     <section class="container section podcast" id="acerca">
       <div class="row valign-row-l">
         <div class="col s12 m12 l6 center">
-          <img id="img-5-clubes" class="responsive-img" src="img/podcast/logopodcast-min.png" alt="Podcast Trama" style="width:520px">
+          <img id="img-5-clubes" class="responsive-img border-radius" src="img/podcast/logopodcast-min.png" alt="Podcast Trama" style="width:520px">
         </div>
         <div class="col s12 m12 l6 valign-wrapper">
           <h4>El Podcast</h4>
