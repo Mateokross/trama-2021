@@ -44,8 +44,12 @@ header nav a:hover,header nav a:focus {
   color: $primary-color-saturated!important;
 }
 
+header nav li.icon a{
+  padding: 0 10px;
+}
+
 header nav i {
-  font-size: 27px;
+  font-size: 36px;
   height: 90px !important;
   line-height: 90px !important;
 }
@@ -124,7 +128,7 @@ nav .brand-logo {
 #nav-mobile i {
   float: none;
   margin: 0;
-  font-size: 27px;
+  font-size: 36px;
   color: rgba(0, 0, 0, 0.87);
   transition: all .4s ease;
 }

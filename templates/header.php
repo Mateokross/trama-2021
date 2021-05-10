@@ -38,6 +38,7 @@ $v = "1.2";
   <link href="css/aos.min.css" rel="stylesheet">
   <link href="css/main.css?v=<?php echo $v;?>" type="text/css" rel="stylesheet" media="screen" />
   <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
 
 </head>
@@ -60,9 +61,9 @@ $v = "1.2";
       <li><a href="equipo.php">Equipo</a></li>
       <li><a href="clubes.php">Clubes</a></li>
       <li><a href="blog.php">Blog</a></li>
-      <li><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
-      <li><a href="https://open.spotify.com/show/7tcE6aC8G2qFLOUBxT4sPI"  target="_blank" rel="noreferrer"><i class="fab fa-spotify"></i></a></li>
+      <li class="icon"><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="lab la-instagram"></i></a></li>
+      <li class="icon"><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="lab la-linkedin-in"></i></a></li>
+      <li class="icon"><a href="https://open.spotify.com/show/7tcE6aC8G2qFLOUBxT4sPI"  target="_blank" rel="noreferrer"><i class="lab la-spotify"></i></a></li>
     </ul>
 
     <nav class=" transparent z-depth-0">
@@ -88,10 +89,9 @@ $v = "1.2";
             </ul>
           </li>
           <li><a href="blog.php">Blog</a></li>
-          <li><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-          <li><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
-          <li><a href="https://open.spotify.com/show/7tcE6aC8G2qFLOUBxT4sPI"  target="_blank" rel="noreferrer"><i class="fab fa-spotify"></i></a></li>
-          
+          <li class="icon"><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="lab la-instagram"></i></a></li>
+          <li class="icon"><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="lab la-linkedin-in"></i></a></li>
+          <li class="icon"><a href="https://open.spotify.com/show/7tcE6aC8G2qFLOUBxT4sPI"  target="_blank" rel="noreferrer"><i class="lab la-spotify"></i></a></li>
           
         </ul>
         <a href="#!" data-target="nav-mobile" class="sidenav-trigger right"><i class="material-icons ">menu</i></a>

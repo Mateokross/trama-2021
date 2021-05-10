@@ -5,8 +5,9 @@
           <h5 class="white-text">Club Trama ITBA</h5>
           <p class="grey-text text-lighten-4">Acercando el mundo profesional a los estudiantes universitarios desde 2012.</p>
           <div class="socials">
-            <a href="https://www.instagram.com/trama.itba/"  target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in" style="padding-left: 15px;"></i></a>
+            <a href="https://www.instagram.com/trama.itba/"  target="_blank" rel="noreferrer"><i class="lab la-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="lab la-linkedin-in" style="padding-left: 10px;"></i></a>
+            <a href="https://open.spotify.com/show/7tcE6aC8G2qFLOUBxT4sPI"  target="_blank" rel="noreferrer"><i class="lab la-spotify"  style="padding-left: 10px;"></i></a>
           </div>
         </div>
         <div class="col l3 offset-l1 s12">

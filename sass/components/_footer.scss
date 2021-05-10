@@ -29,10 +29,21 @@ footer a:hover,footer a:focus {
 }
 
 footer i {
-  font-size: 27px;
+  font-size: 36px;
+}
+
+footer svg{
+  fill: white;
+  transition: fill .4s ease;
+}
+footer svg:hover,footer svg:focus {
+  fill: $primary-color-saturated!important;
 }
 
 /* footer copyright */
 .footer-copyright {
   background-color: rgba(0, 0, 0, 0.18) !important;
 }
+
+
+
