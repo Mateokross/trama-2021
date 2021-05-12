@@ -43,7 +43,7 @@
   <!--  Scripts-->
   <script src="js/jquery-3.5.0.min.js"></script>
   <script src="js/aos.min.js"></script>
-  <script src="js/lozad.js"></script>
+  <script src="js/lozad.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script src="js/main.js?v=<?php echo $v;?>"></script>
   <script src="js/init.js?v=<?php echo $v;?>"></script>

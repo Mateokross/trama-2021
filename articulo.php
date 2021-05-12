@@ -28,7 +28,8 @@ include('templates/header.php');
                 <p class="author-date"><?php echo $entry->autor; ?> <span>-</span> <?php echo $entry->fecha; ?></p>
                 <div class="article-content wysiwyg">
                     <div class="picture-container">
-                        <div data-background-image="<?php echo $entry->miniatura->path; ?>" class="picture lozad"></div>
+                        <div data-background-image="<?php echo $entry->miniatura->path; ?>" data-bg="<?php echo $entry->miniatura->path; ?>" class="picture lozad"></div>
+                        <?php echo $entry->miniatura->path; ?>
                     </div>      
                     <?php echo $entry->contenido; ?>
                 </div>
