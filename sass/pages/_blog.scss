@@ -69,18 +69,8 @@
   height: auto;
 }
 
-.blog .article-content .picture-container, .article .article-content .picture-container{
-  overflow: hidden;
-  padding-top: 1.7em;
-}
-
-.blog .article-content .picture, .article .article-content .picture{
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.blog .article-content img.responsive-img{
   background-color: #bfbfbf;
-  width: 100%;
-  height: 100%;
-  padding-top: 75%;
-  transition: all .4s ease;
+  max-height: 400px;
+  margin-top: 20px;
 }

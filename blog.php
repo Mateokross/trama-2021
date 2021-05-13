@@ -38,10 +38,8 @@ include('templates/header.php');
                 </a>
                 <p class="author-date"><?php echo $entry->autor; ?> - <?php echo $entry->fecha; ?></p>
                 <div class="article-content wysiwyg">
-                    <div class="picture-container">
-                        <div data-background-image="<?php echo $entry->miniatura->path; ?>" class="picture lozad"></div>
-                    </div>                    
-                    <?php echo $entry->contenido; ?>
+                    <img data-src="<?php echo $entry->miniatura->path; ?>" alt="miniatura" class="lozad responsive-img">
+                    <?php echo $entry->contenido; ?>                 
                 </div>
                 <div class="article-footer">
                     <a href="articulo.php?id=<?php echo $id; ?>">Leer Artículo Completo</a> 

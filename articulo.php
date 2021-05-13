@@ -27,10 +27,7 @@ include('templates/header.php');
                 <h5 class="subtitle"><?php echo $entry->subtitulo; ?></h5>
                 <p class="author-date"><?php echo $entry->autor; ?> <span>-</span> <?php echo $entry->fecha; ?></p>
                 <div class="article-content wysiwyg">
-                    <div class="picture-container">
-                        <div data-background-image="<?php echo $entry->miniatura->path; ?>" data-bg="<?php echo $entry->miniatura->path; ?>" class="picture lozad"></div>
-                        <?php echo $entry->miniatura->path; ?>
-                    </div>      
+                    <img data-src="<?php echo $entry->miniatura->path; ?>" alt="miniatura" class="lozad responsive-img">
                     <?php echo $entry->contenido; ?>
                 </div>
             </div>
