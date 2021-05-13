@@ -50,6 +50,10 @@ a:not(.carousel-item) {
   border-radius: 8px;
 }
 
+iframe{
+  border:0
+}
+
 
 /*Smooth scrolling*/
 html {
@@ -151,6 +155,20 @@ body {
 }
 .card-image-container{
   border-radius: 8px 8px 0 0
+}
+
+.collapsible {
+  box-shadow: none;
+  border-radius: 8px;
+}
+
+.collapsible li:first-child .collapsible-header {
+  border-radius: 8px 8px 0 0;
+}
+
+.collapsible li:last-child:not(.active) .collapsible-header,
+.collapsible li:last-child .collapsible-body {
+  border-radius: 0 0 8px 8px;
 }
 
 /* ==========================================================================

@@ -7,13 +7,12 @@ include('templates/header.php');
   <section class="hero bootcamp">
     <div class="darken">
       <div class="container center-align white-text">
-
         <div class="center-align">
-          <img style="width:80%; max-width:400px;" src="img/emprendedores/logo-bootcamp-min.png" class="responsive-img border-radius" alt="logo bootcamp">
+          <img src="img/emprendedores/logo-bootcamp-min.png" class="responsive-img border-radius" alt="logo bootcamp">
         </div>
 
-        <h4 style="margin:0px" class="center-align white-text">Aprendé a Emprender</h4>
-        <h5 style="font-weight:500">Del 14 al 22 de Agosto</h5>
+        <h3 style="margin:0px" class="center-align white-text">Aprendé a Emprender</h3>
+        <h4 style="font-weight:500">Del 14 al 22 de Agosto</h4>
 
         <a class="anotate btn" href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">¡Anotate!</a>
       </div>
@@ -35,7 +34,7 @@ include('templates/header.php');
       <h4 style="margin-bottom:50px">The Bootcamp Experience 2020</h4>
       <div class="container" style="max-width: 1086px">
         <div class="iframe-container">
-          <iframe src="https://www.youtube.com/embed/L3rP5BfAkAk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/L3rP5BfAkAk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="border-radius"></iframe>
         </div>
       </div>
     </div>
@@ -53,7 +52,7 @@ include('templates/header.php');
             <div class="iframe-container">
               <iframe height="500" style="border: none" src="https://www.youtube.com/embed/KuCqX2Ch014"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                allowfullscreen class="border-radius"></iframe>
             </div>
 
           </div>
@@ -66,7 +65,7 @@ include('templates/header.php');
             <div class="iframe-container">
               <iframe height="500" style="border: none" src="https://www.youtube.com/embed/Azgl3obTMgI"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                allowfullscreen class="border-radius"></iframe>
             </div>
           </div>
         </li>
@@ -78,7 +77,7 @@ include('templates/header.php');
             <div class="iframe-container">
               <iframe height="500" style="border: none" src="https://www.youtube.com/embed/8uVaPgv0Sv8"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+              allowfullscreen class="border-radius"></iframe>
             </div>
 
 
