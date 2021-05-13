@@ -3,7 +3,7 @@
 include('inc/page_name_inc.php');
 
 //versión
-$v = "1.3";
+$v = "1.4";
 
 ?>
 
@@ -25,9 +25,9 @@ $v = "1.3";
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 
-  <meta name="theme-color" content="#B79DC4" />
-  <meta name="msapplication-navbutton-color" content="#B79DC4">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#B79DC4">
+  <meta name="theme-color" content="#c883ec" />
+  <meta name="msapplication-navbutton-color" content="#c883ec">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#c883ec">
 
   <!-- fuentes  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
