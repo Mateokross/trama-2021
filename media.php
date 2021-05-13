@@ -12,7 +12,7 @@ include('templates/header.php');
           <!-- <div class="col s12 m12 l5"> -->
             <h1>Club Media</h1>
             <p>Estamos dedicados a trabajar transversalmente con los demás clubes apoyando en la organización, difusión
-              y crecimiento de eventos, proyectos y actividades buscando transimitir la información y la esencia de cada
+              y crecimiento de eventos, proyectos y actividades buscando transmitir la información y la esencia de cada
               uno de ellos de una forma especial. El objetivo de nuestro club es expandir el campo de acción de la
               organización y promover el espíritu tramero a todos los estudiantes.</p>
           </div>

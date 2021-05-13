@@ -10,9 +10,6 @@ include('templates/header.php');
         <div class="row valign-row-l">
           <div class="col s12 m12 l12">
             <h1>El Equipo</h1>
-            <!-- <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam natus eum dolor perferendis dolore,
-              beatae temporibus, qui vero nemo laudantium praesentium repudiandae, adipisci aliquam at illum consectetur
-              quia nobis? Enim!</h5> -->
           </div>
         </div>
       </div>

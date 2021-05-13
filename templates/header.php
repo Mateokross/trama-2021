@@ -3,7 +3,7 @@
 include('inc/page_name_inc.php');
 
 //versión
-$v = "1.5";
+$v = "1.6";
 
 ?>
 

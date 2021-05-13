@@ -15,7 +15,7 @@ include('templates/header.php');
         <h4 style="margin:0px" class="center-align white-text">Aprendé a Emprender</h4>
         <h5 style="font-weight:500">Del 14 al 22 de Agosto</h5>
 
-        <a class="anotate btn" href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">Anotate!</a>
+        <a class="anotate btn" href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">¡Anotate!</a>
       </div>
     </div>
   </section>
@@ -176,20 +176,20 @@ include('templates/header.php');
           <div class="collapsible-body"><span>Las actividades se realizarán durante los dos fines de semana y se harán mentoreos opcionales en los días de semana. La asistencia en los dos fines de semana es obligatoria y crucial para aprovechar la experiencia. Los días del primer fin de semana consistirán de 4 hs de actividades y charlas, con un entregable por equipo para el final del día; Mientras que los días 21 y 22 serán más flexibles y orientados al networking y la presentación de los proyectos.</span></div>
         </li>
         <li>
-          <div class="collapsible-header">¿Como puedo participar?</div>
+          <div class="collapsible-header">¿Cómo puedo participar?</div>
           <div class="collapsible-body"><span>Para participar tenés que llenar el <a href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">form de inscripción</a> y ser de los 120 que quedan seleccionados</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Puedo participar siendo del exterior?</div>
-          <div class="collapsible-body"><span>Sí podes participar siempre y cuando quedes entre los 120 seleccionados.</span></div>
+          <div class="collapsible-body"><span>Sí podés participar siempre y cuando quedes entre los 120 seleccionados.</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Necesito conocimientos previos?</div>
-          <div class="collapsible-body"><span>No se necesita ningún conocimiento previo, lo que más importa es el compromiso, la buena actitud y las ganás de trabajar en equipo</span></div>
+          <div class="collapsible-body"><span>No se necesita ningún conocimiento previo, lo que más importa es el compromiso, la buena actitud y las ganas de trabajar en equipo</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Quienes pueden participar?</div>
-          <div class="collapsible-body"><span>Si tenes entre 18 y 26 anos, y sos estudiante universitario podes participar.</span></div>
+          <div class="collapsible-body"><span>Si tenes entre 18 y 26 años, y sos estudiante universitario podés participar.</span></div>
         </li>
       </ul>
     </div>
