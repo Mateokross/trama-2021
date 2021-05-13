@@ -3,7 +3,7 @@
 include('inc/page_name_inc.php');
 
 //versión
-$v = "1.6";
+$v = "1.7";
 
 ?>
 
@@ -34,12 +34,21 @@ $v = "1.6";
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- css -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   <link href="css/aos.min.css" rel="stylesheet">
   <link href="css/main.css?v=<?php echo $v;?>" type="text/css" rel="stylesheet" media="screen" />
   <!-- <link rel="stylesheet" href="styles/debug.css"> -->
-  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JQ7LDZVKQC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JQ7LDZVKQC');
+  </script>
 
 </head>
 
