@@ -126,7 +126,7 @@
 }
 
 .wysiwyg h1 {
-    font-size: 2.4em;
+    font-size: 2em;
     margin-bottom: .58333em;
     margin-top: .58333em;
     line-height: 1
@@ -175,51 +175,57 @@
 .wysiwyg li {
     font-size: 18px;
 }
-.wysiwyg ol {
+.wysiwyg ol,.wysiwyg ol li  {
     list-style-type: decimal
 }
 
-.wysiwyg ol ol {
-    list-style-type: lower-alpha
-}
-
-.wysiwyg ol ol ol {
-    list-style-type: lower-roman
-}
-
-.wysiwyg ol ol ol ol {
-    list-style-type: lower-greek
-}
-
-.wysiwyg ol ol ol ol ol {
+.wysiwyg ol ol,.wysiwyg ol ol li  {
+    // list-style-type: lower-alpha
     list-style-type: decimal
 }
 
-.wysiwyg ol ol ol ol ol ol {
-    list-style-type: lower-alpha
+.wysiwyg ol ol ol,.wysiwyg ol ol ol li {
+    // list-style-type: lower-roman
+    list-style-type: decimal
 }
 
-.wysiwyg ul {
+.wysiwyg ol ol ol ol, .wysiwyg ol ol ol ol li {
+    // list-style-type: lower-greek
+    list-style-type: decimal
+}
+
+.wysiwyg ol ol ol ol ol, .wysiwyg ol ol ol ol ol li {
+    list-style-type: decimal
+}
+
+.wysiwyg ol ol ol ol ol ol, .wysiwyg ol ol ol ol ol ol li {
+    // list-style-type: lower-alpha
+    list-style-type: decimal
+}
+
+.wysiwyg ul,.wysiwyg ul li  {
     list-style-type: disc
 }
 
-.wysiwyg ul ul {
+.wysiwyg ul ul,.wysiwyg ul ul li {
     list-style-type: circle
 }
 
-.wysiwyg ul ul ul {
-    list-style-type: square
-}
-
-.wysiwyg ul ul ul ul {
+.wysiwyg ul ul ul, .wysiwyg ul ul ul li {
+    // list-style-type: square
     list-style-type: circle
 }
 
-.wysiwyg ul ul ul ul ul {
-    list-style-type: disc
+.wysiwyg ul ul ul ul, .wysiwyg ul ul ul ul li {
+    list-style-type: circle
 }
 
-.wysiwyg ul ul ul ul ul ul {
+.wysiwyg ul ul ul ul ul, .wysiwyg ul ul ul ul ul li {
+    // list-style-type: disc
+    list-style-type: circle
+}
+
+.wysiwyg ul ul ul ul ul ul, .wysiwyg ul ul ul ul ul ul li {
     list-style-type: circle
 }
 

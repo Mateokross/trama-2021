@@ -5,8 +5,12 @@
 
 }
 
-.container.blog {
-    max-width: 750px;
+main.articulo {
+    background: white
+}
+
+.articulo .container {
+    max-width: 950px;
 }
 
 .articulo .blog-card {
@@ -19,8 +23,8 @@
 }
 
 .articulo .subtitle {
-    font-size: 2em;
-    color: #333333
+    font-size: 1.75em;
+    color: #5d5d5d;
 }
 
 .articulo .date {
@@ -34,9 +38,10 @@
     word-wrap: break-word;
 }
 
-.articulo .article .article-content img.responsive-img{
+.articulo .article .article-content img.responsive-img {
     background-color: #bfbfbf;
     max-height: 600px;
+    margin: 20px 0 40px;
 }
 
 .articulo .article-content * {
@@ -49,4 +54,3 @@
     width: auto;
     height: auto;
 }
-
