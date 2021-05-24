@@ -13,6 +13,16 @@ main.articulo {
     max-width: 950px;
 }
 
+@media only screen and (max-width:600px){
+    .articulo .container {
+        margin-top: 20px;
+    }
+}
+
+.articulo .container .container{
+    width: 100%;
+}
+
 .articulo .blog-card {
     margin-bottom: 40px;
 }
@@ -41,7 +51,8 @@ main.articulo {
 .articulo .article .article-content img.responsive-img {
     background-color: #bfbfbf;
     max-height: 600px;
-    margin: 20px 0 40px;
+    margin-top: 20px;
+    margin-bottom:40px;
 }
 
 .articulo .article-content * {

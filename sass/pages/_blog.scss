@@ -10,8 +10,15 @@ main.blog {
   background: white
 }
 
-main.blog .container.blog {
+@media only screen and (max-width:600px){
+  main.blog section.container {
+      margin-top: 20px;
+  }
+}
+
+main.blog div.container.blog {
   max-width: 750px;
+  width: 100%;
 }
 
 main.blog .blog-card {
@@ -39,6 +46,11 @@ main.blog .article-content {
   mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 }
 
+@media only screen and (max-width:600px){
+  main.blog .article-content {
+    max-height: 600px;
+  }
+}
 
 
 main.blog .article-content p {
@@ -69,6 +81,7 @@ main.blog iframe {
 
 main.blog .article-content img.responsive-img {
   background-color: #bfbfbf;
-  max-height: 400px;
+  max-height: 526px;
   margin-top: 20px;
+  margin-bottom: 25px;
 }

@@ -20,6 +20,8 @@ if ($page == "index.php" || $page == ""){
     $title = "Club Media";
 }else if ($page == "comunicación.php"){
     $title = "Club Comunicación";
+}else if ($page == "bootcamp.php"){
+    $title = "Bootcamp Trama";
 }else if ($page == "blog.php"){
     $title = "Blog Trama";
 }else if ($page == "articulo.php"){
