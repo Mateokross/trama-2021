@@ -19,40 +19,31 @@ include('templates/header.php');
   </section>
 
 
-<section class="section container">
-    <div class="container blog row">
-
-
-
-        <?php
-            // Traverse array and display user data
-            foreach ($entries as $id=>$entry) {
-            //aca se loopea cada articulo
-        ?>  
-
-
-            <div class="blog-card col s12 m12 l12">
-                <a href="articulo.php?id=<?php echo $id; ?>">
-                    <h4 class="title"><?php echo $entry->titulo; ?></h5>
-                    <h5 class="subtitle"><?php echo $entry->subtitulo; ?></h5>
-                </a>
-                <p class="author-date"><?php echo $entry->autor; ?> - <?php echo $entry->fecha; ?></p>
-                <div class="article-content wysiwyg">
-                    <img data-src="<?php echo $entry->miniatura->path; ?>" alt="miniatura" class="lozad responsive-img">
-                    <?php echo $entry->contenido; ?>                 
-                </div>
-                <div class="article-footer">
-                    <a href="articulo.php?id=<?php echo $id; ?>">Leer Artículo Completo</a> 
-                </div>     
-                <hr style="border-top: 1px solid #eee;">      
-            </div>
+<section class="section blog container">
+    <div class="row">
 
         <?php 
+            //loop each
+            foreach ($entries as $id=>$entry) {
+        ?>
+            <a href="articulo.php?id=<?php echo $id; ?>" class="col s12 m12 l4">
+            <div class="card">
+                <div class="card-image-container">
+                <div class="card-image lozad" data-background-image="<?php echo $entry->miniatura->path;?>">
+                </div>
+                <!-- <div class="card-image" style="background-image: url('<?php echo $entry->miniatura->path;?>')"> -->
+                <!-- </div> -->
+                </div>
+                <div class="card-content">
+                <span class="card-title"><?php echo $entry->titulo;?></span>
+                </div>
+            </div>
+            </a>
+        <?php
             }
         ?>
 
 
-    </div>
     </div>
 </section>
 

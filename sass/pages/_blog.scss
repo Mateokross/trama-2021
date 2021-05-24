@@ -7,81 +7,164 @@
 }
 
 main.blog {
-  background: white
+  background: $secondary-color
 }
 
-@media only screen and (max-width:600px){
-  main.blog section.container {
-      margin-top: 20px;
-  }
+.blog section.blog.container {
+    margin-bottom: 0;
+    padding-bottom: 140px;
 }
 
-main.blog div.container.blog {
-  max-width: 750px;
-  width: 100%;
+.blog section.blog .row {
+    width: 100%;
 }
 
-main.blog .blog-card {
-  margin-bottom: 40px;
+.blog section.blog .row .col {
+    padding: 0;
 }
 
-main.blog .title {
-  margin-top: 5px;
+.blog section.blog .row .card {
+    border-radius: 0;
+    box-shadow: none;
+    width: 96%;
+    height: 100%;
 }
 
-main.blog .subtitle {
-  font-size: 1.75em;
-  color: #5d5d5d;
+.blog section.blog .row .card .card-image-container {
+    overflow: hidden;
 }
 
-main.blog .author-date {
-  margin-bottom: 0;
+.blog section.blog .row .card .card-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #bfbfbf;
+    width: 100%;
+    height: 100%;
+    padding-top: 75%;
+    transition: all .4s ease;
 }
 
-main.blog .article-content {
-  color: #464646 !important;
-  max-height: 1200px;
-  overflow: hidden;
-  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
-  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+.blog section.blog .row .card:hover .card-image {
+    transform: scale(1.1);
 }
 
-@media only screen and (max-width:600px){
-  main.blog .article-content {
-    max-height: 600px;
-  }
+.blog section.blog .row .card .card-title{
+    font-size: 1.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.blog section.blog .row .card .card-content{
+    height: 100px;
+    padding: 18px;
+}
+
+@media only screen and (min-width:993px) {
+    .blog section.blog .row .col:first-child {
+        padding-right: 0.75;
+    }
+
+    .blog section.blog .row .col:last-child {
+        padding-left: 0.75;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .blog section.blog h4 {
+        text-align: center;
+    }
+
+    .blog section.blog .row {
+        padding-top: 1em;
+    }
+
+    .blog section.blog .row .card {
+        margin: auto;
+        margin-bottom: 1em;
+    }
 }
 
 
-main.blog .article-content p {
-  font-size: 17px !important;
-}
 
-main.blog .article-content a {
-  color: #757575 !important;
-  cursor: default;
-}
 
-main.blog .article-footer {
-  margin: 20px 0;
-  font-size: 16px !important;
-}
 
-main.blog .article-footer a:hover,
-main.blog .article-footer a:focus,
-main.blog .article-footer a:active {
-  color: $primary-color-saturated;
-}
 
-main.blog iframe {
-  position: inherit;
-  width: auto;
-  height: auto;
-}
+// @media only screen and (max-width:600px){
+//   main.blog section.container {
+//       margin-top: 20px;
+//   }
+// }
 
-main.blog .article-content img.responsive-img {
-  background-color: #bfbfbf;
-  max-height: 526px;
-  margin-top: 20px;
-  margin-bottom: 25px;
-}
+// main.blog div.container.blog {
+//   max-width: 750px;
+//   width: 100%;
+// }
+
+// main.blog .blog-card {
+//   margin-bottom: 40px;
+// }
+
+// main.blog .title {
+//   margin-top: 5px;
+// }
+
+// main.blog .subtitle {
+//   font-size: 1.75em;
+//   color: #5d5d5d;
+// }
+
+// main.blog .author-date {
+//   margin-bottom: 0;
+// }
+
+// main.blog .article-content {
+//   color: #464646 !important;
+//   max-height: 1200px;
+//   overflow: hidden;
+//   -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+//   mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+// }
+
+// @media only screen and (max-width:600px){
+//   main.blog .article-content {
+//     max-height: 600px;
+//   }
+// }
+
+
+// main.blog .article-content p {
+//   font-size: 17px !important;
+// }
+
+// main.blog .article-content a {
+//   color: #757575 !important;
+//   cursor: default;
+// }
+
+// main.blog .article-footer {
+//   margin: 20px 0;
+//   font-size: 16px !important;
+// }
+
+// main.blog .article-footer a:hover,
+// main.blog .article-footer a:focus,
+// main.blog .article-footer a:active {
+//   color: $primary-color-saturated;
+// }
+
+// main.blog iframe {
+//   position: inherit;
+//   width: auto;
+//   height: auto;
+// }
+
+// main.blog .article-content img.responsive-img {
+//   background-color: #bfbfbf;
+//   max-height: 526px;
+//   margin-top: 20px;
+//   margin-bottom: 25px;
+// }
