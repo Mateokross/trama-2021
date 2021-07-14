@@ -38,11 +38,24 @@ include('templates/header.php');
     <section class="section alt-container sponsors" style="margin-bottom:0;">
       <h4 class="center-align" >Nuestros Sponsors</h4>
       <div class="carousel" id="sponsors-carousel">
-        <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer" ><img src="img/sponsors/logo-mercadolibre.png" alt="mercado libre"></a>
+        <!-- <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer" ><img src="img/sponsors/logo-mercadolibre.png" alt="mercado libre"></a> -->
         <a class="carousel-item" href="https://www.bancogalicia.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-galicia.png" alt="banco galicia"></a>
         <a class="carousel-item" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png" alt="bain"></a>
-        <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-clarin.png" alt="clarin"></a>
-        <a class="carousel-item" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-globant.png" alt="globant"></a>
+        <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-clarin.png" alt="clarin"></a>
+        <a class="carousel-item" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-globant.png" alt="globant"></a>
+        <!-- Emprendedores - Platinum -->
+        <a class="carousel-item" href="https://1password.com/" target="_blank" rel="noreferrer" ><img class="lozad" data-src="img/sponsors/logo-1password.png" alt="1password"></a>
+        <a class="carousel-item" href="https://www.corsair.com/ww/en/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-corsair.png" alt="corsair"></a>
+        <a class="carousel-item" href="https://www.eklos.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-eklos.png" alt="eklos"></a>
+        <a class="carousel-item" href="https://www.laanonima.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-laanonima.png" alt="la anonima"></a>
+        <a class="carousel-item" href="https://www.bigbox.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-bigbox.png" alt="big box"></a>
+        <!-- Emprendedores -  Gold -->
+        <a class="carousel-item" href="https://www.onapsis.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-onapsis.png" alt="onapsis"></a>
+        <!-- Emprendedores -  Silver -->
+        <a class="carousel-item" href="https://www.elgato.com/es" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-elgato.png" alt="elgato"></a>
+        <!-- Emprendedores -  Nos apoya -->
+        <a class="carousel-item" href="https://www.redbull.com/ar-es/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-redbull.png" alt="red bull"></a>
+        <a class="carousel-item" href="https://www.itba.edu.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-itba.png" alt="itba"></a>
       </div>
     </section>
 

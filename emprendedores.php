@@ -15,7 +15,7 @@ include('templates/header.php');
               este campo. El principal evento del Club de Emprendedores es el <a id="link-bc-texto"
                 href="bootcamp.php">BootCamp Trama.</a></p>
           </div>
-          <div class="col s12 m12 l6 offset-l1">
+          <div class="col s12 m12 l6 offset-l1 hide-on-small-only">
             <img src="img/emprendedores/emprendedores1-min.jpg" class="responsive-img border-radius" alt="bootcamp">
           </div>
         </div>
@@ -219,13 +219,32 @@ include('templates/header.php');
   </section>
 
 
-  <section class="container section center sponsor">
+  <!-- <section class="container section center sponsor">
     <h4>Nuestro Sponsor</h4>
     <a class="sponsor" href="https://www.mercadolibre.com.ar/" target="_blank" rel="noreferrer"><img
         src="img/sponsors/logo-mercadolibre.png" class="responsive-img" alt="mercado libre"></a>
     <p>La compañía líder de e-commerce y fintech de América Latina. Que construye un ecosistema emprendedor que está
       democratizando el comercio, el dinero y los pagos facilitando el poder de emprender a millones de personas en
       América Latina.</p>
+  </section> -->
+  <section class="container section center sponsor">
+    <h4>Nuestros Sponsors</h4>
+    <div class="carousel" id="sponsors-carousel">
+        <!-- Platinum -->
+        <a class="carousel-item" href="https://1password.com/" target="_blank" rel="noreferrer" ><img src="img/sponsors/logo-1password.png" alt="1password"></a>
+        <a class="carousel-item" href="https://www.corsair.com/ww/en/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-corsair.png" alt="corsair"></a>
+        <a class="carousel-item" href="https://www.eklos.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-eklos.png" alt="eklos"></a>
+        <a class="carousel-item" href="https://www.laanonima.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-laanonima.png" alt="la anonima"></a>
+        <a class="carousel-item" href="https://www.bigbox.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-bigbox.png" alt="big box"></a>
+        <!-- Gold -->
+        <a class="carousel-item" href="https://www.onapsis.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-onapsis.png" alt="onapsis"></a>
+        <!-- Silver -->
+        <a class="carousel-item" href="https://www.elgato.com/es" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-elgato.png" alt="elgato"></a>
+        <!-- Nos apoya -->
+        <a class="carousel-item" href="https://www.redbull.com/ar-es/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-redbull.png" alt="red bull"></a>
+        <a class="carousel-item" href="https://www.itba.edu.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-itba.png" alt="itba"></a>
+
+    </div>
   </section>
 
 

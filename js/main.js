@@ -87,7 +87,7 @@ $(window).on("load", function () {
     $('body > header > nav > div > a.brand-logo > img').hover(function(){
         tOut = setTimeout(function(){
             location.href='https://www.instagram.com/itbamemes/';
-        },10000);
+        },4500);
     },function(){
         clearTimeout(tOut);
     });
