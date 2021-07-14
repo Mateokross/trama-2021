@@ -136,16 +136,20 @@ include('templates/header.php');
   <section class="section container sponsors" id="section-4">
     <h4 class="center-align">Nuestros Sponsors</h4>
     <div class="carousel" id="sponsors-carousel">
-      <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer" ><img
-          src="img/sponsors/logo-mercadolibre.png" alt="mercado libre"></a>
-      <a class="carousel-item" href="https://www.cerveceriaymalteriaquilmes.com/" target="_blank" rel="noreferrer"><img
-          src="img/sponsors/logo-quilmes.png" alt="cervecería y malteria quilmes"></a>
-      <a class="carousel-item" href="https://www.swissmedical.com.ar/prepagaclientes/" target="_blank"
-        rel="noreferrer"><img src="img/sponsors/logo-swiss.png"  alt="swiss medical"></a>
-      <a class="carousel-item" href="https://www.nestle.com.ar/" target="_blank" rel="noreferrer"><img
-          src="img/sponsors/logo-nestle.png"  alt="nestle"></a>
-      <a class="carousel-item" href="https://aws.amazon.com/es/" target="_blank" rel="noreferrer"><img
-          src="img/sponsors/logo-aws.png" alt="aws"></a>
+        <!-- Platinum -->
+        <a class="carousel-item" href="https://1password.com/" target="_blank" rel="noreferrer" ><img src="img/sponsors/logo-1password.png" alt="1password"></a>
+        <a class="carousel-item" href="https://www.corsair.com/ww/en/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-corsair.png" alt="corsair"></a>
+        <a class="carousel-item" href="https://www.eklos.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-eklos.png" alt="eklos"></a>
+        <a class="carousel-item" href="https://www.laanonima.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-laanonima.png" alt="la anonima"></a>
+        <a class="carousel-item" href="https://www.bigbox.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-bigbox.png" alt="big box"></a>
+        <!-- Gold -->
+        <a class="carousel-item" href="https://www.onapsis.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-onapsis.png" alt="onapsis"></a>
+        <!-- Silver -->
+        <a class="carousel-item" href="https://www.elgato.com/es" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-elgato.png" alt="elgato"></a>
+        <!-- Nos apoya -->
+        <a class="carousel-item" href="https://www.redbull.com/ar-es/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-redbull.png" alt="red bull"></a>
+        <a class="carousel-item" href="https://www.itba.edu.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-itba.png" alt="itba"></a>
+
     </div>
   </section>
 
