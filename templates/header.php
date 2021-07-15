@@ -69,7 +69,7 @@ $v = "1.9";
       <!-- <li><a href="index.php#acerca" class="section-link">Acerca</a></li> -->
       <li><a href="equipo.php">Equipo</a></li>
       <li><a href="clubes.php">Clubes</a></li>
-      <li><a href="blog.php">Blog</a></li>
+      <!-- <li><a href="blog.php">Blog</a></li> -->
       <li class="icon"><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="lab la-instagram"></i></a></li>
       <li class="icon"><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="lab la-linkedin-in"></i></a></li>
       <li class="icon"><a href="https://open.spotify.com/show/7tcE6aC8G2qFLOUBxT4sPI"  target="_blank" rel="noreferrer"><i class="lab la-spotify"></i></a></li>
@@ -97,7 +97,7 @@ $v = "1.9";
               <li><a href="comunicación.php">Comunicación</a></li>
             </ul>
           </li>
-          <li><a href="blog.php">Blog</a></li>
+          <!-- <li><a href="blog.php">Blog</a></li> -->
           <li class="icon"><a href="https://www.instagram.com/trama.itba/" target="_blank" rel="noreferrer"><i class="lab la-instagram"></i></a></li>
           <li class="icon"><a href="https://www.linkedin.com/company/club-trama"  target="_blank" rel="noreferrer"><i class="lab la-linkedin-in"></i></a></li>
           <li class="icon"><a href="https://open.spotify.com/show/7tcE6aC8G2qFLOUBxT4sPI"  target="_blank" rel="noreferrer"><i class="lab la-spotify"></i></a></li>

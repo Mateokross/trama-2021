@@ -72,31 +72,31 @@ include('templates/header.php');
 
 
     <!--  Noticias-->
-     <section class="alt-container section blog">
+     <!-- <section class="alt-container section blog">
        <div class="container">
 
         <h4><a href="blog.php">Blog Trama</a></h4>
 
-        <div class="row">
+        <div class="row"> -->
         <?php 
           //get last three articles
           $entries = array_slice($entries, 0, 3, true);
           //loop each
           foreach ($entries as $id=>$entry) {
         ?>
-          <a href="articulo.php?id=<?php echo $id; ?>" class="col s12 m12 l4">
+          <!-- <a href="articulo.php?id=<?php echo $id; ?>" class="col s12 m12 l4">
             <div class="card">
               <div class="card-image-container">
                 <div class="card-image lozad" data-background-image="<?php echo $entry->miniatura->path;?>">
-                </div>
+                </div> -->
                 <!-- <div class="card-image" style="background-image: url('<?php echo $entry->miniatura->path;?>')"> -->
                 <!-- </div> -->
-              </div>
+              <!-- </div>
               <div class="card-content">
                 <span class="card-title"><?php echo $entry->titulo;?></span>
               </div>
             </div>
-          </a>
+          </a> -->
         <?php
           }
         ?>
@@ -106,7 +106,8 @@ include('templates/header.php');
     </section>   
 
     <!-- Podcast -->
-    <section class="container section podcast" id="acerca">
+    <!-- <section class="container section podcast" id="acerca"> -->
+    <section class="alt-container section podcast" id="acerca">
       <div class="row valign-row-l">
         <div class="col s12 m12 l6 center">
           <img id="img-5-clubes" class="responsive-img border-radius" src="img/podcast/logopodcast-min.png" alt="Podcast Trama" style="width:520px">
