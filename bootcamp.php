@@ -14,22 +14,44 @@ include('templates/header.php');
         <h3 style="margin:0px" class="center-align white-text">Aprendé a Emprender</h3>
         <h4 style="font-weight:500">Del 14 al 22 de Agosto</h4>
 
-        <a class="anotate btn" href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">¡Anotate!</a>
+        <a class="anotate btn" href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">Cerraron las Inscripciones</a>
       </div>
     </div>
   </section>
 
 
+  <section class="section container sponsors" id="section-4">
+    <h4 class="center-align">Nuestros Sponsors</h4>
+    <div class="carousel" id="sponsors-carousel">
+        <!-- Platinum -->
+        <a class="carousel-item" href="https://1password.com/" target="_blank" rel="noreferrer" ><img src="img/sponsors/logo-1password.png" alt="1password"></a>
+        <a class="carousel-item" href="https://www.corsair.com/ww/en/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-corsair.png" alt="corsair"></a>
+        <a class="carousel-item" href="https://www.eklos.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-eklos.png" alt="eklos"></a>
+        <a class="carousel-item" href="https://www.laanonima.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-laanonima.png" alt="la anonima"></a>
+        <a class="carousel-item" href="https://www.bigbox.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-bigbox.png" alt="big box"></a>
+        <a class="carousel-item" href="https://www.cabrales.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-cabrales.png" alt="cabrales"></a>
+        <!-- Gold -->
+        <a class="carousel-item" href="https://www.onapsis.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-onapsis.png" alt="onapsis"></a>
+        <!-- Silver -->
+        <a class="carousel-item" href="https://www.elgato.com/es" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-elgato.png" alt="elgato"></a>
+        <!-- Nos apoya -->
+        <a class="carousel-item" href="https://www.redbull.com/ar-es/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-redbull.png" alt="red bull"></a>
+        <a class="carousel-item" href="https://www.itba.edu.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-itba.png" alt="itba"></a>
 
-  <section class="container section center-align" id="que-es-bc" >
+    </div>
+  </section>
+
+
+  <section class="alt-container section center-align" id="que-es-bc" >
+    <div class="container">
     <h4 style="padding-bottom:20px; margin-top:0px;">¿Qué es el Bootcamp?</h4>
     <h5>BootCamp es un evento de emprendedurismo que surge del Club de Emprendedores de TRAMA que
       busca desarrollar o explotar habilidades esenciales para el contexto laboral actual y potenciar el crecimiento
       personal en un entorno de aprendizaje a partir del desarrollo de un proyecto de startup.</h5>
-
+      </div>
   </section>
 
-  <section class="alt-container section center-align" id="section-2">
+  <section class="container section center-align" id="section-2">
     <div >
       <h4 style="margin-bottom:50px">The Bootcamp Experience 2020</h4>
       <div class="container" style="max-width: 1086px">
@@ -40,7 +62,7 @@ include('templates/header.php');
     </div>
   </section>
 
-  <section class="container section center-align">
+  <section class="alt-container section center-align">
     <h4>Otros Años</h4>
     <div class="container" id="bootcamps-viejos">
       <ul class="collapsible bootcamps-viejos center-align">
@@ -90,7 +112,7 @@ include('templates/header.php');
 
     
 
-  <section class="alt-container section center-align" id="section-3" style="margin-top:0;" >
+  <section class="container section center-align" id="section-3" style="margin-top:0;" >
       <div >
         <h4 style="padding-bottom:40px;">Un evento con impacto</h4>
           <div class="row valign-row-l">
@@ -133,26 +155,6 @@ include('templates/header.php');
 
   </section>
 
-  <section class="section container sponsors" id="section-4">
-    <h4 class="center-align">Nuestros Sponsors</h4>
-    <div class="carousel" id="sponsors-carousel">
-        <!-- Platinum -->
-        <a class="carousel-item" href="https://1password.com/" target="_blank" rel="noreferrer" ><img src="img/sponsors/logo-1password.png" alt="1password"></a>
-        <a class="carousel-item" href="https://www.corsair.com/ww/en/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-corsair.png" alt="corsair"></a>
-        <a class="carousel-item" href="https://www.eklos.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-eklos.png" alt="eklos"></a>
-        <a class="carousel-item" href="https://www.laanonima.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-laanonima.png" alt="la anonima"></a>
-        <a class="carousel-item" href="https://www.bigbox.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-bigbox.png" alt="big box"></a>
-        <!-- Gold -->
-        <a class="carousel-item" href="https://www.onapsis.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-onapsis.png" alt="onapsis"></a>
-        <!-- Silver -->
-        <a class="carousel-item" href="https://www.elgato.com/es" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-elgato.png" alt="elgato"></a>
-        <!-- Nos apoya -->
-        <a class="carousel-item" href="https://www.redbull.com/ar-es/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-redbull.png" alt="red bull"></a>
-        <a class="carousel-item" href="https://www.itba.edu.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-itba.png" alt="itba"></a>
-
-    </div>
-  </section>
-
 
   <section class="alt-container section" id="section-5">
     <div class="container">
@@ -180,7 +182,7 @@ include('templates/header.php');
         </li>
         <li>
           <div class="collapsible-header">¿Cómo puedo participar?</div>
-          <div class="collapsible-body"><span>Para participar tenés que llenar el <a href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">form de inscripción</a> y ser de los 120 que quedan seleccionados</span></div>
+          <div class="collapsible-body"><span>Para participar tenés que llenar el <a href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">form de inscripción</a> y ser de los 160 que quedan seleccionados</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Puedo participar siendo del exterior?</div>
