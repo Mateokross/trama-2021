@@ -21,24 +21,34 @@ include('templates/header.php');
 
 
   <section class="section container sponsors" id="section-4">
-    <h4 class="center-align">Nuestros Sponsors</h4>
-    <div class="carousel" id="sponsors-carousel">
-        <!-- Platinum -->
-        <a class="carousel-item" href="https://1password.com/" target="_blank" rel="noreferrer" ><img src="img/sponsors/logo-1password.png" alt="1password"></a>
+    <h4 class="center-align" style="margin-bottom:50px; padding-top:0px;">Nuestros Sponsors</h4>
+    <div class="container" style="max-width: 720px;">
+      <div class="center-align">
+          <img src="img/emprendedores/GRID - Banner oficial BC 2021.png" class="responsive-img border-radius" alt="Sponsors bootcamp">
+        </div>
+    </div>    
+    
+
+
+    
+  <!--  <div class="carousel" id="sponsors-carousel"> -->
+        <!-- Platinum --> 
+    <!--    <a class="carousel-item" href="https://1password.com/" target="_blank" rel="noreferrer" ><img src="img/sponsors/logo-1password.png" alt="1password"></a>
         <a class="carousel-item" href="https://www.corsair.com/ww/en/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-corsair.png" alt="corsair"></a>
         <a class="carousel-item" href="https://www.eklos.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-eklos.png" alt="eklos"></a>
         <a class="carousel-item" href="https://www.laanonima.com.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-laanonima.png" alt="la anonima"></a>
         <a class="carousel-item" href="https://www.bigbox.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-bigbox.png" alt="big box"></a>
         <a class="carousel-item" href="https://www.cabrales.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-cabrales.png" alt="cabrales"></a>
-        <!-- Gold -->
-        <a class="carousel-item" href="https://www.onapsis.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-onapsis.png" alt="onapsis"></a>
-        <!-- Silver -->
-        <a class="carousel-item" href="https://www.elgato.com/es" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-elgato.png" alt="elgato"></a>
-        <!-- Nos apoya -->
-        <a class="carousel-item" href="https://www.redbull.com/ar-es/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-redbull.png" alt="red bull"></a>
+-->    <!-- Gold -->
+     <!--   <a class="carousel-item" href="https://www.onapsis.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-onapsis.png" alt="onapsis"></a>
+-->   <!-- Silver -->
+  <!--      <a class="carousel-item" href="https://www.elgato.com/es" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-elgato.png" alt="elgato"></a>
+-->    <!-- Nos apoya -->
+ <!--       <a class="carousel-item" href="https://www.redbull.com/ar-es/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-redbull.png" alt="red bull"></a>
         <a class="carousel-item" href="https://www.itba.edu.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-itba.png" alt="itba"></a>
 
-    </div>
+    </div>  -->
+
   </section>
 
 
