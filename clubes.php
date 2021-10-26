@@ -3,6 +3,7 @@
 include('templates/header.php');
 
 ?>
+
   <main class="clubes">
     <section class="hero short-hero">
       <div class="-blur">
