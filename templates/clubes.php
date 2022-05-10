@@ -16,15 +16,15 @@
       <div class="club-background-img"></div>
       <div class="club-background-color"><div class="club-text"><p>IT</p></div></div>
     </a>
-    <a href="media.php" class="col s12 m6 l4 club media">
+    <a href="media.php" class="col s12 m6 l6 club media">
       <div class="club-background-img"></div>
       <div class="club-background-color"><div class="club-text"><p>Media</p></div></div>
     </a>
-    <a href="comunicación.php" class="col s12 m6 l4 club comunicacion">
+    <!--<a href="comunicación.php" class="col s12 m6 l4 club comunicacion">
       <div class="club-background-img"></div>
       <div class="club-background-color"><div class="club-text"><p>Comunicación</p></div></div>
-    </a>
-    <a href="finanzas.php" class="col s12 m6 l4 club finanzas">
+    </a>-->
+    <a href="finanzas.php" class="col s12 m12 l6 club finanzas">
       <div class="club-background-img"></div>
       <div class="club-background-color"><div class="club-text"><p>Finanzas</p></div></div>
     </a>

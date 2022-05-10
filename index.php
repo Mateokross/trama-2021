@@ -1,6 +1,6 @@
 <?php 
 
-include('inc/get_blog_data_inc.php');
+// include('inc/get_blog_data_inc.php');
 
 include('templates/header.php');
 
@@ -29,7 +29,7 @@ include('templates/header.php');
             La organización cuenta con cinco clubes: Emprendedores, Finanzas, Consultoría, Comunicación y IT, también con un departamento de Media. Cada club tiene un ciclo de actividades cuatrimestral, abierto a todos los estudiantes, que brinda la posibilidad de conocer de cerca cada uno de estos campos.</p>
         </div>
         <div class="col s12 m12 l6 center">
-          <img id="img-5-clubes" class="responsive-img" src="img/6clubes.svg" alt="Clubes Trama">
+          <img id="img-5-clubes" class="responsive-img" src="img/5clubes_new.png" alt="Clubes Trama">
         </div>
       </div>
     </section>
@@ -38,23 +38,27 @@ include('templates/header.php');
     <section class="section alt-container sponsors" style="margin-bottom:0;">
       <h4 class="center-align" >Nuestros Sponsors</h4>
       <div class="carousel" id="sponsors-carousel">
+        <!-- Emprendedores - Main Sponsor -->
+        <a class="carousel-item" href="https://www.lemon.me/" target="_blank" rel="noreferrer" ><img class="lozad" data-src="img/sponsors/logo-lemon.png" alt="lemon"></a>
         <!-- <a class="carousel-item" href="https://www.mercadolibre.com/" target="_blank" rel="noreferrer" ><img src="img/sponsors/logo-mercadolibre.png" alt="mercado libre"></a> -->
         <a class="carousel-item" href="https://www.bancogalicia.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-galicia.png" alt="banco galicia"></a>
         <a class="carousel-item" href="https://www.bain.com/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-bain.png" alt="bain"></a>
-        <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-clarin.png" alt="clarin"></a>
+        <!-- <a class="carousel-item" href="https://www.clarin.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-clarin.png" alt="clarin"></a> -->
         <a class="carousel-item" href="https://www.globant.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-globant.png" alt="globant"></a>
         <!-- Emprendedores - Platinum -->
-        <a class="carousel-item" href="https://1password.com/" target="_blank" rel="noreferrer" ><img class="lozad" data-src="img/sponsors/logo-1password.png" alt="1password"></a>
-        <a class="carousel-item" href="https://www.corsair.com/ww/en/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-corsair.png" alt="corsair"></a>
+        <a class="carousel-item" href="https://www.areatresworkplace.com/" target="_blank" rel="noreferrer" ><img class="lozad" data-src="img/sponsors/logo-a3.png" alt="A3"></a>
+
+        <a class="carousel-item" href="https://www.kavak.com/ar" target="_blank" rel="noreferrer" ><img class="lozad" data-src="img/sponsors/logo-kavak.png" alt="Kavak"></a>
+        <a class="carousel-item" href="https://www.despegar.com.ar" target="_blank" rel="noreferrer" ><img class="lozad" data-src="img/sponsors/logo-despegar.png" alt="Despegar"></a>
+        <a class="carousel-item" href="https://balanz.com/" target="_blank" rel="noreferrer" ><img class="lozad" data-src="img/sponsors/logo-balanz.png" alt="Balanz"></a>
         <a class="carousel-item" href="https://www.eklos.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-eklos.png" alt="eklos"></a>
-        <a class="carousel-item" href="https://www.laanonima.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-laanonima.png" alt="la anonima"></a>
-        <a class="carousel-item" href="https://www.bigbox.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-bigbox.png" alt="big box"></a>
         <!-- Emprendedores -  Gold -->
-        <a class="carousel-item" href="https://www.onapsis.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-onapsis.png" alt="onapsis"></a>
+        <a class="carousel-item" href="https://www.cabrales.com/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-cabrales.png" alt="cabrales"></a>
         <!-- Emprendedores -  Silver -->
-        <a class="carousel-item" href="https://www.elgato.com/es" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-elgato.png" alt="elgato"></a>
+        <a class="carousel-item" href="https://www.bigbox.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-bigbox.png" alt="big box"></a>
+        <a class="carousel-item" href="https://www.infinidad.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-infinidad.png" alt="Infinidad"></a>
+        <a class="carousel-item" href="https://www.hdi.com.ar/" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/sponsors/logo-hdi.png" alt="HDI"></a>
         <!-- Emprendedores -  Nos apoya -->
-        <a class="carousel-item" href="https://www.redbull.com/ar-es/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-redbull.png" alt="red bull"></a>
         <a class="carousel-item" href="https://www.itba.edu.ar/" target="_blank" rel="noreferrer"><img src="img/sponsors/logo-itba.png" alt="itba"></a>
       </div>
     </section>
@@ -80,25 +84,25 @@ include('templates/header.php');
         <div class="row"> -->
         <?php 
           //get last three articles
-          $entries = array_slice($entries, 0, 3, true);
+          //$entries = array_slice($entries, 0, 3, true);
           //loop each
-          foreach ($entries as $id=>$entry) {
+          //foreach ($entries as $id=>$entry) {
         ?>
-          <!-- <a href="articulo.php?id=<?php echo $id; ?>" class="col s12 m12 l4">
+          <!-- <a href="articulo.php?id=<?php //  echo $id; ?>" class="col s12 m12 l4">
             <div class="card">
               <div class="card-image-container">
-                <div class="card-image lozad" data-background-image="<?php echo $entry->miniatura->path;?>">
+                <div class="card-image lozad" data-background-image="<?php // echo $entry->miniatura->path;?>">
                 </div> -->
-                <!-- <div class="card-image" style="background-image: url('<?php echo $entry->miniatura->path;?>')"> -->
+                <!-- <div class="card-image" style="background-image: url('<?php // echo $entry->miniatura->path;?>')"> -->
                 <!-- </div> -->
               <!-- </div>
               <div class="card-content">
-                <span class="card-title"><?php echo $entry->titulo;?></span>
+                <span class="card-title"><?php // echo $entry->titulo;?></span>
               </div>
             </div>
           </a> -->
         <?php
-          }
+          //}
         ?>
 
 
@@ -110,7 +114,7 @@ include('templates/header.php');
     <section class="alt-container section podcast" id="acerca">
       <div class="row valign-row-l">
         <div class="col s12 m12 l6 center">
-          <img id="img-5-clubes" class="responsive-img border-radius" src="img/podcast/logopodcast-min.png" alt="Podcast Trama" style="width:520px">
+          <img id="img-5-clubes" class="responsive-img border-radius" src="img/podcast/logopodcast.png" alt="Podcast Trama" style="width:520px">
         </div>
         <div class="col s12 m12 l6 valign-wrapper">
           <h4>El Podcast</h4>
