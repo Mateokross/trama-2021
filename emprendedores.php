@@ -26,7 +26,8 @@ include('templates/header.php');
 
 
   <section class="container section team">
-    <h4 style="padding-bottom:20px;">Equipo</h4>
+    
+    <h4 style="padding-bottom:20px;">Equipo 2020-2021</h4>
     <!-- ROW -->
     <div class="row valign-row-l  members-2">
       <div class="col s12 m6 l6 member-card-container">
@@ -210,8 +211,8 @@ include('templates/header.php');
         <img src="img/emprendedores/emprendedores2-min.jpg" class="responsive-img border-radius" alt="bootcamp">
       </div>
       <div class="col s12 m12 l6">
-        <p>BootCamp Trama es un evento anual totalmente gratuito, con el propósito de fomentar el crecimiento del
-          ecosistema emprendedor en el país. 80 participantes, 2 categorías y 1 proyecto ganador. Descubrí como
+        <p>El BootCamp Trama es un evento anual totalmente gratuito, con el propósito de fomentar el crecimiento del
+          ecosistema emprendedor en el país. 150 participantes, 3 categorías y 3 proyectos ganadores. Descubrí como
           acercarte al mundo profesional!</p>
         <p style="padding-top:20px;" class="center"><a href="bootcamp.php" class="ver-mas  btn">Ver más</a></p>
       </div>
@@ -231,9 +232,9 @@ include('templates/header.php');
     <h4>Nuestros Sponsors</h4>
 
 
-    <div class="container" style="max-width: 720px;">
+    <div class="container" style="max-width: 1080px;">
       <div class="center-align">
-          <img src="img/emprendedores/GRID - Banner oficial BC 2021.png" class="responsive-img border-radius" alt="Sponsors bootcamp">
+          <img src="img/emprendedores/grid_bc_2022.png" class="responsive-img border-radius" alt="Sponsors bootcamp">
         </div>
     </div>    
 

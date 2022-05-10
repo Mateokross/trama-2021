@@ -3651,10 +3651,10 @@ form #website {
   .clubs a.col.s12.m6.l4.club.emprendedores {
     border-radius: 8px 0 0 0; }
 
-  .clubs a.col.s12.m6.l4.club.media {
+  .clubs a.col.s12.m6.l6.club.media {
     border-radius: 0 0 0 8px; }
 
-  .clubs a.col.s12.m6.l4.club.finanzas {
+  .clubs a.col.s12.m12.l6.club.finanzas {
     border-radius: 0 0 8px 0; }
 
   .clubs a.col.s12.m6.l4.club.it {
@@ -3666,17 +3666,18 @@ form #website {
   .clubs a.col.s12.m6.l4.club.consultoria {
     border-radius: 0 8px 0 0; }
 
-  .clubs a.col.s12.m6.l4.club.finanzas {
-    border-radius: 0 0 8px 0; }
+    .clubs a.col.s12.m12.l6.club.finanzas {
+    border-radius: 0 0 8px 8px; }
 
   .clubs a.col.s12.m6.l4.club.comunicacion {
-    border-radius: 0 0 0 8px; } }
+    border-radius: 0 0 0 0px; } }
 @media only screen and (max-width: 900px) {
   .clubs a.col.s12.m6.l4.club.emprendedores {
     border-radius: 8px 8px 0 0; }
 
-  .clubs a.col.s12.m6.l4.club.finanzas {
-    border-radius: 0 0 8px 8px; } }
+  .clubs a.col.s12.m12.l6.club.finanzas {
+    border-radius: 0 0 8px 8px; }
+  }
 h1,
 h2,
 h3,

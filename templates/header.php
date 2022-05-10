@@ -94,7 +94,7 @@ $v = "1.10";
               <li><a href="finanzas.php">Finanzas</a></li>
               <li><a href="it.php">IT</a></li>
               <li><a href="media.php">Media</a></li>
-              <li><a href="comunicación.php">Comunicación</a></li>
+              <!--<li><a href="comunicación.php">Comunicación</a></li>-->
             </ul>
           </li>
           <!-- <li><a href="blog.php">Blog</a></li> -->

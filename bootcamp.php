@@ -12,7 +12,7 @@ include('templates/header.php');
         </div>
 
         <h3 style="margin:0px" class="center-align white-text">Aprendé a Emprender</h3>
-        <h4 style="font-weight:500">Del 14 al 22 de Agosto</h4>
+        <h4 style="font-weight:500">Del 13 al 15 de Mayo</h4>
 
         <a class="anotate btn" href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">Cerraron las Inscripciones</a>
       </div>
@@ -22,9 +22,9 @@ include('templates/header.php');
 
   <section class="section container sponsors" id="section-4">
     <h4 class="center-align" style="margin-bottom:50px; padding-top:0px;">Nuestros Sponsors</h4>
-    <div class="container" style="max-width: 720px;">
+    <div class="container" style="max-width: 10800px;">
       <div class="center-align">
-          <img src="img/emprendedores/GRID - Banner oficial BC 2021.png" class="responsive-img border-radius" alt="Sponsors bootcamp">
+          <img src="img/emprendedores/grid_bc_2022.png" class="responsive-img border-radius" alt="Sponsors bootcamp">
         </div>
     </div>    
     
@@ -55,7 +55,7 @@ include('templates/header.php');
   <section class="alt-container section center-align" id="que-es-bc" >
     <div class="container">
     <h4 style="padding-bottom:20px; margin-top:0px;">¿Qué es el Bootcamp?</h4>
-    <h5>BootCamp es un evento de emprendedurismo que surge del Club de Emprendedores de TRAMA que
+    <h5>El BootCamp es un evento de emprendedurismo que surge del Club de Emprendedores de Trama que
       busca desarrollar o explotar habilidades esenciales para el contexto laboral actual y potenciar el crecimiento
       personal en un entorno de aprendizaje a partir del desarrollo de un proyecto de startup.</h5>
       </div>
@@ -63,19 +63,32 @@ include('templates/header.php');
 
   <section class="container section center-align" id="section-2">
     <div >
-      <h4 style="margin-bottom:50px">The Bootcamp Experience 2020</h4>
+      <h4 style="margin-bottom:50px">The Bootcamp Experience 2021</h4>
       <div class="container" style="max-width: 1086px">
         <div class="iframe-container">
-          <iframe src="https://www.youtube.com/embed/L3rP5BfAkAk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="border-radius"></iframe>
+          <iframe src="https://youtube.com/embed/hVR0F9UIuNc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="border-radius"></iframe>
         </div>
       </div>
     </div>
   </section>
-
   <section class="alt-container section center-align">
     <h4>Otros Años</h4>
     <div class="container" id="bootcamps-viejos">
       <ul class="collapsible bootcamps-viejos center-align">
+      <li>
+          <div class="collapsible-header">Bootcamp 2020</div>
+          <div class="collapsible-body">
+
+            <h4 style="margin-bottom:50px">The Bootcamp Experience 2020</h4>
+            <div class="iframe-container">
+              <iframe height="500" style="border: none" src="https://www.youtube.com/embed/L3rP5BfAkAk"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen class="border-radius"></iframe>
+            </div>
+
+          </div>
+        </li>
+
         <li>
           <div class="collapsible-header">Bootcamp 2019</div>
           <div class="collapsible-body">
@@ -129,7 +142,7 @@ include('templates/header.php');
 
             <div class="col s6 m3 l3 center-align stats-card">
               <div class="stats-circle">
-                <div class="circle-text">7</div>
+                <div class="circle-text">8</div>
               </div>
               <h5 >Ediciones</h5>
               <p></p>
@@ -137,7 +150,7 @@ include('templates/header.php');
 
             <div class="col s6 m3 l3 center-align stats-card">
               <div class="stats-circle">
-                <div class="circle-text">21</div>
+                <div class="circle-text">24</div>
               </div>
               <h5>Proyectos Ganadores</h5>
               <p></p>
@@ -145,7 +158,7 @@ include('templates/header.php');
 
             <div class="col s6 m3 l3 center-align stats-card">
               <div class="stats-circle">
-                <div class="circle-text">+630</div>
+                <div class="circle-text">+750</div>
               </div>
               <h5>Participantes</h5>
               <p></p>
@@ -153,7 +166,7 @@ include('templates/header.php');
 
             <div class="col s6 m3 l3 center-align stats-card">
               <div class="stats-circle">
-                <div class="circle-text" >+120</div>
+                <div class="circle-text" >+150</div>
               </div>
               <h5>Proyectos de impacto</h5>
               <p></p>
@@ -175,10 +188,6 @@ include('templates/header.php');
           <div class="collapsible-body"><span>El BootCamp es un evento de emprendedurismo en donde en el marco de una competencia, los participantes desarrollan proyectos de impacto que luego son presentados ante un jurado.</span></div>
         </li>
         <li>
-          <div class="collapsible-header">¿Si apliqué antes de que se posponga, tengo que aplicar de vuelta?</div>
-          <div class="collapsible-body"><span>No, todas las aplicaciones se guardaron y siguen teniendo validez.</span></div>
-        </li>
-        <li>
           <div class="collapsible-header">¿Puedo aplicar con un amigo?</div>
           <div class="collapsible-body"><span>Sí, al final del formulario dejas el nombre de tu amigo@. Ambos deben ser seleccionados para participar juntos.</span></div>
         </li>
@@ -192,11 +201,11 @@ include('templates/header.php');
         </li>
         <li>
           <div class="collapsible-header">¿Cómo puedo participar?</div>
-          <div class="collapsible-body"><span>Para participar tenés que llenar el <a href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">form de inscripción</a> y ser de los 160 que quedan seleccionados</span></div>
+          <div class="collapsible-body"><span>Para participar tenés que llenar el <a href="https://forms.gle/eGaa7PuQ3iYQxZRH9" target="_blank">form de inscripción</a> y ser de los 150 que quedan seleccionados</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Puedo participar siendo del exterior?</div>
-          <div class="collapsible-body"><span>Sí podés participar siempre y cuando quedes entre los 120 seleccionados.</span></div>
+          <div class="collapsible-body"><span>Sí podés participar siempre y cuando quedes entre los 150 seleccionados.</span></div>
         </li>
         <li>
           <div class="collapsible-header">¿Necesito conocimientos previos?</div>
